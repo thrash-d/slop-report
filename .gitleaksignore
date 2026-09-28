@@ -1,2 +1,3 @@
-# README example command, not a secret: SLOP_LINTER=slop-linter read as a key.
+# False positives from the generic-api-key rule: the README example command, and this file quoting it.
 e117337288d4cc69b9c40f373c6a272154eb130a:README.md:generic-api-key:22
+5e0e9e3315e51f84140089171138ad3a60e06263:.gitleaksignore:generic-api-key:1
