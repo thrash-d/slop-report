@@ -1,37 +1,8 @@
 [
  {
-  "repo": "unreallabsai/unreal-agent",
-  "url": "https://github.com/unreallabsai/unreal-agent",
-  "stars": 1996,
-  "description": "Async-first agent harness",
-  "words": 413,
-  "alerts": 13,
-  "score": 31.5,
-  "top": [
-   {
-    "rule": "InlineHeaderList",
-    "message": "Bold-header list item. Convert to prose or a plain list.",
-    "count": 9,
-    "snippet": "\n- **Input**:"
-   },
-   {
-    "rule": "EmDash",
-    "message": "Em dash. Use a period, comma, or parentheses.",
-    "count": 3,
-    "snippet": "* —"
-   },
-   {
-    "rule": "Bold",
-    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
-    "count": 1,
-    "snippet": "- <mark>**Input**</mark>: an event with a caller-supplied globally unique ID that re…"
-   }
-  ]
- },
- {
   "repo": "Contrastive-LM/CLM",
   "url": "https://github.com/Contrastive-LM/CLM",
-  "stars": 1984,
+  "stars": 2248,
   "description": "",
   "words": 1712,
   "alerts": 18,
@@ -58,9 +29,38 @@
   ]
  },
  {
+  "repo": "unreallabsai/unreal-agent",
+  "url": "https://github.com/unreallabsai/unreal-agent",
+  "stars": 2011,
+  "description": "Async-first agent harness",
+  "words": 413,
+  "alerts": 13,
+  "score": 31.5,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 9,
+    "snippet": "\n- **Input**:"
+   },
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 3,
+    "snippet": "* —"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "- <mark>**Input**</mark>: an event with a caller-supplied globally unique ID that re…"
+   }
+  ]
+ },
+ {
   "repo": "tobi/disktree",
   "url": "https://github.com/tobi/disktree",
-  "stars": 1664,
+  "stars": 1799,
   "description": "A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI.",
   "words": 2621,
   "alerts": 22,
@@ -87,38 +87,9 @@
   ]
  },
  {
-  "repo": "yetone/magpie",
-  "url": "https://github.com/yetone/magpie",
-  "stars": 1311,
-  "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-  "words": 2334,
-  "alerts": 15,
-  "score": 6.4,
-  "top": [
-   {
-    "rule": "EmDash",
-    "message": "Em dash. Use a period, comma, or parentheses.",
-    "count": 11,
-    "snippet": "or expose them al<mark>l —</mark> a model released this morning is in the picker on"
-   },
-   {
-    "rule": "Semicolons",
-    "message": "More than 2 semicolons. Use periods.",
-    "count": 2,
-    "snippet": "pick<mark>s;</mark> sign out of the agent and the provider is gone. The model l…"
-   },
-   {
-    "rule": "Bold",
-    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
-    "count": 1,
-    "snippet": "- <mark>**One small binary.**</mark> Under 15 MB with the desktop app (it uses the system"
-   }
-  ]
- },
- {
   "repo": "mexicat/pdoom-video",
   "url": "https://github.com/mexicat/pdoom-video",
-  "stars": 1302,
+  "stars": 1737,
   "description": "Code-rendered music video for \"I'm Upping My P(doom)\"",
   "words": 842,
   "alerts": 25,
@@ -145,9 +116,38 @@
   ]
  },
  {
+  "repo": "yetone/magpie",
+  "url": "https://github.com/yetone/magpie",
+  "stars": 1576,
+  "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+  "words": 2451,
+  "alerts": 15,
+  "score": 6.1,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 11,
+    "snippet": "or expose them al<mark>l —</mark> a model released this morning is in the picker on"
+   },
+   {
+    "rule": "Semicolons",
+    "message": "More than 2 semicolons. Use periods.",
+    "count": 2,
+    "snippet": "pick<mark>s;</mark> sign out of the agent and the provider is gone. The model l…"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "- <mark>**One small binary.**</mark> Under 15 MB with the desktop app (it uses the system"
+   }
+  ]
+ },
+ {
   "repo": "JohnHeibel/PDoomVideo",
   "url": "https://github.com/JohnHeibel/PDoomVideo",
-  "stars": 1291,
+  "stars": 1414,
   "description": "Source code for the Claude Opus 5.5 music video for I'm Upping My P(doom)",
   "words": 275,
   "alerts": 4,
@@ -174,9 +174,38 @@
   ]
  },
  {
+  "repo": "dzhng/jevgrep",
+  "url": "https://github.com/dzhng/jevgrep",
+  "stars": 1338,
+  "description": "Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.",
+  "words": 853,
+  "alerts": 8,
+  "score": 9.4,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 4,
+    "snippet": "![jevgre<mark>p —</mark> Same intelligence. About 30% lower cost.](assets/cover.png)"
+   },
+   {
+    "rule": "CurlyQuotes",
+    "message": "Use straight quotes (''' not '’').",
+    "count": 2,
+    "snippet": "your selected provider<mark>’</mark>s key. The skill installer itself does not configure credent…"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**Same intelligence. ~30% lower cost.**</mark>"
+   }
+  ]
+ },
+ {
   "repo": "mikehasa/golive-skill",
   "url": "https://github.com/mikehasa/golive-skill",
-  "stars": 1016,
+  "stars": 1043,
   "description": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry.",
   "words": 5580,
   "alerts": 61,
@@ -205,7 +234,7 @@
  {
   "repo": "kryvora-network/kryvora-node",
   "url": "https://github.com/kryvora-network/kryvora-node",
-  "stars": 982,
+  "stars": 1042,
   "description": "Reference client daemon and verification worker for Kryvora Network nodes.",
   "words": 334,
   "alerts": 12,
@@ -232,67 +261,32 @@
   ]
  },
  {
-  "repo": "dzhng/jevgrep",
-  "url": "https://github.com/dzhng/jevgrep",
-  "stars": 855,
-  "description": "Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.",
-  "words": 804,
-  "alerts": 7,
-  "score": 8.7,
+  "repo": "Niko1221/Strata",
+  "url": "https://github.com/Niko1221/Strata",
+  "stars": 988,
+  "description": "Qwen3.8-Flash-Next (125B MoE) on a 8GB+ NVIDIA GPU: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+  "words": 1817,
+  "alerts": 8,
+  "score": 4.4,
   "top": [
    {
-    "rule": "EmDash",
-    "message": "Em dash. Use a period, comma, or parentheses.",
-    "count": 4,
-    "snippet": "![jevgre<mark>p —</mark> Same intelligence. About 30% lower cost.](assets/cover.png)"
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 7,
+    "snippet": "\n- **In the browser:**"
    },
    {
     "rule": "Bold",
     "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
     "count": 1,
-    "snippet": "<mark>**Same intelligence. ~30% lower cost.**</mark>"
-   },
-   {
-    "rule": "CurlyQuotes",
-    "message": "Use straight quotes (''' not '’').",
-    "count": 1,
-    "snippet": "your selected provider<mark>’</mark>s key. The skill installer itself does not configure credent…"
-   }
-  ]
- },
- {
-  "repo": "nokia-applied-research/AnyJev",
-  "url": "https://github.com/nokia-applied-research/AnyJev",
-  "stars": 848,
-  "description": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating, welcome any issue and PR request)",
-  "words": 1138,
-  "alerts": 16,
-  "score": 14.1,
-  "top": [
-   {
-    "rule": "EmojiStructure",
-    "message": "Emoji in a heading or bullet. Delete it.",
-    "count": 7,
-    "snippet": "<mark>## ⚡</mark> Serve it"
-   },
-   {
-    "rule": "EmDash",
-    "message": "Em dash. Use a period, comma, or parentheses.",
-    "count": 7,
-    "snippet": "served on either alon<mark>e —</mark> 99.0% identical answers, mean |dp| 0.0011 on BANKING77-20."
-   },
-   {
-    "rule": "Bold",
-    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
-    "count": 1,
-    "snippet": "<mark>**English**</mark> · [简体中文](https://github.com/nokia-applied-research/AnyJev/b…"
+    "snippet": "Strata runs <mark>**[Qwen3.8-Flash-Next](https://huggingface.co/Qwen/Qwen3.8-Flash-Next)**</mark> - a large, smart AI model that"
    }
   ]
  },
  {
   "repo": "dgreenheck/tidewater",
   "url": "https://github.com/dgreenheck/tidewater",
-  "stars": 838,
+  "stars": 900,
   "description": "Coastal town built with Opus 5.5",
   "words": 1075,
   "alerts": 1,
@@ -307,55 +301,38 @@
   ]
  },
  {
-  "repo": "asokurasu/text-humanizer",
-  "url": "https://github.com/asokurasu/text-humanizer",
-  "stars": 742,
-  "description": "A completely free open-sourced project designed to humanize AI-generated text through a multilingual LLM-powered rewriting pipeline. ",
-  "words": 305,
-  "alerts": 1,
-  "score": 3.3,
+  "repo": "nokia-applied-research/AnyJev",
+  "url": "https://github.com/nokia-applied-research/AnyJev",
+  "stars": 874,
+  "description": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating, welcome any issue and PR request)",
+  "words": 1281,
+  "alerts": 19,
+  "score": 14.8,
   "top": [
-   {
-    "rule": "HeadingAside",
-    "message": "Parenthetical aside in a heading. A heading is a label; move the aside into the body or cut it.",
-    "count": 1,
-    "snippet": "# Quick start<mark>(Windows/Linux/MacOS)</mark>"
-   }
-  ]
- },
- {
-  "repo": "yukitorido/short-video-generator-AI",
-  "url": "https://github.com/yukitorido/short-video-generator-AI",
-  "stars": 725,
-  "description": "AI video processing pipeline for generating vertical shorts using LLMs, Whisper transcription, highlight detection and automated editing",
-  "words": 478,
-  "alerts": 23,
-  "score": 48.1,
-  "top": [
-   {
-    "rule": "InlineHeaderList",
-    "message": "Bold-header list item. Convert to prose or a plain list.",
-    "count": 14,
-    "snippet": "<mark>- **API**:</mark> Freely use this generator in your own projects via our API."
-   },
    {
     "rule": "EmDash",
     "message": "Em dash. Use a period, comma, or parentheses.",
-    "count": 4,
-    "snippet": "…*: `faster-whisper` produces a timestamped transcript locall<mark>y —</mark> same step regardless of which `LLM_PROVIDER` is selected"
+    "count": 10,
+    "snippet": "**Without labels, turn on the rotation budge<mark>t —</mark> recommended for any K-option `choice`.** L0 asks the"
    },
    {
-    "rule": "HeadingCase",
-    "message": "Use sentence case for 'How It Works'.",
-    "count": 2,
-    "snippet": "## <mark>How It Works</mark>"
+    "rule": "EmojiStructure",
+    "message": "Emoji in a heading or bullet. Delete it.",
+    "count": 7,
+    "snippet": "<mark>## ⚡</mark> Serve it"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**English**</mark> · [简体中文](https://github.com/nokia-applied-research/AnyJev/b…"
    }
   ]
  },
  {
   "repo": "ollaya-dev/ollaya",
   "url": "https://github.com/ollaya-dev/ollaya",
-  "stars": 720,
+  "stars": 861,
   "description": "Run open decision models locally: pull and serve Laya, decider, NLI and GLiClass behind a TypeSafe-compatible API. Ollama for decision models.",
   "words": 923,
   "alerts": 5,
@@ -376,38 +353,49 @@
   ]
  },
  {
-  "repo": "anishfn/shapeshift",
-  "url": "https://github.com/anishfn/shapeshift",
-  "stars": 709,
-  "description": "An input that becomes what you mean: one text box that morphs into the right UI as you type. Powered by TypeSafe Jev, works offline.",
-  "words": 441,
-  "alerts": 6,
-  "score": 13.6,
+  "repo": "supermemoryai/company-brain",
+  "url": "https://github.com/supermemoryai/company-brain",
+  "stars": 765,
+  "description": "Open-sourcing our company brain - A teammate in your Slack that remembers everything your team says, and can go do the work.",
+  "words": 853,
+  "alerts": 2,
+  "score": 2.3,
   "top": [
-   {
-    "rule": "EmDash",
-    "message": "Em dash. Use a period, comma, or parentheses.",
-    "count": 4,
-    "snippet": "…ean.** One text box that morphs into the right UI as you typ<mark>e —</mark> an event card, a checklist, a timer, a color picker, a bill…"
-   },
    {
     "rule": "Bold",
     "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
     "count": 1,
-    "snippet": "<mark>**An input that becomes what you mean.**</mark> One text box that morphs into the right UI as you type — an…"
+    "snippet": "&gt; <mark>**#eng**</mark>"
    },
    {
-    "rule": "HeadingAside",
-    "message": "Parenthetical aside in a heading. A heading is a label; move the aside into the body or cut it.",
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Free plan or Workers Paid?'.",
     "count": 1,
-    "snippet": "### Use the online Jev model <mark>(optional)</mark>"
+    "snippet": "### <mark>Free plan or Workers Paid?</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "OnlistTeam/ai-manager",
+  "url": "https://github.com/OnlistTeam/ai-manager",
+  "stars": 750,
+  "description": "AI Manager desktop application for AI coding tools",
+  "words": 988,
+  "alerts": 1,
+  "score": 1.0,
+  "top": [
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**Home**</mark> summarises what is installed, what has an update, and what …"
    }
   ]
  },
  {
   "repo": "Rizzo-AI-Academy/rizzo-flow",
   "url": "https://github.com/Rizzo-AI-Academy/rizzo-flow",
-  "stars": 690,
+  "stars": 736,
   "description": "The open, local take on Jev: typed decisions from an LLM, without generating a single token",
   "words": 4883,
   "alerts": 46,
@@ -434,34 +422,86 @@
   ]
  },
  {
-  "repo": "supermemoryai/company-brain",
-  "url": "https://github.com/supermemoryai/company-brain",
-  "stars": 683,
-  "description": "Open-sourcing our company brain - A teammate in your Slack that remembers everything your team says, and can go do the work.",
-  "words": 853,
-  "alerts": 2,
-  "score": 2.3,
+  "repo": "yukitorido/short-video-generator-AI",
+  "url": "https://github.com/yukitorido/short-video-generator-AI",
+  "stars": 731,
+  "description": "AI video processing pipeline for generating vertical shorts using LLMs, Whisper transcription, highlight detection and automated editing",
+  "words": 478,
+  "alerts": 23,
+  "score": 48.1,
   "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 14,
+    "snippet": "<mark>- **API**:</mark> Freely use this generator in your own projects via our API."
+   },
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 4,
+    "snippet": "…*: `faster-whisper` produces a timestamped transcript locall<mark>y —</mark> same step regardless of which `LLM_PROVIDER` is selected"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'How It Works'.",
+    "count": 2,
+    "snippet": "## <mark>How It Works</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "anishfn/shapeshift",
+  "url": "https://github.com/anishfn/shapeshift",
+  "stars": 719,
+  "description": "An input that becomes what you mean: one text box that morphs into the right UI as you type. Powered by TypeSafe Jev, works offline.",
+  "words": 441,
+  "alerts": 6,
+  "score": 13.6,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 4,
+    "snippet": "…ean.** One text box that morphs into the right UI as you typ<mark>e —</mark> an event card, a checklist, a timer, a color picker, a bill…"
+   },
    {
     "rule": "Bold",
     "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
     "count": 1,
-    "snippet": "&gt; <mark>**#eng**</mark>"
+    "snippet": "<mark>**An input that becomes what you mean.**</mark> One text box that morphs into the right UI as you type — an…"
    },
    {
-    "rule": "HeadingCase",
-    "message": "Use sentence case for 'Free plan or Workers Paid?'.",
+    "rule": "HeadingAside",
+    "message": "Parenthetical aside in a heading. A heading is a label; move the aside into the body or cut it.",
     "count": 1,
-    "snippet": "### <mark>Free plan or Workers Paid?</mark>"
+    "snippet": "### Use the online Jev model <mark>(optional)</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "yihui-dev/awesome-opus5-5-videos",
+  "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+  "stars": 687,
+  "description": "A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.",
+  "words": 723,
+  "alerts": 1,
+  "score": 1.4,
+  "top": [
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for '3D scenes'.",
+    "count": 1,
+    "snippet": "## <mark>3D scenes</mark>"
    }
   ]
  },
  {
   "repo": "alexgreensh/anidoodle",
   "url": "https://github.com/alexgreensh/anidoodle",
-  "stars": 585,
-  "description": "Art and animation, written as code. Illustrations, loops, interactive web art, stickers and scored films in dozens of styles, identical on every render.",
-  "words": 1921,
+  "stars": 655,
+  "description": "Art and animation, written as code. Illustrations, loops, interactive web art, launch-videos and scored films in dozens of styles, identical on every render.",
+  "words": 2159,
   "alerts": 1,
   "score": 0.5,
   "top": [
@@ -474,161 +514,9 @@
   ]
  },
  {
-  "repo": "kydlikebtc/awesome-jev",
-  "url": "https://github.com/kydlikebtc/awesome-jev",
-  "stars": 580,
-  "description": "1207 public resources for Jev, TypeSafe AI's System One decision model, indexed by decision pattern. Source citations, dated link checks and scheduled call-site text checks; runtime and performance are not independently tested here. EN/中文, JSON schema and platform compatibility.",
-  "words": 7983,
-  "alerts": 60,
-  "score": 7.5,
-  "top": [
-   {
-    "rule": "EmDash",
-    "message": "Em dash. Use a period, comma, or parentheses.",
-    "count": 56,
-    "snippet": "… is a decision model from TypeSafe AI. It does not write tex<mark>t —</mark> you hand it state plus typed questions and it returns typed…"
-   },
-   {
-    "rule": "Bold",
-    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
-    "count": 1,
-    "snippet": "- <mark>**Jev**</mark> is a decision model from TypeSafe AI. It does not write tex…"
-   },
-   {
-    "rule": "InlineHeaderList",
-    "message": "Bold-header list item. Convert to prose or a plain list.",
-    "count": 1,
-    "snippet": "<mark>- **How to assess it:**</mark> every row names its source. Call-site citations, primitive …"
-   }
-  ]
- },
- {
-  "repo": "OnlistTeam/ai-manager",
-  "url": "https://github.com/OnlistTeam/ai-manager",
-  "stars": 553,
-  "description": "AI Manager desktop application for AI coding tools",
-  "words": 988,
-  "alerts": 1,
-  "score": 1.0,
-  "top": [
-   {
-    "rule": "Bold",
-    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
-    "count": 1,
-    "snippet": "<mark>**Home**</mark> summarises what is installed, what has an update, and what …"
-   }
-  ]
- },
- {
-  "repo": "Niko1221/Strata",
-  "url": "https://github.com/Niko1221/Strata",
-  "stars": 543,
-  "description": "Qwen3.8-Flash-Next (125B MoE) on a 8GB+ NVIDIA GPU: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
-  "words": 1318,
-  "alerts": 8,
-  "score": 6.1,
-  "top": [
-   {
-    "rule": "InlineHeaderList",
-    "message": "Bold-header list item. Convert to prose or a plain list.",
-    "count": 7,
-    "snippet": "\n- **In the browser:**"
-   },
-   {
-    "rule": "Bold",
-    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
-    "count": 1,
-    "snippet": "Strata runs <mark>**[Qwen3.8-Flash-Next](https://huggingface.co/Qwen/Qwen3.8-Flash-Next)**</mark> - a large, smart AI model that"
-   }
-  ]
- },
- {
-  "repo": "rgem227/knoweldge-base",
-  "url": "https://github.com/rgem227/knoweldge-base",
-  "stars": 497,
-  "description": "Personal or team knowledge base, supports MCP API calls.",
-  "words": 706,
-  "alerts": 2,
-  "score": 2.8,
-  "top": [
-   {
-    "rule": "HeadingCase",
-    "message": "Use sentence case for 'Current Stack'.",
-    "count": 2,
-    "snippet": "## <mark>Current Stack</mark>"
-   }
-  ]
- },
- {
-  "repo": "samyost1/3dicon",
-  "url": "https://github.com/samyost1/3dicon",
-  "stars": 490,
-  "description": "One prompt in, a looping animated 3D icon out — with real transparency. A Claude Code skill.",
-  "words": 191,
-  "alerts": 2,
-  "score": 10.5,
-  "top": [
-   {
-    "rule": "EmDash",
-    "message": "Em dash. Use a period, comma, or parentheses.",
-    "count": 2,
-    "snippet": "One OpenRouter key covers the whole pipelin<mark>e —</mark> the image model and the video"
-   }
-  ]
- },
- {
-  "repo": "JohnHeibel/ClaudeAnimationBase",
-  "url": "https://github.com/JohnHeibel/ClaudeAnimationBase",
-  "stars": 488,
-  "description": "A starter kit for animating hand-painted cartoons with Claude: p5.js + p5.brush, the Clawd character, 31 acted emotions and a guide for the model",
-  "words": 562,
-  "alerts": 0,
-  "score": 0.0,
-  "top": []
- },
- {
-  "repo": "Aureliengmz/clearwater",
-  "url": "https://github.com/Aureliengmz/clearwater",
-  "stars": 474,
-  "description": "Real-time, photoreal shallow water in a single HTML file. WebGL2, no libraries, no build step.",
-  "words": 206,
-  "alerts": 0,
-  "score": 0.0,
-  "top": []
- },
- {
-  "repo": "amitshekhariitbhu/ai-system-design",
-  "url": "https://github.com/amitshekhariitbhu/ai-system-design",
-  "stars": 450,
-  "description": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
-  "words": 34787,
-  "alerts": 526,
-  "score": 15.1,
-  "top": [
-   {
-    "rule": "InlineHeaderList",
-    "message": "Bold-header list item. Convert to prose or a plain list.",
-    "count": 296,
-    "snippet": "\n- **The foundations:**"
-   },
-   {
-    "rule": "HeadingCase",
-    "message": "Use sentence case for 'Prepared and maintained by the Founder of Outcome School: Amit Shekhar'.",
-    "count": 165,
-    "snippet": "Prepared and maintained by the Founder of Outcome School: Amit Shekhar"
-   },
-   {
-    "rule": "SentenceStart",
-    "message": "Filler opener 'Now, '. Just start.",
-    "count": 37,
-    "snippet": "<mark>Now, </mark>let&#x27;s see which inference engine to use. There are four main…"
-   }
-  ]
- },
- {
   "repo": "Alex314618-create/JevRev",
   "url": "https://github.com/Alex314618-create/JevRev",
-  "stars": 429,
+  "stars": 582,
   "description": "An LLM + Jev workflow that changes EVERYTHING. Boost your vertebrate brain with a spine inside. ",
   "words": 1251,
   "alerts": 6,
@@ -655,9 +543,150 @@
   ]
  },
  {
+  "repo": "kydlikebtc/awesome-jev",
+  "url": "https://github.com/kydlikebtc/awesome-jev",
+  "stars": 582,
+  "description": "1207 public resources for Jev, TypeSafe AI's System One decision model, indexed by decision pattern. Source citations, dated link checks and scheduled call-site text checks; runtime and performance are not independently tested here. EN/中文, JSON schema and platform compatibility.",
+  "words": 8020,
+  "alerts": 60,
+  "score": 7.5,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 56,
+    "snippet": "… is a decision model from TypeSafe AI. It does not write tex<mark>t —</mark> you hand it state plus typed questions and it returns typed…"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "- <mark>**Jev**</mark> is a decision model from TypeSafe AI. It does not write tex…"
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 1,
+    "snippet": "<mark>- **How to assess it:**</mark> every row names its source. Call-site citations, primitive …"
+   }
+  ]
+ },
+ {
+  "repo": "JohnHeibel/ClaudeAnimationBase",
+  "url": "https://github.com/JohnHeibel/ClaudeAnimationBase",
+  "stars": 540,
+  "description": "A starter kit for animating hand-painted cartoons with Claude: p5.js + p5.brush, the Clawd character, 31 acted emotions and a guide for the model",
+  "words": 562,
+  "alerts": 0,
+  "score": 0.0,
+  "top": []
+ },
+ {
+  "repo": "samyost1/3dicon",
+  "url": "https://github.com/samyost1/3dicon",
+  "stars": 502,
+  "description": "One prompt in, a looping animated 3D icon out — with real transparency. A Claude Code skill.",
+  "words": 191,
+  "alerts": 2,
+  "score": 10.5,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 2,
+    "snippet": "One OpenRouter key covers the whole pipelin<mark>e —</mark> the image model and the video"
+   }
+  ]
+ },
+ {
+  "repo": "rgem227/knoweldge-base",
+  "url": "https://github.com/rgem227/knoweldge-base",
+  "stars": 498,
+  "description": "Personal or team knowledge base, supports MCP API calls.",
+  "words": 706,
+  "alerts": 2,
+  "score": 2.8,
+  "top": [
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Current Stack'.",
+    "count": 2,
+    "snippet": "## <mark>Current Stack</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "Aureliengmz/clearwater",
+  "url": "https://github.com/Aureliengmz/clearwater",
+  "stars": 481,
+  "description": "Real-time, photoreal shallow water in a single HTML file. WebGL2, no libraries, no build step.",
+  "words": 206,
+  "alerts": 0,
+  "score": 0.0,
+  "top": []
+ },
+ {
+  "repo": "angusdevgo/Seep-Reverse-Lab",
+  "url": "https://github.com/angusdevgo/Seep-Reverse-Lab",
+  "stars": 480,
+  "description": "Agent-Native multi-platform reverse engineering and CWE-602 client-side authorization audit workbench.",
+  "words": 1282,
+  "alerts": 82,
+  "score": 64.0,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 24,
+    "snippet": "…ation** | 23 MCP tools wrapping Radare2, JADX, Apktool, Frid<mark>a —</mark> unified API, zero manual switching |"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for '🌟 Project Overview'.",
+    "count": 21,
+    "snippet": "## <mark>🌟 Project Overview</mark>"
+   },
+   {
+    "rule": "EmojiStructure",
+    "message": "Emoji in a heading or bullet. Delete it.",
+    "count": 19,
+    "snippet": "<mark>## 🌟</mark> Project Overview"
+   }
+  ]
+ },
+ {
+  "repo": "amitshekhariitbhu/ai-system-design",
+  "url": "https://github.com/amitshekhariitbhu/ai-system-design",
+  "stars": 461,
+  "description": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+  "words": 34787,
+  "alerts": 526,
+  "score": 15.1,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 296,
+    "snippet": "\n- **The foundations:**"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Prepared and maintained by the Founder of Outcome School: Amit Shekhar'.",
+    "count": 165,
+    "snippet": "Prepared and maintained by the Founder of Outcome School: Amit Shekhar"
+   },
+   {
+    "rule": "SentenceStart",
+    "message": "Filler opener 'Now, '. Just start.",
+    "count": 37,
+    "snippet": "<mark>Now, </mark>let&#x27;s see which inference engine to use. There are four main…"
+   }
+  ]
+ },
+ {
   "repo": "amitshekhariitbhu/ai-engineering-course",
   "url": "https://github.com/amitshekhariitbhu/ai-engineering-course",
-  "stars": 405,
+  "stars": 431,
   "description": "AI Engineering Course - A free and complete AI Engineering Course to learn AI Engineering step by step - from Machine Learning, Neural Networks, and Transformers to LLMs, Fine-Tuning, RAG, AI Agents, LLM Inference, Evaluation, AI Safety, and AI System Design.",
   "words": 24224,
   "alerts": 274,
@@ -684,78 +713,9 @@
   ]
  },
  {
-  "repo": "yihui-dev/awesome-opus5-5-videos",
-  "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
-  "stars": 401,
-  "description": "282 viral videos made with Claude Opus 5.5, each with the exact prompt. Watch every original next to a live remake on Skillry.",
-  "words": 661,
-  "alerts": 1,
-  "score": 1.5,
-  "top": [
-   {
-    "rule": "HeadingCase",
-    "message": "Use sentence case for '3D scenes'.",
-    "count": 1,
-    "snippet": "## <mark>3D scenes</mark>"
-   }
-  ]
- },
- {
-  "repo": "angusdevgo/Seep-Reverse-Lab",
-  "url": "https://github.com/angusdevgo/Seep-Reverse-Lab",
-  "stars": 372,
-  "description": "Agent-Native multi-platform reverse engineering and CWE-602 client-side authorization audit workbench.",
-  "words": 1216,
-  "alerts": 82,
-  "score": 67.4,
-  "top": [
-   {
-    "rule": "EmDash",
-    "message": "Em dash. Use a period, comma, or parentheses.",
-    "count": 24,
-    "snippet": "…ation** | 23 MCP tools wrapping Radare2, JADX, Apktool, Frid<mark>a —</mark> unified API, zero manual switching |"
-   },
-   {
-    "rule": "HeadingCase",
-    "message": "Use sentence case for '🌟 Project Overview'.",
-    "count": 21,
-    "snippet": "## <mark>🌟 Project Overview</mark>"
-   },
-   {
-    "rule": "EmojiStructure",
-    "message": "Emoji in a heading or bullet. Delete it.",
-    "count": 19,
-    "snippet": "<mark>## 🌟</mark> Project Overview"
-   }
-  ]
- },
- {
-  "repo": "lhlGitHub/threejs-architecture-effects",
-  "url": "https://github.com/lhlGitHub/threejs-architecture-effects",
-  "stars": 356,
-  "description": "An Agent Skill for building interactive, self-assembling 3D architecture with Three.js.  一个用 Three.js 生成可交互、可动态建造 3D 建筑的 Agent Skill。",
-  "words": 433,
-  "alerts": 2,
-  "score": 4.6,
-  "top": [
-   {
-    "rule": "Bold",
-    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
-    "count": 1,
-    "snippet": "Portable [Agent Skill](https://agentskills.io) by <mark>**Hailey**</mark>. It builds a real, orbitable Three.js building that assembl…"
-   },
-   {
-    "rule": "EmDash",
-    "message": "Em dash. Use a period, comma, or parentheses.",
-    "count": 1,
-    "snippet": "- **Procedural** brick, wood, plaster, tile, stone, bronz<mark>e —</mark> no paid models"
-   }
-  ]
- },
- {
   "repo": "Liuziyu77/Valen",
   "url": "https://github.com/Liuziyu77/Valen",
-  "stars": 348,
+  "stars": 430,
   "description": "Train a Jev-like multimodal model by yourself. System One Model, now with vision.",
   "words": 482,
   "alerts": 9,
@@ -782,284 +742,38 @@
   ]
  },
  {
-  "repo": "Rieranthony/product-film-skill",
-  "url": "https://github.com/Rieranthony/product-film-skill",
-  "stars": 330,
+  "repo": "cloudflare/forge",
+  "url": "https://github.com/cloudflare/forge",
+  "stars": 411,
   "description": "",
-  "words": 459,
-  "alerts": 2,
-  "score": 4.4,
-  "top": [
-   {
-    "rule": "Bold",
-    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
-    "count": 1,
-    "snippet": "1. <mark>**Discovery.**</mark> A quick pass over your design rules, tokens, components, lo…"
-   },
-   {
-    "rule": "AIWordsSoft",
-    "message": "Likely AI word 'seamless'. Use the plain word or cut it.",
-    "count": 1,
-    "snippet": "… poster, all decoded and checked for colors, duration and a <mark>seamless</mark> loop."
-   }
-  ]
- },
- {
-  "repo": "saragordic/rooms",
-  "url": "https://github.com/saragordic/rooms",
-  "stars": 329,
-  "description": "Switch between projects on your Mac. Every project is a room: its windows, laid out, one shortcut away.",
-  "words": 1113,
-  "alerts": 1,
-  "score": 0.9,
-  "top": [
-   {
-    "rule": "Bold",
-    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
-    "count": 1,
-    "snippet": "Every project is a <mark>**room**</mark>: a set of windows and a layout. Press **⌥Space**, type the"
-   }
-  ]
- },
- {
-  "repo": "TianyuCodings/JevHarness",
-  "url": "https://github.com/TianyuCodings/JevHarness",
-  "stars": 322,
-  "description": "LLM-authored task-specific Jev harnesses with optional full-trajectory reward reflection and GEPA evolution.",
-  "words": 1438,
-  "alerts": 2,
-  "score": 1.4,
-  "top": [
-   {
-    "rule": "Bold",
-    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
-    "count": 1,
-    "snippet": "<mark>**English | [简体中文](README.zh-CN.md)**</mark>"
-   },
-   {
-    "rule": "CurlyQuotes",
-    "message": "Use straight quotes (''' not '’').",
-    "count": 1,
-    "snippet": "…ins. **Edited highlights: turn-2 decisions, then each battle<mark>’</mark>s ending.** [Watch the MP4](docs/media/pokemon-comparison.mp…"
-   }
-  ]
- },
- {
-  "repo": "malevrigns/agent-jev",
-  "url": "https://github.com/malevrigns/agent-jev",
-  "stars": 313,
-  "description": "AgentJev-0.6B - a fast 'System One' decision model for AI Agents: feed it any unstructured state (diffs, traces, logs) and structured questions, get calibrated probability distributions back in one ~50ms forward pass. Zero output-token decoding.",
-  "words": 1555,
-  "alerts": 13,
-  "score": 8.4,
-  "top": [
-   {
-    "rule": "EmDash",
-    "message": "Em dash. Use a period, comma, or parentheses.",
-    "count": 10,
-    "snippet": "…d across candidates of the same question.** On one fixed loa<mark>d —</mark> 64 choice options plus one boolean, 66 paths, 33,547 path t…"
-   },
-   {
-    "rule": "NegParallel",
-    "message": "Negative parallelism: 'not only'. State the positive claim.",
-    "count": 1,
-    "snippet": "…ee shapes. Every one of them returns the full distribution, <mark>not only</mark> the winner."
-   },
-   {
-    "rule": "Bold",
-    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
-    "count": 1,
-    "snippet": "<mark>**Nothing is decoded.**</mark> Hidden states go to logits. There is no output vocabulary s…"
-   }
-  ]
- },
- {
-  "repo": "LuwuDynamics/xgoduck_hardware",
-  "url": "https://github.com/LuwuDynamics/xgoduck_hardware",
-  "stars": 298,
-  "description": "",
-  "words": 338,
-  "alerts": 0,
-  "score": 0.0,
-  "top": []
- },
- {
-  "repo": "jankeesvw/omarchy-meeting-recorder",
-  "url": "https://github.com/jankeesvw/omarchy-meeting-recorder",
-  "stars": 296,
-  "description": "Record meetings on Omarchy: mic and computer audio as two tracks, transcribed on your own machine, with speakers, chapters and a player.",
-  "words": 3001,
-  "alerts": 7,
-  "score": 2.3,
-  "top": [
-   {
-    "rule": "InlineHeaderList",
-    "message": "Bold-header list item. Convert to prose or a plain list.",
-    "count": 3,
-    "snippet": "  - **Mono**:"
-   },
-   {
-    "rule": "CurlyQuotes",
-    "message": "Use straight quotes ('\"' not '“').",
-    "count": 2,
-    "snippet": "This also recovers a failed first-start <mark>“</mark>Add to Bar” attempt in version 1.0.2, which leaves the widge…"
-   },
-   {
-    "rule": "Bold",
-    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
-    "count": 1,
-    "snippet": "Open the app, check that both meters move, and press <mark>**Start recording**</mark>. When you stop, [whisper.cpp](https://github.com/ggml-org/w…"
-   }
-  ]
- },
- {
-  "repo": "codejunkie99/keel",
-  "url": "https://github.com/codejunkie99/keel",
-  "stars": 295,
-  "description": "Local-first macOS coding workspace with local Laya and optional Jev decision selection",
-  "words": 1124,
+  "words": 194,
   "alerts": 11,
-  "score": 9.8,
-  "top": [
-   {
-    "rule": "HeadingCase",
-    "message": "Use sentence case for 'features'.",
-    "count": 8,
-    "snippet": "## <mark>features</mark>"
-   },
-   {
-    "rule": "EmDash",
-    "message": "Em dash. Use a period, comma, or parentheses.",
-    "count": 2,
-    "snippet": "| Lay<mark>a —</mark> default | Locally through Core ML | Worker and pinned check…"
-   },
-   {
-    "rule": "Bold",
-    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
-    "count": 1,
-    "snippet": "<mark>**Workspace**</mark>"
-   }
-  ]
- },
- {
-  "repo": "bridge-mind/bridgeclip",
-  "url": "https://github.com/bridge-mind/bridgeclip",
-  "stars": 294,
-  "description": "Open-source AI video clipping desktop app by BridgeMind",
-  "words": 1795,
-  "alerts": 7,
-  "score": 3.9,
-  "top": [
-   {
-    "rule": "HeadingCase",
-    "message": "Use sentence case for 'Why BridgeClip?'.",
-    "count": 2,
-    "snippet": "## <mark>Why BridgeClip?</mark>"
-   },
-   {
-    "rule": "AIWordsSoft",
-    "message": "Likely AI word 'unlocked'. Use the plain word or cut it.",
-    "count": 2,
-    "snippet": "…ager, or make the AppImage executable before opening it. An <mark>unlocked</mark> desktop secret service is required to save API keys."
-   },
-   {
-    "rule": "Bold",
-    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
-    "count": 1,
-    "snippet": "- <mark>**No BridgeMind account or backend.**</mark> BridgeClip runs on your machine and calls OpenRouter direct…"
-   }
-  ]
- },
- {
-  "repo": "miuuyy/Astra-Ares",
-  "url": "https://github.com/miuuyy/Astra-Ares",
-  "stars": 289,
-  "description": "Adaptive reasoning effort for GPT-6 during Codex tasks, powered by Jev to reduce token usage.",
-  "words": 1042,
-  "alerts": 3,
-  "score": 2.9,
-  "top": [
-   {
-    "rule": "HeadingCase",
-    "message": "Use sentence case for '3. Start Codex'.",
-    "count": 2,
-    "snippet": "### <mark>3. Start Codex</mark>"
-   },
-   {
-    "rule": "Bold",
-    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
-    "count": 1,
-    "snippet": "&gt; <mark>**Experimental reference implementation.**</mark> Astra-Ares has a straightforward setup, but runs a separate…"
-   }
-  ]
- },
- {
-  "repo": "bjarneo/flux",
-  "url": "https://github.com/bjarneo/flux",
-  "stars": 285,
-  "description": "Connect an Omarchy computer to your phone: files, clipboard, notifications, media, camera, and more",
-  "words": 638,
-  "alerts": 1,
-  "score": 1.6,
-  "top": [
-   {
-    "rule": "Bold",
-    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
-    "count": 1,
-    "snippet": "<mark>**[Install locally](docs/install.md)**</mark> · **[Set up Android](docs/android.md)** · **[Set up macOS](…"
-   }
-  ]
- },
- {
-  "repo": "qybaihe/mu",
-  "url": "https://github.com/qybaihe/mu",
-  "stars": 275,
-  "description": "mu (μ): a coding agent that thinks before it acts. A small, fast judge makes the routine calls, the big model does the work. Built on pi and AionUi.",
-  "words": 2204,
-  "alerts": 7,
-  "score": 3.2,
+  "score": 56.7,
   "top": [
    {
     "rule": "InlineHeaderList",
     "message": "Bold-header list item. Convert to prose or a plain list.",
-    "count": 3,
-    "snippet": "\n- **mu**:"
+    "count": 8,
+    "snippet": "\n- **[`@cloudflare/forge`](./packages/forge)**:"
    },
    {
-    "rule": "Semicolons",
-    "message": "More than 2 semicolons. Use periods.",
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Getting Started'.",
     "count": 2,
-    "snippet": "…inding to whom: the more went along a line, the thicker it i<mark>s;</mark> corrections and disputes have their own marks; a finding li…"
+    "snippet": "## <mark>Getting Started</mark>"
    },
    {
     "rule": "Bold",
     "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
     "count": 1,
-    "snippet": "…o fixed rules, they are wrong too often. mu gives them to a <mark>**judge**</mark>: a small, fast model that answers one bounded question at a…"
-   }
-  ]
- },
- {
-  "repo": "jamespolyakov9829/captcha-api",
-  "url": "https://github.com/jamespolyakov9829/captcha-api",
-  "stars": 264,
-  "description": "Captcha-solving API client - Cloudflare Challenge and Turnstile in one interface, with cost tracking and concurrent batch solves.",
-  "words": 1062,
-  "alerts": 1,
-  "score": 0.9,
-  "top": [
-   {
-    "rule": "Bold",
-    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
-    "count": 1,
-    "snippet": "- <mark>**Free credits on sign-up.**</mark> No card, no trial countdown."
+    "snippet": "- <mark>**[`@cloudflare/forge`](./packages/forge)**</mark>: Core engine: OpenAPI 3.x resolver, typed schema model, JSO…"
    }
   ]
  },
  {
   "repo": "xikhar/spiderbench",
   "url": "https://github.com/xikhar/spiderbench",
-  "stars": 261,
+  "stars": 393,
   "description": "",
   "words": 303,
   "alerts": 6,
@@ -1086,9 +800,296 @@
   ]
  },
  {
+  "repo": "lhlGitHub/threejs-architecture-effects",
+  "url": "https://github.com/lhlGitHub/threejs-architecture-effects",
+  "stars": 382,
+  "description": "An Agent Skill for building interactive, self-assembling 3D architecture with Three.js.  一个用 Three.js 生成可交互、可动态建造 3D 建筑的 Agent Skill。",
+  "words": 433,
+  "alerts": 2,
+  "score": 4.6,
+  "top": [
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "Portable [Agent Skill](https://agentskills.io) by <mark>**Hailey**</mark>. It builds a real, orbitable Three.js building that assembl…"
+   },
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 1,
+    "snippet": "- **Procedural** brick, wood, plaster, tile, stone, bronz<mark>e —</mark> no paid models"
+   }
+  ]
+ },
+ {
+  "repo": "kaankiziltug/logo-design-skill",
+  "url": "https://github.com/kaankiziltug/logo-design-skill",
+  "stars": 378,
+  "description": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library.",
+  "words": 2533,
+  "alerts": 72,
+  "score": 28.4,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 67,
+    "snippet": "A comprehensive **logo-design skill** that turns Claud<mark>e —</mark> or any agent that supports Agent Skills, such as Gemini"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Tinkertrail — kids' STEM workshops'.",
+    "count": 3,
+    "snippet": "### <mark>Tinkertrail — kids&#x27; STEM workshops</mark>"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "A comprehensive <mark>**logo-design skill**</mark> that turns Claude — or any agent that supports Agent Skills…"
+   }
+  ]
+ },
+ {
+  "repo": "tileshoutdipper/Discord-Booster-Server",
+  "url": "https://github.com/tileshoutdipper/Discord-Booster-Server",
+  "stars": 361,
+  "description": "Discord Server Booster — Open-source automation tool and bot script designed to manage, track, and optimize Discord server boost perks role rewards, and community engagement.",
+  "words": 525,
+  "alerts": 25,
+  "score": 47.6,
+  "top": [
+   {
+    "rule": "EmojiStructure",
+    "message": "Emoji in a heading or bullet. Delete it.",
+    "count": 12,
+    "snippet": "<mark>## ⚙</mark>️ INSTALLATION &amp; SETUP"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for '⚙️ INSTALLATION & SETUP'.",
+    "count": 11,
+    "snippet": "## <mark>⚙️ INSTALLATION &amp; SETUP</mark>"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**Boost Settings:**</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "Rieranthony/product-film-skill",
+  "url": "https://github.com/Rieranthony/product-film-skill",
+  "stars": 356,
+  "description": "",
+  "words": 459,
+  "alerts": 2,
+  "score": 4.4,
+  "top": [
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "1. <mark>**Discovery.**</mark> A quick pass over your design rules, tokens, components, lo…"
+   },
+   {
+    "rule": "AIWordsSoft",
+    "message": "Likely AI word 'seamless'. Use the plain word or cut it.",
+    "count": 1,
+    "snippet": "… poster, all decoded and checked for colors, duration and a <mark>seamless</mark> loop."
+   }
+  ]
+ },
+ {
+  "repo": "LuwuDynamics/xgoduck_hardware",
+  "url": "https://github.com/LuwuDynamics/xgoduck_hardware",
+  "stars": 351,
+  "description": "",
+  "words": 338,
+  "alerts": 0,
+  "score": 0.0,
+  "top": []
+ },
+ {
+  "repo": "TianyuCodings/JevHarness",
+  "url": "https://github.com/TianyuCodings/JevHarness",
+  "stars": 345,
+  "description": "LLM-authored task-specific Jev harnesses with optional full-trajectory reward reflection and GEPA evolution.",
+  "words": 1438,
+  "alerts": 2,
+  "score": 1.4,
+  "top": [
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**English | [简体中文](README.zh-CN.md)**</mark>"
+   },
+   {
+    "rule": "CurlyQuotes",
+    "message": "Use straight quotes (''' not '’').",
+    "count": 1,
+    "snippet": "…ins. **Edited highlights: turn-2 decisions, then each battle<mark>’</mark>s ending.** [Watch the MP4](docs/media/pokemon-comparison.mp…"
+   }
+  ]
+ },
+ {
+  "repo": "saragordic/rooms",
+  "url": "https://github.com/saragordic/rooms",
+  "stars": 337,
+  "description": "Switch between projects on your Mac. Every project is a room: its windows, laid out, one shortcut away.",
+  "words": 1113,
+  "alerts": 1,
+  "score": 0.9,
+  "top": [
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "Every project is a <mark>**room**</mark>: a set of windows and a layout. Press **⌥Space**, type the"
+   }
+  ]
+ },
+ {
+  "repo": "bjarneo/flux",
+  "url": "https://github.com/bjarneo/flux",
+  "stars": 330,
+  "description": "Connect an Omarchy computer to your phone: files, clipboard, notifications, media, camera, and more",
+  "words": 661,
+  "alerts": 1,
+  "score": 1.5,
+  "top": [
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**[Install locally](docs/install.md)**</mark> · **[Set up Android](docs/android.md)** · **[Set up macOS](…"
+   }
+  ]
+ },
+ {
+  "repo": "bridge-mind/bridgeclip",
+  "url": "https://github.com/bridge-mind/bridgeclip",
+  "stars": 323,
+  "description": "Open-source AI video clipping desktop app by BridgeMind",
+  "words": 5416,
+  "alerts": 35,
+  "score": 6.5,
+  "top": [
+   {
+    "rule": "CurlyQuotes",
+    "message": "Use straight quotes (''' not '’').",
+    "count": 19,
+    "snippet": "…hing, partially posted and failed posts using this workspace<mark>’</mark>s saved posting history. Each clip’s **…** menu contains pos…"
+   },
+   {
+    "rule": "AIWordsSoft",
+    "message": "Likely AI word 'enhance'. Use the plain word or cut it.",
+    "count": 7,
+    "snippet": "…or edits and other clips are preserved. The post dialog can <mark>enhance</mark> platform-specific titles, captions and tags using the same …"
+   },
+   {
+    "rule": "Semicolons",
+    "message": "More than 2 semicolons. Use periods.",
+    "count": 6,
+    "snippet": "…lip counts. **Not Posted** opens by default and appears firs<mark>t;</mark> **Posted** starts collapsed below it. Selection applies onl…"
+   }
+  ]
+ },
+ {
+  "repo": "malevrigns/agent-jev",
+  "url": "https://github.com/malevrigns/agent-jev",
+  "stars": 321,
+  "description": "AgentJev-0.6B - a fast 'System One' decision model for AI Agents: feed it any unstructured state (diffs, traces, logs) and structured questions, get calibrated probability distributions back in one ~50ms forward pass. Zero output-token decoding.",
+  "words": 1555,
+  "alerts": 13,
+  "score": 8.4,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 10,
+    "snippet": "…d across candidates of the same question.** On one fixed loa<mark>d —</mark> 64 choice options plus one boolean, 66 paths, 33,547 path t…"
+   },
+   {
+    "rule": "NegParallel",
+    "message": "Negative parallelism: 'not only'. State the positive claim.",
+    "count": 1,
+    "snippet": "…ee shapes. Every one of them returns the full distribution, <mark>not only</mark> the winner."
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**Nothing is decoded.**</mark> Hidden states go to logits. There is no output vocabulary s…"
+   }
+  ]
+ },
+ {
+  "repo": "shihabal3amri/DiPlay",
+  "url": "https://github.com/shihabal3amri/DiPlay",
+  "stars": 315,
+  "description": "Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.",
+  "words": 497,
+  "alerts": 4,
+  "score": 8.0,
+  "top": [
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for '0.2.0 — public preview'.",
+    "count": 1,
+    "snippet": "## <mark>0.2.0 — public preview</mark>"
+   },
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 1,
+    "snippet": "## 0.2.<mark>0 —</mark> public preview"
+   },
+   {
+    "rule": "Semicolons",
+    "message": "More than 2 semicolons. Use periods.",
+    "count": 1,
+    "snippet": "…er is required for use. ADB is not needed during everyday us<mark>e;</mark> your head unit must permit APK installation. Wireless suppo…"
+   }
+  ]
+ },
+ {
+  "repo": "jankeesvw/omarchy-meeting-recorder",
+  "url": "https://github.com/jankeesvw/omarchy-meeting-recorder",
+  "stars": 310,
+  "description": "Record meetings on Omarchy: mic and computer audio as two tracks, transcribed on your own machine, with speakers, chapters and a player.",
+  "words": 3001,
+  "alerts": 7,
+  "score": 2.3,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 3,
+    "snippet": "  - **Mono**:"
+   },
+   {
+    "rule": "CurlyQuotes",
+    "message": "Use straight quotes ('\"' not '“').",
+    "count": 2,
+    "snippet": "This also recovers a failed first-start <mark>“</mark>Add to Bar” attempt in version 1.0.2, which leaves the widge…"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "Open the app, check that both meters move, and press <mark>**Start recording**</mark>. When you stop, [whisper.cpp](https://github.com/ggml-org/w…"
+   }
+  ]
+ },
+ {
   "repo": "athemeroy/awesome-opus-5-5-videos",
   "url": "https://github.com/athemeroy/awesome-opus-5-5-videos",
-  "stars": 259,
+  "stars": 309,
   "description": "Source-linked guide to 1,000+ videos people made with Claude Opus 5.5: what they're about, how they look, how the frames were made.",
   "words": 1800,
   "alerts": 9,
@@ -1115,9 +1116,90 @@
   ]
  },
  {
+  "repo": "qybaihe/mu",
+  "url": "https://github.com/qybaihe/mu",
+  "stars": 309,
+  "description": "mu (μ): a coding agent that thinks before it acts. A small, fast judge makes the routine calls, the big model does the work. Built on pi and AionUi.",
+  "words": 2204,
+  "alerts": 7,
+  "score": 3.2,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 3,
+    "snippet": "\n- **mu**:"
+   },
+   {
+    "rule": "Semicolons",
+    "message": "More than 2 semicolons. Use periods.",
+    "count": 2,
+    "snippet": "…inding to whom: the more went along a line, the thicker it i<mark>s;</mark> corrections and disputes have their own marks; a finding li…"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "…o fixed rules, they are wrong too often. mu gives them to a <mark>**judge**</mark>: a small, fast model that answers one bounded question at a…"
+   }
+  ]
+ },
+ {
+  "repo": "codejunkie99/keel",
+  "url": "https://github.com/codejunkie99/keel",
+  "stars": 303,
+  "description": "Local-first macOS coding workspace with local Laya and optional Jev decision selection",
+  "words": 1124,
+  "alerts": 11,
+  "score": 9.8,
+  "top": [
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'features'.",
+    "count": 8,
+    "snippet": "## <mark>features</mark>"
+   },
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 2,
+    "snippet": "| Lay<mark>a —</mark> default | Locally through Core ML | Worker and pinned check…"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**Workspace**</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "wangmingxuan666/Tiersense",
+  "url": "https://github.com/wangmingxuan666/Tiersense",
+  "stars": 293,
+  "description": "",
+  "words": 832,
+  "alerts": 5,
+  "score": 6.0,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 4,
+    "snippet": "\n- **Difficulty display or a signal for model routing**:"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "&gt; <mark>**The main TierSense repository**</mark>: use the three modules independently or combine them for yo…"
+   }
+  ]
+ },
+ {
   "repo": "jaydendavisnc/inkwave",
   "url": "https://github.com/jaydendavisnc/inkwave",
-  "stars": 258,
+  "stars": 292,
   "description": "Splatoon-style 4v4 turf-war shooter for the browser, built on three.js. No build step.",
   "words": 859,
   "alerts": 1,
@@ -1132,65 +1214,25 @@
   ]
  },
  {
-  "repo": "sopersone/cabbage-trading-machine",
-  "url": "https://github.com/sopersone/cabbage-trading-machine",
-  "stars": 255,
-  "description": "Spot trading bot - RSI + EMA signals, backtest, paper and live trading via CCXT. Built on Investing Algorithm Framework.",
-  "words": 441,
-  "alerts": 1,
-  "score": 2.3,
-  "top": [
-   {
-    "rule": "HeadingAside",
-    "message": "Parenthetical aside in a heading. A heading is a label; move the aside into the body or cut it.",
-    "count": 1,
-    "snippet": "## Install <mark>(Python 3.12 recommended)</mark>"
-   }
-  ]
- },
- {
-  "repo": "timoncool/YuE2-Studio",
-  "url": "https://github.com/timoncool/YuE2-Studio",
-  "stars": 248,
-  "description": "Local AI song generator with an editable score — YuE2 on your GPU: full songs with vocals, sheet music, covers, exact replay. Native Windows app, no Python, installer with auto-update.",
-  "words": 3718,
-  "alerts": 46,
-  "score": 12.4,
-  "top": [
-   {
-    "rule": "EmDash",
-    "message": "Em dash. Use a period, comma, or parentheses.",
-    "count": 37,
-    "snippet": "… an editable score, generated on your own GPU. One executabl<mark>e —</mark> no Python, no Node.js, no launcher.**"
-   },
-   {
-    "rule": "HeadingCase",
-    "message": "Use sentence case for 'Other Projects by @timoncool'.",
-    "count": 3,
-    "snippet": "Other Projects by @timoncool"
-   },
-   {
-    "rule": "InlineHeaderList",
-    "message": "Bold-header list item. Convert to prose or a plain list.",
-    "count": 3,
-    "snippet": "\n- **BTC:**"
-   }
-  ]
- },
- {
-  "repo": "sevenevesai/riso-windowseat",
-  "url": "https://github.com/sevenevesai/riso-windowseat",
-  "stars": 237,
-  "description": "Procedural risograph films in single HTML files (Window Seat, Roost and more), with the Claude Code skills, docs and tools to make your own.",
-  "words": 1361,
-  "alerts": 1,
-  "score": 0.7,
+  "repo": "miuuyy/Astra-Ares",
+  "url": "https://github.com/miuuyy/Astra-Ares",
+  "stars": 290,
+  "description": "Adaptive reasoning effort for GPT-6 during Codex tasks, powered by Jev to reduce token usage.",
+  "words": 1042,
+  "alerts": 3,
+  "score": 2.9,
   "top": [
    {
     "rule": "HeadingCase",
-    "message": "Use sentence case for 'Window Seat'.",
+    "message": "Use sentence case for '3. Start Codex'.",
+    "count": 2,
+    "snippet": "### <mark>3. Start Codex</mark>"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
     "count": 1,
-    "snippet": "### <mark>Window Seat</mark>"
+    "snippet": "&gt; <mark>**Experimental reference implementation.**</mark> Astra-Ares has a straightforward setup, but runs a separate…"
    }
   ]
  }
