@@ -1,0 +1,15 @@
+{
+  "minTokens": 70,
+  "minLines": 8,
+  "format": ["python", "javascript", "typescript", "jsx", "tsx", "powershell"],
+  "ignore": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/static/**",
+    "**/.devkit/**",
+    "**/*.min.js",
+    "**/package-lock.json"
+  ],
+  "reporters": ["console"]
+}

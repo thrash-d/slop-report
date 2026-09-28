@@ -1,0 +1,7 @@
+extends: existence
+message: "Tacked-on -ing phrase '%s'. Delete it or make it its own sentence."
+level: error
+ignorecase: true
+nonword: true
+tokens:
+  - ',\s(?:highlighting|underscoring|emphasizing|showcasing|reflecting|symbolizing|fostering|cultivating|encompassing|cementing|solidifying)\b'

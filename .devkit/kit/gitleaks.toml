@@ -1,0 +1,13 @@
+# Kit-owned gitleaks config. devkit.ps1 update overwrites this file, so rules
+# added here reach every repo. It extends the repo's own .devkit/gitleaks.toml,
+# which keeps the repo's allowlist. The path resolves from the repo root.
+[extend]
+path = ".devkit/gitleaks.toml"
+
+# gitleaks' built-in rules miss Discord webhook URLs. Anyone holding one can
+# post to the channel.
+[[rules]]
+id = "discord-webhook-url"
+description = "Discord webhook URL"
+regex = '''https://(?:ptb\.|canary\.)?discord(?:app)?\.com/api/webhooks/\d+/[\w-]{20,}'''
+keywords = ["discord.com/api/webhooks", "discordapp.com/api/webhooks"]

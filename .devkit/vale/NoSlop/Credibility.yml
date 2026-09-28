@@ -1,0 +1,10 @@
+extends: existence
+message: "'%s' vouches for the claim instead of sourcing it. Cite it or cut it."
+level: warning
+ignorecase: true
+tokens:
+  - that(?:'s| is) not a (?:metaphor|hypothesis|theory|exaggeration|figure of speech)
+  - (?:this|that) (?:isn't|is not) (?:hyperbole|an exaggeration|speculation)
+  - I(?:'m| am) not exaggerating
+  - (?:you )?don't (?:have to )?take my word for it
+  - none of this is (?:in dispute|controversial|up for debate)

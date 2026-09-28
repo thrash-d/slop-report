@@ -1,0 +1,31 @@
+extends: existence
+message: "Likely AI word '%s'. Use the plain word or cut it."
+level: warning
+ignorecase: true
+tokens:
+  - additionally
+  - align(?:s|ed)? with
+  - enhanc(?:e|es|ed|ing)
+  - garner(?:s|ed)?
+  - intricat(?:e|ely)
+  - intricacies
+  - landscape
+  - nuanced
+  - enduring
+  - profound(?:ly)?
+  - boasts?
+  - renowned
+  - breathtaking
+  - stunning
+  - seamless(?:ly)?
+  - commitment to
+  - realm
+  - embark(?:s|ed|ing)?
+  - navigat(?:e|es|ing) the
+  - resonat(?:e|es|ed|ing)
+  - empower(?:s|ed|ing)?
+  - elevat(?:e|es|ed|ing)
+  - unlock(?:s|ed|ing)?
+  - harness(?:es|ed|ing)? (?:the|its|their|our|your|this)
+  - robust
+  - holistic

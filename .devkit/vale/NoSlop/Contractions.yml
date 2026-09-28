@@ -1,0 +1,19 @@
+extends: substitution
+message: "Contract it: '%s' not '%s' (unless the stress is the point)."
+level: suggestion
+ignorecase: true
+swap:
+  do not: don't
+  does not: doesn't
+  did not: didn't
+  is not: isn't
+  are not: aren't
+  was not: wasn't
+  were not: weren't
+  cannot: can't
+  will not: won't
+  would not: wouldn't
+  should not: shouldn't
+  could not: couldn't
+  have not: haven't
+  has not: hasn't

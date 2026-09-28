@@ -1,0 +1,20 @@
+extends: script
+message: "Comment sentence over 25 words (STE descriptive limit). Split it."
+level: warning
+scope: comment
+script: |
+  text := import("text")
+  matches := []
+  // Blank lines, tag lines (@param), list items, and key/value rows start a new unit,
+  // so field tables and JSDoc blocks don't read as one giant sentence.
+  units := text.re_split(`\n\s*(?:\n|[-*+@]|\w+\s{2,}|\w+\s*[:=—-]\s)`, scope, -1)
+  for u in units {
+    for s in text.re_split(`[.!?:;](?:\s+|$)|\s{3,}`, u, -1) {
+      if len(text.fields(s)) > 25 {
+        i := text.index(scope, s)
+        if i >= 0 {
+          matches = append(matches, {begin: i, end: i + len(s)})
+        }
+      }
+    }
+  }

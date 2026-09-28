@@ -1,0 +1,11 @@
+extends: existence
+message: "Shouting for emphasis in caps. Lowercase it; the sentence carries the weight."
+level: warning
+nonword: true
+tokens:
+  # Emphasis words shouted in caps. Guarded with [^\w] so SCREAMING_SNAKE
+  # constants and acronyms don't match (RE2 has no lookaround).
+  - "(?:[^\\w]|^)(?:NEVER|ALWAYS|MUST|ONLY|EVERY|DON'T|ACTUALLY|REALLY|VERY)(?:[^\\w]|$)"
+  # NOT is also a SQL keyword (IF NOT EXISTS, IS NOT NULL), so only flag it when
+  # a lowercase word follows ("Do NOT also", "should NOT run"), never before caps.
+  - "(?:[^\\w]|^)NOT [a-z]"

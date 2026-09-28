@@ -1,0 +1,6 @@
+extends: existence
+message: "'%s' translates the story into jargon. If the parallel is real, the reader sees it."
+level: warning
+ignorecase: true
+tokens:
+  - in (?:IR|incident[- ]response|SOC|security|cybersecurity|infosec|IT|tech|engineering|DevOps|dev|developer|software|networking|project[- ]management|business|corporate|military|HR|compliance|audit) (?:terms|speak|parlance)

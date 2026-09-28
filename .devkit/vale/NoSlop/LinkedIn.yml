@@ -1,0 +1,22 @@
+extends: existence
+message: "LinkedIn-ism: '%s'."
+level: warning
+ignorecase: true
+tokens:
+  - humbled to
+  - thrilled to
+  - excited to (?:announce|share)
+  - pleased to announce
+  - game[- ]changer
+  - synerg(?:y|ies|ize)
+  - thought leader(?:ship)?
+  - leverag(?:e|es|ing) (?:our|my|your|the)
+  - cutting[- ]edge
+  - best[- ]in[- ]class
+  - world[- ]class
+  - move the needle
+  - circle back
+  - low[- ]hanging fruit
+  - value[- ]add
+  - agree\?
+  - thoughts\?

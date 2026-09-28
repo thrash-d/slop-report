@@ -1,0 +1,14 @@
+extends: existence
+message: "Hedge: '%s'. State it flat or say you don't know."
+level: warning
+ignorecase: true
+tokens:
+  - could potentially
+  - might potentially
+  - may potentially
+  - it could be argued
+  - arguably
+  - to some extent
+  - I(?:'m| am) (?:no|not an) expert
+  - may or may not
+  - it seems that

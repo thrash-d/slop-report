@@ -1,0 +1,10 @@
+extends: existence
+message: "Negative parallelism: '%s'. State the positive claim."
+level: warning
+ignorecase: true
+tokens:
+  - not only
+  - not merely
+  - (?:it's|it is|isn't|is not) just about
+  - (?:it's|it is) not just (?:a|an|about)
+  - more than just

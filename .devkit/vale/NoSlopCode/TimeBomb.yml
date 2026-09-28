@@ -1,0 +1,10 @@
+extends: existence
+message: "'%s' goes stale. Say what's true, or leave a dated TODO."
+level: suggestion
+ignorecase: true
+tokens:
+  - as of now
+  - at this time
+  - at the moment
+  - in the future
+  - new and improved

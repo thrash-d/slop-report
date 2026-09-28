@@ -1,0 +1,10 @@
+extends: existence
+message: "'%s' claims difficulty. Cut it."
+level: warning
+ignorecase: true
+tokens:
+  - simply
+  - easily
+  - clearly
+  - trivially
+  - it's that simple

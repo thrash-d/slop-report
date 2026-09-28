@@ -1,0 +1,13 @@
+# Repo-owned gitleaks settings. Starts from gitleaks' built-in rules.
+# To accept a finding that isn't a real secret, add its fingerprint to
+# .gitleaksignore at the repo root instead of widening this file.
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Paths that never hold real secrets"
+paths = [
+  '''(^|/)node_modules/''',
+  '''(^|/)package-lock\.json$''',
+  '''(^|/)\.devkit/kit/''',
+]

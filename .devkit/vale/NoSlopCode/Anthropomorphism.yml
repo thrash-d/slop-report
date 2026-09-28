@@ -1,0 +1,6 @@
+extends: existence
+message: "Code doesn't '%s'. Say what it checks, stores, or returns."
+level: suggestion
+ignorecase: true
+tokens:
+  - (?:it|this|the (?:code|function|script|server|system|api|parser)) (?:wants|thinks|knows|understands|decides|tries to understand)

@@ -1,0 +1,12 @@
+extends: existence
+message: "'%s' is an intensifier AI leans on. Keep it only if it's doing work."
+level: suggestion
+ignorecase: true
+tokens:
+  - genuinely
+  - truly
+  - deeply
+  - incredibly
+  - effortlessly
+  - quietly
+  - fundamentally

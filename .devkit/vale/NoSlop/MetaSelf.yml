@@ -1,0 +1,8 @@
+extends: existence
+message: "'%s' points at the piece itself. Say the thing."
+level: warning
+ignorecase: true
+tokens:
+  - (?:from|at) the (?:top|start|beginning) of (?:this|the) (?:article|essay|post|piece)
+  - if you just read that (?:sentence|line|paragraph)
+  - (?:as|like) I said (?:earlier|above|before)

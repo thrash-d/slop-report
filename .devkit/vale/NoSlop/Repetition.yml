@@ -1,0 +1,13 @@
+extends: repetition
+message: "'%s' is repeated."
+level: error
+alpha: true
+tokens:
+  - '[^\s]+'
+exceptions:
+  - great
+  - had
+  - that
+  - very
+  - bye
+  - no

@@ -1,0 +1,6 @@
+extends: existence
+message: "Drop 'please' from comments and instructions."
+level: warning
+ignorecase: true
+tokens:
+  - please

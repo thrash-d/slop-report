@@ -1,0 +1,14 @@
+extends: existence
+message: "Vague attribution: '%s'. Name the source or drop it."
+level: warning
+ignorecase: true
+tokens:
+  - experts (?:say|agree|argue|believe|warn)
+  - studies (?:show|suggest|have shown)
+  - research (?:shows|suggests|has shown)
+  - industry reports
+  - some critics
+  - many (?:believe|argue|say)
+  - it(?:'s| is) widely (?:believed|accepted|known)
+  - some (?:argue|say)
+  - observers (?:note|say)

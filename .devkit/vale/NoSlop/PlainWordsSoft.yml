@@ -1,0 +1,22 @@
+extends: substitution
+message: "Plainer: '%s' instead of '%s', unless the precision matters."
+level: suggestion
+ignorecase: true
+swap:
+  remediat(?:e|es|ed|ing): fix
+  remediation: fix
+  approximately: about
+  individuals: people
+  purchas(?:e|es|ed|ing): buy
+  assist(?:s|ed|ing)?: help
+  assistance: help
+  sufficient: enough
+  numerous: many
+  obtain(?:s|ed|ing)?: get
+  demonstrat(?:e|es|ed|ing): show
+  initiat(?:e|es|ed|ing): start
+  terminat(?:e|es|ed|ing): end
+  regarding: about
+  modif(?:y|ies|ied|ying): change
+  methodology: method
+  subsequently: later

@@ -1,0 +1,16 @@
+extends: existence
+message: "History in a comment ('%s'). Say what the code does now; the history belongs in the commit."
+level: warning
+ignorecase: true
+nonword: true
+tokens:
+  - '\(replaces\b'
+  - '\breplaces the (?:old|previous|legacy|original)\b'
+  - '\bported from\b'
+  - '\bport of v\d'
+  - '\bcloned from\b'
+  - '\bmerged into\b.{0,40}\bfrom\b'
+  - '\b(?:matches|same as|like the) v\d\b'
+  - '\bv\d (?:pattern|logic|behavior|implementation|code|approach)\b'
+  - '\bthe (?:old|earlier|previous) (?:behavior|implementation|code|version|approach|logic|tool|one-level)\b'
+  - '\bused to be\b'

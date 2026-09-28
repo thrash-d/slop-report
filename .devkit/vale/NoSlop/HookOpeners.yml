@@ -1,0 +1,14 @@
+extends: existence
+message: "Hook opener: '%s'. Just tell them."
+level: error
+ignorecase: true
+tokens:
+  - have you ever wondered
+  - ever wondered
+  - imagine a world
+  - picture this
+  - what if I told you
+  - in a world where
+  - let's face it
+  - let that sink in
+  - read that again

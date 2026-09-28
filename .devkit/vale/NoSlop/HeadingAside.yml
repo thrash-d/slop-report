@@ -1,0 +1,7 @@
+extends: existence
+message: "Parenthetical aside in a heading. A heading is a label; move the aside into the body or cut it."
+level: warning
+scope: heading
+nonword: true
+tokens:
+  - '\([^)]+\)'

@@ -1,0 +1,18 @@
+extends: substitution
+message: "Plain word: '%s' instead of '%s'."
+level: warning
+ignorecase: true
+swap:
+  utiliz(?:e|es|ed|ing): use
+  utilization: use
+  facilitat(?:e|es|ed|ing): help
+  commenc(?:e|es|ed|ing): start
+  endeavou?r(?:s|ed|ing)?: try
+  ascertain(?:s|ed|ing)?: find out
+  prior to: before
+  subsequent to: after
+  in excess of: more than
+  in close proximity to: near
+  a large volume of: a lot of
+  with regard to: about
+  in regards to: about

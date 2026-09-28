@@ -1,0 +1,6 @@
+extends: existence
+message: "'%s' shouting label. If it matters, the sentence says why; the label adds nothing."
+level: warning
+nonword: true
+tokens:
+  - '\b(?:IMPORTANT|CRITICAL|PLEASE NOTE)\s*[:!]'

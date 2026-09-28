@@ -1,0 +1,19 @@
+extends: existence
+message: "Chatbot artifact: '%s'."
+level: error
+ignorecase: true
+tokens:
+  - I hope this helps
+  - great question
+  - certainly!
+  - of course!
+  - let me know if
+  - would you like me to
+  - feel free to
+  - happy to help
+  - as an AI
+  - as of my last
+  - my (?:last )?training (?:data|update|cutoff)
+  - knowledge cutoff
+  - you're absolutely right
+  - (?:excellent|great) point

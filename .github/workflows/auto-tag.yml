@@ -1,0 +1,30 @@
+# Installed by dev-kit. devkit.ps1 update overwrites this file, so edit the
+# copy in dev-kit/repo-files/ instead. A repo with .devkit/no-auto-workflows
+# doesn't get it.
+#
+# Tags main with v<version> when the repo's version file holds a version that
+# has no tag yet. Bump the version and push; the tag follows.
+name: auto-tag
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  tag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: |
+          v=
+          for f in VERSION manifest.json extension/manifest.json chrome/manifest.json package.json; do
+            [ -f "$f" ] || continue
+            if [ "$f" = VERSION ]; then v=$(tr -d '[:space:]' < "$f"); else v=$(jq -r '.version // empty' "$f"); fi
+            [ -n "$v" ] && break
+          done
+          [ -n "$v" ] || { echo "No version file."; exit 0; }
+          if git ls-remote --exit-code --tags origin "refs/tags/v$v" > /dev/null; then echo "v$v already tagged."; exit 0; fi
+          git tag "v$v" && git push origin "v$v"

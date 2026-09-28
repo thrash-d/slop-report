@@ -1,0 +1,8 @@
+extends: existence
+message: "Present tense: '%s'. Say what it does ('Returns', not 'will return')."
+level: warning
+ignorecase: true
+tokens:
+  - (?:this|it|that|which) will (?:be )?\w+
+  - will (?:return|handle|create|call|throw|raise|run|check|ensure|make|contain|hold|store)
+  - will be (?:used|called|returned|set|stored|created|passed)

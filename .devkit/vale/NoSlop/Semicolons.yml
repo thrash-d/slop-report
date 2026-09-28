@@ -1,0 +1,8 @@
+extends: occurrence
+message: "More than 2 semicolons. Use periods."
+level: warning
+# Paragraph scope skips table cells. The token skips a semicolon right after a
+# digit, so count lists like "trade press 132; government 79" don't trip it.
+scope: paragraph
+max: 2
+token: '[^\d\s];'

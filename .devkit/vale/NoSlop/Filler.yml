@@ -1,0 +1,16 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+level: warning
+ignorecase: true
+swap:
+  in order to: to
+  due to the fact that: because
+  at this point in time: now
+  in the event that: if
+  has the ability to: can
+  have the ability to: can
+  a large number of: many
+  the vast majority of: most
+  in spite of the fact that: although
+  is able to: can
+  are able to: can

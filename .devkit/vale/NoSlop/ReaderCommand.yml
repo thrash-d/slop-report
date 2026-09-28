@@ -1,0 +1,12 @@
+extends: existence
+message: "'%s' tells the reader how to feel. Let the fact do it."
+level: warning
+ignorecase: true
+tokens:
+  - sit with that
+  - sit with this
+  - think about that for a (?:second|moment)
+  - let that marinate
+  - pause (?:here|on that)
+  - stop and think about
+  - read it twice

@@ -1,0 +1,205 @@
+# Installed by dev-kit. devkit.ps1 update overwrites this file, so edit the
+# copy in dev-kit/repo-files/ instead. Per-repo settings live in .devkit/.
+#
+# The secrets check always fails the run on a finding. Every other check
+# reports but doesn't fail the run until the repo variable DEVKIT_BLOCKING is
+# set to true (Settings > Secrets and variables > Actions > Variables).
+name: devkit-quality
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "23 13 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  VALE_VERSION: "3.22.0"
+  OSV_VERSION: "2.6.0"
+  GITLEAKS_VERSION: "8.30.1"
+  RUFF_VERSION: "0.16.9"
+  JSCPD_VERSION: "5.3.2"
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "lts/*"
+
+      - name: Install tools
+        run: |
+          set -euo pipefail
+          mkdir -p "$HOME/bin"
+          echo "$HOME/bin" >> "$GITHUB_PATH"
+          curl -sSfL "https://github.com/google/osv-scanner/releases/download/v${OSV_VERSION}/osv-scanner_linux_amd64" -o "$HOME/bin/osv-scanner"
+          chmod +x "$HOME/bin/osv-scanner"
+          curl -sSfL "https://github.com/gitleaks/gitleaks/releases/download/v${GITLEAKS_VERSION}/gitleaks_${GITLEAKS_VERSION}_linux_x64.tar.gz" | tar -xz -C "$HOME/bin" gitleaks
+          curl -sSfL "https://github.com/vale-cli/vale/releases/download/v${VALE_VERSION}/vale_${VALE_VERSION}_Linux_64-bit.tar.gz" | tar -xz -C "$HOME/bin" vale
+          pipx install "ruff==${RUFF_VERSION}"
+
+      - name: Vulnerable dependencies (osv-scanner)
+        id: osv
+        continue-on-error: ${{ vars.DEVKIT_BLOCKING != 'true' }}
+        run: |
+          set +e
+          osv-scanner scan source -r .
+          code=$?
+          if [ "$code" -eq 128 ]; then echo "No lockfiles found."; exit 0; fi
+          exit "$code"
+
+      # Always runs to completion so the checks after it still report; the
+      # Summary step fails the job if this found anything.
+      - name: Leaked secrets (gitleaks)
+        id: gitleaks
+        continue-on-error: true
+        run: |
+          cfg=()
+          if [ -f .devkit/kit/gitleaks.toml ] && [ -f .devkit/gitleaks.toml ]; then cfg=(--config .devkit/kit/gitleaks.toml)
+          elif [ -f .devkit/gitleaks.toml ]; then cfg=(--config .devkit/gitleaks.toml); fi
+          gitleaks git --redact --no-banner "${cfg[@]}" .
+
+      - name: Python bugs (ruff)
+        id: ruff
+        continue-on-error: ${{ vars.DEVKIT_BLOCKING != 'true' }}
+        run: |
+          if ! find . -name '*.py' -not -path '*/node_modules/*' -not -path './.devkit/*' | grep -q .; then
+            echo "No Python files."; exit 0
+          fi
+          if [ -f ruff.toml ] || [ -f .ruff.toml ] || grep -qs '^\[tool\.ruff' pyproject.toml; then
+            ruff check --extend-exclude .devkit --output-format github .
+          else
+            ruff check --config .devkit/kit/ruff.toml --output-format github .
+          fi
+
+      - name: JavaScript lint (npm run lint)
+        id: eslint
+        continue-on-error: ${{ vars.DEVKIT_BLOCKING != 'true' }}
+        run: |
+          found=0; status=0
+          while IFS= read -r pkg; do
+            dir=$(dirname "$pkg")
+            if grep -q '"lint"[[:space:]]*:' "$pkg" && [ -f "$dir/package-lock.json" ]; then
+              found=1
+              echo "::group::npm run lint in $dir"
+              (cd "$dir" && npm ci --ignore-scripts --no-audit --no-fund && npm run lint) || status=1
+              echo "::endgroup::"
+            fi
+          done < <(find . -name package.json -not -path '*/node_modules/*' -not -path './.devkit/*')
+          if [ "$found" -eq 0 ]; then echo "No npm project with both a lint script and a package-lock.json."; fi
+          exit "$status"
+
+      - name: Copied code (jscpd)
+        id: jscpd
+        continue-on-error: ${{ vars.DEVKIT_BLOCKING != 'true' }}
+        env:
+          BASE_PR: ${{ github.event.pull_request.base.sha }}
+          BASE_PUSH: ${{ github.event.before }}
+        run: |
+          cfg=()
+          if [ -f .devkit/jscpd.json ]; then cfg=(--config .devkit/jscpd.json); fi
+          echo "::group::All copies (information only)"
+          npx --yes "jscpd@${JSCPD_VERSION}" "${cfg[@]}" . || true
+          echo "::endgroup::"
+          base="${BASE_PR:-$BASE_PUSH}"
+          if [ -z "$base" ] || [ "$base" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "${base}^{commit}" 2>/dev/null; then
+            echo "No earlier commit to compare with, so no new-copy check."
+            echo "skipped=true" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          npx --yes "jscpd@${JSCPD_VERSION}" "${cfg[@]}" --baseline-from-ref "$base" --fail-on-new-clones 0 .
+
+      - name: Repeated definitions (check_duplicates)
+        id: dupes
+        continue-on-error: ${{ vars.DEVKIT_BLOCKING != 'true' }}
+        run: |
+          if [ ! -f .devkit/duplicates.json ]; then echo "No .devkit/duplicates.json."; exit 0; fi
+          python3 .devkit/kit/check_duplicates.py --root .
+
+      - name: Writing style on changed files (Vale)
+        id: vale
+        continue-on-error: ${{ vars.DEVKIT_BLOCKING != 'true' }}
+        env:
+          BASE_PR: ${{ github.event.pull_request.base.sha }}
+          BASE_PUSH: ${{ github.event.before }}
+        run: |
+          base="${BASE_PR:-$BASE_PUSH}"
+          if [ -z "$base" ] || [ "$base" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "${base}^{commit}" 2>/dev/null; then
+            echo "No earlier commit to compare with."
+            echo "skipped=true" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          set -e
+          list="$RUNNER_TEMP/vale-files"
+          git -c core.quotePath=false diff -z --name-only --diff-filter=ACMR "$base" HEAD -- \
+            '*.md' '*.txt' '*.html' '*.py' '*.js' '*.jsx' '*.ts' '*.tsx' '*.ps1' '*.psm1' \
+            ':(exclude,glob).devkit/**' ':(exclude,glob)**/node_modules/**' > "$list"
+          mapfile -d '' -t files < "$list"
+          if [ "${#files[@]}" -eq 0 ]; then echo "No changed text or code files."; exit 0; fi
+          # Vale exits 1 only for error-level alerts. Treat any warning as a finding.
+          out="$RUNNER_TEMP/vale-out"
+          set +e
+          vale --config .devkit/kit/vale.ini --minAlertLevel=warning --output=line "${files[@]}" > "$out"
+          code=$?
+          set -e
+          cat "$out"
+          if [ "$code" -gt 1 ]; then exit "$code"; fi
+          [ ! -s "$out" ]
+
+      # Report only: flagged commits show as warnings on the run. The local
+      # commit-msg hook is what blocks.
+      - name: Commit messages (commit_lint)
+        id: commits
+        env:
+          BASE_PR: ${{ github.event.pull_request.base.sha }}
+          BASE_PUSH: ${{ github.event.before }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
+        run: |
+          base="${BASE_PR:-$BASE_PUSH}"
+          if [ ! -f .devkit/kit/commit_lint.py ] || [ -z "$base" ] || [ "$base" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "${base}^{commit}" 2>/dev/null; then
+            echo "No earlier commit to compare with."
+            echo "skipped=true" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          python3 .devkit/kit/commit_lint.py --range "$base..$HEAD_SHA"
+
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo "### devkit-quality"
+            echo ""
+            echo "| Check | Result |"
+            echo "|---|---|"
+            echo "| Vulnerable dependencies | ${{ steps.osv.outcome }} |"
+            echo "| Leaked secrets | ${{ steps.gitleaks.outcome }} |"
+            echo "| Python bugs | ${{ steps.ruff.outcome }} |"
+            echo "| JavaScript lint | ${{ steps.eslint.outcome }} |"
+            echo "| Copied code, new this push | ${{ steps.jscpd.outputs.skipped == 'true' && 'skipped' || steps.jscpd.outcome }} |"
+            echo "| Repeated definitions | ${{ steps.dupes.outcome }} |"
+            echo "| Writing style, changed files | ${{ steps.vale.outputs.skipped == 'true' && 'skipped' || steps.vale.outcome }} |"
+            echo "| Commit messages, report only | ${{ steps.commits.outputs.skipped == 'true' && 'skipped' || steps.commits.outcome }} |"
+            echo ""
+            echo "Blocking: ${{ vars.DEVKIT_BLOCKING == 'true' }}. Open a failed step's log for details."
+          } >> "$GITHUB_STEP_SUMMARY"
+          # One annotation per check with findings, so ci-findings.ps1 and the
+          # Actions page can show them without opening each run.
+          warn() { if [ "$2" = "failure" ]; then echo "::warning title=devkit-quality::$1 found issues"; fi; }
+          warn "Vulnerable dependencies" "${{ steps.osv.outcome }}"
+          warn "Leaked secrets" "${{ steps.gitleaks.outcome }}"
+          warn "Python bugs" "${{ steps.ruff.outcome }}"
+          warn "JavaScript lint" "${{ steps.eslint.outcome }}"
+          warn "Copied code, new this push" "${{ steps.jscpd.outcome }}"
+          warn "Repeated definitions" "${{ steps.dupes.outcome }}"
+          warn "Writing style, changed files" "${{ steps.vale.outcome }}"
+          # A leaked secret fails the run even when DEVKIT_BLOCKING is off. After
+          # rotating one, add its fingerprint from the log to .gitleaksignore.
+          if [ "${{ steps.gitleaks.outcome }}" = "failure" ]; then
+            echo "::error title=devkit-quality::Leaked secrets found. Rotate them, then list the fingerprints in .gitleaksignore or scrub history."
+            exit 1
+          fi

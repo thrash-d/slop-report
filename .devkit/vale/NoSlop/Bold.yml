@@ -1,0 +1,6 @@
+extends: occurrence
+message: "More than 4 bold phrases. Bold everything and nothing stands out."
+level: warning
+scope: raw
+max: 4
+token: '\*\*[^*\n]+\*\*'

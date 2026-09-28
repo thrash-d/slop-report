@@ -1,0 +1,7 @@
+extends: existence
+message: "'%s' promises a secret nobody mentions. Say the thing."
+level: warning
+ignorecase: true
+tokens:
+  - (?:this|that)(?:'s| is) the (?:thing|part|bit|secret) (?:nobody|no one) (?:ever )?(?:talks (?:to you )?about|thinks about|tells you|mentions|warns you about|writes about)
+  - what (?:nobody|no one) (?:ever )?(?:tells you|talks (?:to you )?about|warns you about)

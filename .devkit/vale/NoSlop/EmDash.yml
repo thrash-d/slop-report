@@ -1,0 +1,12 @@
+extends: existence
+message: "Em dash. Use a period, comma, or parentheses."
+level: warning
+nonword: true
+tokens:
+  # An em dash after a wide gap is a column separator in an aligned comment
+  # table ("User.Read.All        — account details"). Only flag one that follows
+  # text directly or after a single space.
+  - '(?:^|\S) ?—'
+  - '\s--\s'
+  # An em dash written as a Python/JS escape in a comment or docstring.
+  - '\\u2014'

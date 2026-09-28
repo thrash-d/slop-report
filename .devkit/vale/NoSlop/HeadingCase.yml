@@ -1,0 +1,479 @@
+extends: capitalization
+message: "Use sentence case for '%s'."
+level: warning
+scope: heading & ~heading.h1
+match: $sentence
+# With a Vocab active, Vale merges it into the exceptions and then flags any
+# exception written in another case, so "Run it" failed on the IT exception.
+vocab: false
+# Proper nouns and acronyms that keep their capitals mid-heading. Vale joins
+# these into one regex, so escape regex characters (C\+\+). Ambiguous everyday
+# words use their full product name (Microsoft Teams, not Teams).
+exceptions:
+  # General acronyms
+  - AI
+  - API
+  - APIs
+  - ASCII
+  - CDN
+  - CLI
+  - CPU
+  - CSS
+  - CSV
+  - DOM
+  - EOL
+  - FAQ
+  - GPU
+  - GUI
+  - HTML
+  - ID
+  - IDs
+  - IDE
+  - IoT
+  - IT
+  - JSON
+  - JWT
+  - KPI
+  - LLM
+  - LLMs
+  - ML
+  - NLP
+  - OCR
+  - OS
+  - PDF
+  - PNG
+  - QA
+  - RAM
+  - README
+  - REST
+  - ROI
+  - RSS
+  - SaaS
+  - PaaS
+  - IaaS
+  - SDK
+  - SEO
+  - SLA
+  - SLO
+  - SQL
+  - SRC
+  - SSD
+  - SVG
+  - TOML
+  - UI
+  - URL
+  - URLs
+  - USB
+  - UTC
+  - UTF-8
+  - UUID
+  - UX
+  - VM
+  - VMs
+  - XML
+  - YAML
+  - CI
+  - CD
+  - CI/CD
+  - PR
+  - PRs
+  - MVP
+  - US
+  - UK
+  - EU
+  - I
+  # Networking and protocols
+  - BGP
+  - CIDR
+  - CORS
+  - DHCP
+  - DNS
+  - FTP
+  - SFTP
+  - gRPC
+  - GraphQL
+  - HTTP
+  - HTTP/2
+  - HTTPS
+  - ICMP
+  - IMAP
+  - IP
+  - IPv4
+  - IPv6
+  - ISP
+  - LAN
+  - LDAP
+  - LDAPS
+  - MTU
+  - NAT
+  - NTP
+  - OAuth
+  - OIDC
+  - RDP
+  - SAML
+  - SMB
+  - SMTP
+  - SNMP
+  - SSH
+  - SSL
+  - SSO
+  - TCP
+  - TLS
+  - UDP
+  - VLAN
+  - VPN
+  - WAN
+  - WebSocket
+  - Wi-Fi
+  - DKIM
+  - DMARC
+  - SPF
+  # Security terms
+  - 2FA
+  - ABAC
+  - APT
+  - ATT&CK
+  - MITRE ATT&CK
+  - MITRE
+  - BEC
+  - C2
+  - CASB
+  - CERT
+  - CSIRT
+  - CSRF
+  - CVE
+  - CVEs
+  - CVSS
+  - CWE
+  - DDoS
+  - DFIR
+  - DLP
+  - EDR
+  - FIDO2
+  - HSM
+  - IAM
+  - IDS
+  - IOC
+  - IOCs
+  - IPS
+  - IR
+  - KEV
+  - KMS
+  - MDR
+  - MFA
+  - NDR
+  - NOC
+  - OSINT
+  - OWASP
+  - PAM
+  - PKI
+  - RBAC
+  - RCE
+  - SASE
+  - SIEM
+  - SOAR
+  - SOC
+  - SQLi
+  - STIG
+  - TOTP
+  - TTP
+  - TTPs
+  - UEBA
+  - WAF
+  - WebAuthn
+  - XDR
+  - XSS
+  - ZTNA
+  - YubiKey
+  # Compliance frameworks and regulations
+  - CCPA
+  - CIS
+  - CMMC
+  - DFARS
+  - FedRAMP
+  - FISMA
+  - GDPR
+  - HIPAA
+  - ISO
+  - ISO 27001
+  - ITAR
+  - NIST
+  - PCI DSS
+  - SOC 2
+  - SOX
+  # IT operations and business roles
+  - BCDR
+  - CSAT
+  - DR
+  - EASM
+  - ITSM
+  - MSP
+  - MSSP
+  - PSA
+  - QBR
+  - RMM
+  - VAR
+  # Languages, formats, and runtimes
+  - Bash
+  - C\+\+
+  - C#
+  - CoffeeScript
+  - Dart
+  - Elixir
+  - Erlang
+  - Golang
+  - Haskell
+  - Java
+  - JavaScript
+  - Julia
+  - Kotlin
+  - Lua
+  - Markdown
+  - NET
+  - Node
+  - Node.js
+  - Perl
+  - PHP
+  - PowerShell
+  - Python
+  - Ruby
+  - Rust
+  - Scala
+  - Swift
+  - TypeScript
+  - WebAssembly
+  - Zsh
+  # Frameworks and libraries
+  - Angular
+  - ASP.NET
+  - Bootstrap
+  - Django
+  - Electron
+  - Express
+  - FastAPI
+  - Flask
+  - jQuery
+  - Laravel
+  - Next.js
+  - Nuxt
+  - Pydantic
+  - PyTorch
+  - React
+  - React Native
+  - Ruby on Rails
+  - Spring Boot
+  - Svelte
+  - SvelteKit
+  - Tailwind
+  - TensorFlow
+  - Vite
+  - Vue
+  - Webpack
+  # Databases and data tools
+  - Cassandra
+  - DynamoDB
+  - Elasticsearch
+  - Kafka
+  - MariaDB
+  - MongoDB
+  - MySQL
+  - OpenSearch
+  - PostgreSQL
+  - Postgres
+  - Redis
+  - Snowflake
+  - SQLite
+  - SQL Server
+  # Dev and ops tools
+  - Ansible
+  - Bitbucket
+  - Chocolatey
+  - Confluence
+  - Docker
+  - ESLint
+  - Git
+  - GitHub
+  - GitHub Actions
+  - GitLab
+  - Grafana
+  - Helm
+  - Homebrew
+  - Jenkins
+  - Jira
+  - Jupyter
+  - Kubernetes
+  - Nginx
+  - npm
+  - pip
+  - Podman
+  - Postman
+  - Prettier
+  - Prometheus
+  - Puppet
+  - Terraform
+  - Vagrant
+  - Vale
+  - Visual Studio
+  - VS Code
+  - winget
+  - Yarn
+  # Cloud and platforms
+  - Amazon
+  - AWS
+  - Azure
+  - Cloudflare
+  - DigitalOcean
+  - GCP
+  - Google
+  - Google Cloud
+  - Google Workspace
+  - Heroku
+  - IBM
+  - Netlify
+  - Oracle
+  - Salesforce
+  - ServiceNow
+  - Vercel
+  - VMware
+  # Microsoft
+  - Microsoft
+  - Microsoft 365
+  - M365
+  - Office 365
+  - Active Directory
+  - AD
+  - Autopilot
+  - Copilot
+  - Defender
+  - Entra
+  - Entra ID
+  - Exchange Online
+  - Excel
+  - GCC
+  - GCC High
+  - GCCH
+  - DoD
+  - GPO
+  - Graph
+  - Group Policy
+  - Hyper-V
+  - Intune
+  - IPPS
+  - MECM
+  - Microsoft Access
+  - Microsoft Teams
+  - Microsoft Word
+  - OneDrive
+  - OneNote
+  - Outlook
+  - Power Automate
+  - Power BI
+  - PowerPoint
+  - Purview
+  - SCCM
+  - Sentinel
+  - SharePoint
+  - Windows Server
+  - WSL
+  # Security and IT vendors
+  - Arctic Wolf
+  - Bitdefender
+  - Burp Suite
+  - Check Point
+  - Cisco
+  - CrowdStrike
+  - Datto
+  - Duo
+  - Fortinet
+  - FortiGate
+  - Huntress
+  - Kali
+  - KnowBe4
+  - Metasploit
+  - Mimecast
+  - Nessus
+  - Nmap
+  - Okta
+  - Palo Alto
+  - Proofpoint
+  - Qualys
+  - Rapid7
+  - SentinelOne
+  - SonicWall
+  - Sophos
+  - Splunk
+  - Tenable
+  - Wireshark
+  - Wiz
+  - Zscaler
+  # Operating systems and devices
+  - Android
+  - Apple
+  - ChromeOS
+  - Debian
+  - Fedora
+  - FreeBSD
+  - iOS
+  - iPadOS
+  - iPad
+  - iPhone
+  - Linux
+  - macOS
+  - Red Hat
+  - RHEL
+  - Ubuntu
+  - Unix
+  - watchOS
+  - Windows
+  - Xcode
+  # Browsers
+  - Brave
+  - Chrome
+  - Chromium
+  - Edge
+  - Firefox
+  - Safari
+  # AI companies and models
+  - Anthropic
+  - ChatGPT
+  - Claude
+  - Claude Code
+  - Gemini
+  - GPT
+  - Hugging Face
+  - Llama
+  - Mistral
+  - OpenAI
+  # Collaboration and publishing
+  - Discord
+  - Dropbox
+  - Figma
+  - LinkedIn
+  - Medium
+  - Notion
+  - Reddit
+  - Slack
+  - Substack
+  - X
+  - YouTube
+  - Zoom
+  # Months and days
+  - January
+  - February
+  - March
+  - April
+  - May
+  - June
+  - July
+  - August
+  - September
+  - October
+  - November
+  - December
+  - Monday
+  - Tuesday
+  - Wednesday
+  - Thursday
+  - Friday
+  - Saturday
+  - Sunday

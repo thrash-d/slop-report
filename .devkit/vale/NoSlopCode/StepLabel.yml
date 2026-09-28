@@ -1,0 +1,9 @@
+extends: existence
+message: "'%s' step label in a comment. The code order already says it."
+level: suggestion
+ignorecase: true
+nonword: true
+tokens:
+  # Only when the comment opens with "Step N:". Section banners like
+  # "── STEP 1: Connect ──" or "═══ STEP 2 ═══" navigate long scripts; keep them.
+  - '(?m)^[\s#/*]*step \d+\s*:'

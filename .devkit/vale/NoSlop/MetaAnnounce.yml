@@ -1,0 +1,11 @@
+extends: existence
+message: "'%s' announces the piece. Just say the thing."
+level: warning
+ignorecase: true
+tokens:
+  - this (?:essay|post|article|piece|thread) (?:is about|will|explores|covers|looks at)
+  - in this (?:essay|post|article|piece|thread)
+  - I(?:'m| am) going to walk you through
+  - let's unpack
+  - let's break (?:it|this|that) down
+  - by the end of this (?:essay|post|article|piece)

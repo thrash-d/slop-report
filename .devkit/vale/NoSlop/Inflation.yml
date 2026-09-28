@@ -1,0 +1,18 @@
+extends: existence
+message: "Significance inflation: '%s'. Say what it is."
+level: error
+ignorecase: true
+tokens:
+  - serv(?:e|es|ed|ing) as (?:a|an|the)
+  - stands? as (?:a|an|the)
+  - (?:is|was|are|a) (?:a )?testament
+  - plays? an? (?:vital|significant|crucial|pivotal|key|important) role
+  - setting the stage
+  - (?:marks|represents|signals) a (?:shift|turning point)
+  - key turning point
+  - evolving landscape
+  - indelible mark
+  - deeply rooted
+  - focal point
+  - reflects? broader
+  - (?:a|an) (?:vital|significant|crucial|pivotal) (?:moment|step)

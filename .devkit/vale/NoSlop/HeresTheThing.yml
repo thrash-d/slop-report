@@ -1,0 +1,13 @@
+extends: existence
+message: "'%s' is a setup phrase. Earned sometimes; check it."
+level: suggestion
+ignorecase: true
+tokens:
+  - here's the thing
+  - here's the kicker
+  - here's why
+  - here's what
+  - here's how
+  - here's my confession
+  - here's a confession
+  - here's the part

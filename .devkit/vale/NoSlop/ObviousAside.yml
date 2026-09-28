@@ -1,0 +1,16 @@
+extends: existence
+message: "Obvious aside. If it's obvious, cut it; if it isn't, state it plainly."
+level: warning
+ignorecase: true
+nonword: true
+tokens:
+  - '\bneedless to say\b'
+  - '\b(it|that) goes without saying\b'
+  - "\\bas you'?d expect\\b"
+  - '\bas you would expect\b'
+  - '\bworth (noting|mentioning)\b'
+  - '\bas (noted|mentioned) (above|below|earlier|previously|before)\b'
+  - '\bas we all know\b'
+  - '\beveryone knows\b'
+  - '\bobviously\b'
+  - '\bof course\b'

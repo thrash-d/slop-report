@@ -1,0 +1,7 @@
+extends: existence
+message: "Bold-header list item. Convert to prose or a plain list."
+level: warning
+scope: raw
+nonword: true
+tokens:
+  - '(?m)^\s*(?:[-*+]|\d+\.)\s+\*\*[^*\n]+(?::\*\*|\*\*:)'

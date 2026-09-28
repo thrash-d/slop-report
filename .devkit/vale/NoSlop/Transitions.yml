@@ -1,0 +1,14 @@
+extends: existence
+message: "Transition word '%s'. The paragraph break does this job."
+level: warning
+ignorecase: true
+tokens:
+  - speaking of which
+  - that being said
+  - with that (?:being )?said
+  - moreover
+  - furthermore
+  - in addition,
+  - notably,
+  - importantly,
+  - ultimately,

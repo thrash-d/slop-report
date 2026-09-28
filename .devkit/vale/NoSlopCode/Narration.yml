@@ -1,0 +1,12 @@
+extends: existence
+message: "Comment narrates the code ('%s'). Say why, or delete it."
+level: warning
+ignorecase: true
+tokens:
+  - this (?:function|method|class|script|module|block|helper|code|snippet|loop|line) (?:will|serves|handles|does|takes|returns|checks|creates|lets|allows|provides|contains|defines|implements|is used|is responsible)
+  - here we
+  - now we
+  - we (?:first|then|now|next)
+  - (?:first|next|then|finally), we
+  - the following (?:code|function|block|line|snippet)
+  - as you can see

@@ -1,0 +1,11 @@
+extends: sequence
+message: "Three-adjective stack. Pick the one that's true."
+level: warning
+tokens:
+  - tag: JJ
+  - pattern: ','
+  - tag: JJ
+  - pattern: ','
+    skip: 1
+  - pattern: and|or
+  - tag: JJ

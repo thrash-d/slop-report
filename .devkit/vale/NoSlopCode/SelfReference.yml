@@ -1,0 +1,14 @@
+extends: existence
+message: "Comment references callers, tasks, or history ('%s'). That rots as the code changes; it belongs in the commit or PR."
+level: suggestion
+ignorecase: true
+tokens:
+  - used by
+  - added (?:for|to support) (?:issue|ticket|the review|review)
+  - per (?:the )?review
+  - as requested
+  - fix(?:es|ed)? for (?:issue|ticket|bug)
+  - see (?:issue|ticket|pr) ?#?\d+
+  - previously (?:was|called|named|used)
+  - was renamed
+  - todo from (?:the )?review

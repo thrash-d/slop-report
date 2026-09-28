@@ -1,0 +1,17 @@
+extends: existence
+message: "Throat-clearing: '%s'. Delete it."
+level: warning
+ignorecase: true
+tokens:
+  - it(?:'s| is) worth noting
+  - it(?:'s| is) important to (?:note|remember|understand)
+  - at the end of the day
+  - in today's
+  - the reality is
+  - needless to say
+  - it goes without saying
+  - let's dive in(?:to)?
+  - deep dive
+  - without further ado
+  - when it comes to
+  - in the world of

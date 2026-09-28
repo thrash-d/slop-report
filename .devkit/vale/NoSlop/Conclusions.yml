@@ -1,0 +1,15 @@
+extends: existence
+message: "Dessert-course ending: '%s'. End when the information is done."
+level: warning
+ignorecase: true
+tokens:
+  - in conclusion
+  - in summary
+  - to sum up
+  - the future looks bright
+  - exciting times
+  - only time will tell
+  - the possibilities are endless
+  - a step in the right direction
+  - at its core
+  - the bottom line is

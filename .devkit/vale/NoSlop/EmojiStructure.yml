@@ -1,0 +1,7 @@
+extends: existence
+message: "Emoji in a heading or bullet. Delete it."
+level: warning
+scope: raw
+nonword: true
+tokens:
+  - '(?m)^(?:#{1,6}[^\n]*|\s*(?:[-*+]|\d+\.)\s+)[\x{1F300}-\x{1FAFF}\x{2600}-\x{27BF}\x{2B50}\x{2705}]'

@@ -1,0 +1,57 @@
+# Builds and publishes the week's report. Runs Mondays, and by hand from the
+# Actions tab. A failed run publishes nothing, so last week's page stays up.
+name: weekly-report
+
+on:
+  schedule:
+    - cron: "0 14 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  VALE_VERSION: "3.22.0"
+  # slop-linter has no release tags, so the rules are pinned by commit. Bump it
+  # to pick up rule changes.
+  SLOP_LINTER_REF: 7e775d0443063d6cf580fc51bbf7eddc94788b5c
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/checkout@v5
+        with:
+          repository: thrash-d/slop-linter
+          ref: ${{ env.SLOP_LINTER_REF }}
+          path: slop-linter
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install Vale
+        run: |
+          set -euo pipefail
+          mkdir -p "$HOME/bin"
+          echo "$HOME/bin" >> "$GITHUB_PATH"
+          curl -sSfL "https://github.com/vale-cli/vale/releases/download/v${VALE_VERSION}/vale_${VALE_VERSION}_Linux_64-bit.tar.gz" | tar -xz -C "$HOME/bin" vale
+
+      - name: Tests
+        run: |
+          pip install pytest
+          python -m pytest -q test_report.py
+
+      - name: Build the report
+        run: python report.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish
+        run: |
+          git add docs
+          git -c user.name="Thrash'd" -c user.email=268264321+thrash-d@users.noreply.github.com \
+            commit -q -m "report: week of $(date -u +%F)"
+          git push

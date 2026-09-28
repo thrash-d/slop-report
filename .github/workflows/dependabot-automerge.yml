@@ -1,0 +1,61 @@
+# Installed by dev-kit. devkit.ps1 update overwrites this file, so edit the
+# copy in dev-kit/repo-files/ instead. A repo with .devkit/no-auto-workflows
+# doesn't get it.
+#
+# Merges a Dependabot pull request, major updates included, once the repo's
+# build and tests pass on it. The check runs `npm run build` and `npm test`
+# when package.json has them, and pytest when the repo has test_*.py files.
+# A repo with none of these gets nothing merged, because nothing showed the
+# update works. The check runs the updated code with a read-only token; only
+# the merge job can write, and it never checks the code out.
+name: dependabot-automerge
+
+on: pull_request
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    if: github.event.pull_request.user.login == 'dependabot[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "lts/*"
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Build and test
+        run: |
+          set -euo pipefail
+          ran=
+          if [ -f package.json ]; then
+            if [ -f package-lock.json ]; then npm ci; else npm install; fi
+            for s in build test; do
+              if jq -e --arg s "$s" '.scripts[$s]' package.json > /dev/null; then npm run "$s"; ran=1; fi
+            done
+          fi
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; elif [ -f pyproject.toml ]; then pip install .; fi
+          if [ -n "$(find . -name 'test_*.py' -not -path './node_modules/*' -not -path './.devkit/*' -print -quit)" ]; then
+            pip install pytest
+            python -m pytest -q
+            ran=1
+          fi
+          if [ -z "$ran" ]; then echo "::error::No build or tests to run, so this update waits for review."; exit 1; fi
+
+  merge:
+    needs: check
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - run: gh pr merge "$PR" --squash
+        env:
+          PR: ${{ github.event.pull_request.html_url }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

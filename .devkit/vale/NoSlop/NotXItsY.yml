@@ -1,0 +1,7 @@
+extends: existence
+message: "'Not X, it's Y' shape. Fine once; count them if there's more than two."
+level: suggestion
+ignorecase: true
+nonword: true
+tokens:
+  - '\b(?:it''s|it is|this is|that''s|you''re|they''re) not [^.,;!?]{1,40}[,;]\s(?:it''s|it is|you''re|they''re|but)\b'

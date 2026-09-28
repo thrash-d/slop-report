@@ -1,0 +1,17 @@
+extends: existence
+message: "AI-vocabulary word '%s'. Rewrite the sentence."
+level: error
+ignorecase: true
+tokens:
+  - delv(?:e|es|ed|ing)
+  - tapestr(?:y|ies)
+  - multifaceted
+  - interplay
+  - testament
+  - pivotal
+  - showcas(?:e|es|ed|ing)
+  - foster(?:s|ed|ing)?
+  - vibrant
+  - nestled
+  - groundbreaking
+  - crucial(?:ly)?

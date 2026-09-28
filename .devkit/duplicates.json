@@ -1,0 +1,5 @@
+{
+  "_help": "Rules for check_duplicates. Each rule flags a pattern anywhere except the files in allow. See dev-kit/MAINTAINING.md, 'Add a duplicate rule'.",
+  "exclude_dirs": [],
+  "rules": []
+}

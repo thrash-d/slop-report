@@ -1,0 +1,6 @@
+extends: existence
+message: "'%s' as a verb is AI inflation. Say it plainly."
+level: error
+ignorecase: true
+tokens:
+  - underscor(?:e|es|ed|ing)

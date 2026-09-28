@@ -1,0 +1,6 @@
+extends: existence
+message: "'%s' as metaphor is a LinkedIn tell. Literal use is fine."
+level: suggestion
+ignorecase: true
+tokens:
+  - journey

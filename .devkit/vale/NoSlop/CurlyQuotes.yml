@@ -1,0 +1,11 @@
+extends: substitution
+message: "Use straight quotes ('%s' not '%s')."
+level: warning
+nonword: true
+swap:
+  '“': '"'
+  '”': '"'
+  '‘': "'"
+  '’': "'"
+action:
+  name: replace

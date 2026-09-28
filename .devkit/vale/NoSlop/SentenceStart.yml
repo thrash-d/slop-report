@@ -1,0 +1,7 @@
+extends: existence
+message: "Filler opener '%s'. Just start."
+level: warning
+scope: raw
+nonword: true
+tokens:
+  - '(?m)^(?:So|Well|Look|Now),\s'
