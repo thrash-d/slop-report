@@ -1,0 +1,25 @@
+extends: existence
+message: "'%s' asks the reader to game the feed. Cut it."
+level: warning
+ignorecase: true
+nonword: true
+tokens:
+  # vote, react, share, tag, and follow bait
+  - '\blike (?:this|if)\b[^.\n]{0,60}\bcomment (?:if|below)\b'
+  - '\breact with\b'
+  - '\b(?:repost|reshare|share this)\b[^.\n]{0,40}\b(?:network|someone|friend|team)\b'
+  - '\btag (?:a|someone|a friend|your)\b[^.\n]{0,40}\b(?:needs? to (?:hear|see|read) this|who)\b'
+  - '\bfollow (?:me|us)\b[^.\n]{0,20}\bfor (?:more|daily|weekly)\b'
+  - '\bhit the 🔔'
+  # comment-gated lead magnets
+  - '\b(?:comment|drop|type)\b[^.\n]{0,40}\band I[''’]?ll (?:DM|send|share|message)\b'
+  - '\bwant the (?:PDF|template|guide|checklist|framework)\?'
+  - '\bsave (?:this|it) for later\b'
+  - '\bbookmark this\b'
+  - '\bP\.S\. (?:save|repost|follow|comment|share|DM|tag)\b'
+  - '\blink in (?:the )?(?:first )?comments?\b'
+  - '\breposts? appreciated\b'
+  - '\blike this post\b'
+  - '\bconnect with me so I can DM you\b'
+  - '\bgiving away my\b[^.\n]{0,40}\bfor free\b'
+  - '\bsettle a debate for me\b'

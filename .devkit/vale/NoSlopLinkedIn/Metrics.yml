@@ -1,0 +1,11 @@
+extends: existence
+message: "'%s' is an unsourced brag metric. Give the real number and where it's from, or cut it."
+level: warning
+ignorecase: true
+nonword: true
+tokens:
+  - '\b\d{1,2}-figure\b'
+  - '\b\d+(?:\.\d)?[km] followers\b'
+  - '\b\d+x(?:[''’]?d|ed)\b'
+  # Only after a growth verb: "the conference is in 4 days" isn't a brag.
+  - '\b(?:grew|scaled|hit|reached|doubled|tripled)\b[^.\n]{0,40}\bin (?:just |only )?\d+ days\b'

@@ -1,0 +1,7 @@
+extends: occurrence
+message: "Pasted-symbol bullets. Use plain lines or a real list."
+level: warning
+scope: raw
+max: 1
+# Arrows are left to NoSlop.Arrow so they aren't counted twice.
+token: '(?m)^[ \t]*(?:[•▶►▪▫◆◇■□✓✔✅❌✗✘☑]|[\x{1F300}-\x{1FAFF}]|[0-9]\x{FE0F}?\x{20E3})\x{FE0F}?[ \t]+\S'

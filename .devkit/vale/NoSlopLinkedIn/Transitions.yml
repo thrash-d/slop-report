@@ -1,0 +1,10 @@
+extends: existence
+message: "'%s' is a template transition. Go straight to the point."
+level: warning
+ignorecase: true
+nonword: true
+tokens:
+  - '\bhere[''’]?s (?:why|what I learned|the thing|how):'
+  - '\bthe key takeaway(?: here)? is\b'
+  - '\bthe bottom line\?'
+  - '\bin an era of\b'

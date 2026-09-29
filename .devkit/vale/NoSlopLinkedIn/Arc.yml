@@ -1,0 +1,26 @@
+extends: script
+message: "Redemption arc: hardship up top, a win at the bottom. Tell what changed and why, or cut the setup."
+level: warning
+scope: raw
+# Hardship words in the first half and success words in the second half.
+# Halves, not thirds: posts often trail the win with a lesson, a CTA, and
+# hashtags, which push it out of the last third. Hashtag lines are dropped.
+script: |
+  text := import("text")
+  body := text.re_replace(`(?s)<!--.*?-->`, scope, "")
+  body = text.to_lower(text.re_replace(`(?m)^[ \t]*#[A-Za-z].*$`, body, ""))
+  half := len(body) / 2
+  early := body[:half]
+  late := body[half:]
+  hard := `\b(?:fired|laid off|rejected|broke|bankrupt|homeless|slept in (?:my|a) car|dropped out|failed|cried|nobody would|no one would)\b`
+  win := `\b(?:ceo|founder|\d{1,2}-figure|million|acquired|promoted|raised|became (?:their|the)|today (?:i|my|we)|now (?:i|we) (?:run|lead|own))\b`
+  matches := []
+  // LinkedIn caps a post at 3,000 characters. In anything longer, the two word
+  // lists co-occur by chance.
+  if len(body) <= 3000 && text.re_match(hard, early) && text.re_match(win, late) {
+    // Point at the first hardship word in the original text.
+    found := text.re_find(hard, text.to_lower(scope), 1)
+    if found != undefined {
+      matches = append(matches, {begin: found[0][0].begin, end: found[0][0].end})
+    }
+  }

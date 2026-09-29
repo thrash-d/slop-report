@@ -1,0 +1,16 @@
+extends: existence
+message: "'%s' is an engagement-bait closer. End on the last real point."
+level: warning
+ignorecase: true
+nonword: true
+# Manual word boundaries: Vale's automatic one after a token never matches
+# after a trailing '?', so these would never fire without nonword.
+tokens:
+  - '\b(?:agree|thoughts|agree or disagree)\?'
+  - '\bam I wrong\?'
+  - '\bchange my mind\b'
+  - '\bwhich one (?:hits|resonates|speaks)[^?\n]{0,30}\?'
+  - '\bwho else\b[^?\n]{0,60}\?'
+  - '\bare you ready\?'
+  - '\bwho[''’]s (?:been here|with me)\b[^?\n]{0,30}\?'
+  - '\bsurprised by these results\?'

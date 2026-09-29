@@ -1,0 +1,11 @@
+extends: existence
+message: "'%s' is a hiring parable. Tell the real hiring story or cut it."
+level: warning
+ignorecase: true
+nonword: true
+tokens:
+  - '\bthe best hire I (?:ever )?made\b'
+  - '\bthe candidate I (?:hired|rejected)\b'
+  - '\bI (?:hired|rejected) (?:a|the) candidate\b'
+  - '\b(?:receptionist|janitor|intern|barista|cleaner)\b[^.\n]{0,40}\breal interview\b'
+  - '\b(?:recruiter|hiring manager|founder|CEO) here\b'

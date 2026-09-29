@@ -1,0 +1,11 @@
+extends: existence
+message: "'%s' performs a feeling for the feed. Say what happened."
+level: warning
+ignorecase: true
+nonword: true
+tokens:
+  - '\bphoto of me crying\b'
+  - '\bleadership is lonely\b'
+  - '\b(?:write|writing) a recommendation for every(?: single)? one\b'
+  - '\blet[''’]s normalize\b'
+  - '\bI asked (?:AI|ChatGPT|an AI|a chatbot|Claude)\b'

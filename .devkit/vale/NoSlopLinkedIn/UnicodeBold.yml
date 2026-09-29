@@ -1,0 +1,7 @@
+extends: existence
+message: "Unicode bold or italic letters. Screen readers read them letter by letter; use plain text."
+level: warning
+scope: raw
+nonword: true
+tokens:
+  - '[\x{1D400}-\x{1D7FF}](?:[\x{1D400}-\x{1D7FF} ]*[\x{1D400}-\x{1D7FF}])?'

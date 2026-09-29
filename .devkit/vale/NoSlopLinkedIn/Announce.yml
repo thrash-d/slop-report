@@ -1,0 +1,10 @@
+extends: existence
+message: "'%s' is a humble-announce template. Say what happened."
+level: warning
+ignorecase: true
+tokens:
+  - humbled and (?:thrilled|honou?red|excited|grateful)
+  - honou?red and humbled
+  - beyond (?:excited|thrilled|grateful|humbled)
+  - some personal news
+  - and a dream

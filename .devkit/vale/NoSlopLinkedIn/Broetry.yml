@@ -1,0 +1,28 @@
+extends: script
+message: "Broetry: most paragraphs are one sentence. Join the ones that belong together."
+level: warning
+scope: raw
+# Six or more paragraphs with 70% or more of them one sentence long. One short
+# line for emphasis is fine; every line on its own is the tell. Hashtag lines
+# and HTML comments don't count as paragraphs.
+script: |
+  text := import("text")
+  body := text.re_replace(`(?s)<!--.*?-->`, scope, "")
+  paras := []
+  for p in text.re_split(`\n\s*\n`, body, -1) {
+    t := text.trim_space(p)
+    if len(t) > 0 && !text.has_prefix(t, "#") { paras = append(paras, t) }
+  }
+  single := 0
+  for p in paras {
+    parts := 0
+    for s in text.re_split(`[.!?]["')\]]*\s+`, p, -1) {
+      if len(text.trim_space(s)) > 0 { parts += 1 }
+    }
+    if parts == 1 { single += 1 }
+  }
+  matches := []
+  if len(paras) >= 6 && single * 10 >= len(paras) * 7 {
+    start := text.index(scope, paras[0])
+    matches = append(matches, {begin: start, end: start + len(paras[0])})
+  }

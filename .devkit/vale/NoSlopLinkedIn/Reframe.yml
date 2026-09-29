@@ -1,0 +1,7 @@
+extends: existence
+message: "'%s' is the reframe move. Say what it's about once."
+level: warning
+ignorecase: true
+nonword: true
+tokens:
+  - '\bit[''’]?s not about [^.\n]{1,40}\. (?:it[''’]?s about|it never was)\b'

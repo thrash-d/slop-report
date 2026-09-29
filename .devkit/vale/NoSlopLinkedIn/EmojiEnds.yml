@@ -1,0 +1,6 @@
+extends: occurrence
+message: "Emoji at the end of line after line. Keep one at most."
+level: warning
+scope: raw
+max: 2
+token: '(?m)[\x{1F300}-\x{1FAFF}\x{2600}-\x{27BF}]\x{FE0F}?[ \t]*$'

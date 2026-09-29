@@ -1,0 +1,9 @@
+extends: existence
+message: "'%s' spins a lesson out of something unrelated. Say the lesson or cut it."
+level: warning
+ignorecase: true
+nonword: true
+tokens:
+  - '\btaught me(?: more)?(?: about\b|\.)'
+  - '\band that[''’]?s when I realized\b'
+  - '\bstop \w+ing\. start \w+ing\b'

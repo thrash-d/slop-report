@@ -1,0 +1,10 @@
+extends: existence
+message: "'%s' fakes a brave opinion. State the opinion."
+level: warning
+ignorecase: true
+nonword: true
+tokens:
+  - '\b(?:unpopular opinion|hot take|controversial take|I[''’]?ll say it):'
+  - '\bmost people won[''’]?t tell you\b'
+  - '\bnobody talks about this\b'
+  - '\bI said it\.'

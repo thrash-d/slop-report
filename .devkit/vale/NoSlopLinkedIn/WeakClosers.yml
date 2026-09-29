@@ -1,0 +1,9 @@
+extends: existence
+message: "'%s' asks for comments. Fine once; cut it if it's the only reason the post ends."
+level: suggestion
+ignorecase: true
+nonword: true
+tokens:
+  - '\bwhat would you add\?'
+  - '\bwhat am I missing\?'
+  - '\bwhat did I miss\?'

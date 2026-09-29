@@ -1,0 +1,6 @@
+extends: occurrence
+message: "Hashtag wall. Keep one or two tags that help someone find the post."
+level: warning
+scope: raw
+max: 3
+token: '(?<!\S)#[A-Za-z][A-Za-z0-9_]*'

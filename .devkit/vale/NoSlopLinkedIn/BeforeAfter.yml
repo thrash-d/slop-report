@@ -1,0 +1,6 @@
+extends: existence
+message: "'%s' opens a before-and-after arc. Tell what changed and why."
+level: warning
+ignorecase: true
+tokens:
+  - (?:\d+|two|three|four|five|six|seven|eight|nine|ten|fifteen|twenty) years ago,? I (?:was|had|lived|slept|got|couldn['’]?t)

@@ -1,0 +1,9 @@
+extends: existence
+message: "'%s' is hustle-guilt. Cut it."
+level: warning
+ignorecase: true
+tokens:
+  - while (?:everyone else|you) (?:was|were) (?:sleeping|asleep)
+  - no days off
+  - (?:2[5-9]|3\d) hours a day
+  - every morning at [3-5] ?a\.?m
