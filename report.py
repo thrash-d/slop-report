@@ -112,8 +112,10 @@ def lint(pool):
     shutil.rmtree(WORK, ignore_errors=True)
     WORK.mkdir()
     names = {}
-    for entry in pool:
-        name = entry["repo"].replace("/", "__") + ".md"
+    # Numbered, not named after the repo: a repo called "x.linkedin" would opt
+    # into slop-linter's LinkedIn rules by file name.
+    for i, entry in enumerate(pool):
+        name = f"readme{i}.md"
         (WORK / name).write_text(entry["readme"], encoding="utf-8")
         names[name] = entry["repo"]
     run = subprocess.run(
