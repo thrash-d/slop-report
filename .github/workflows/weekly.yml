@@ -12,9 +12,9 @@ permissions:
 
 env:
   VALE_VERSION: "3.22.0"
-  # slop-linter has no release tags, so the rules are pinned by commit. Bump it
-  # to pick up rule changes.
-  SLOP_LINTER_REF: 7e775d0443063d6cf580fc51bbf7eddc94788b5c
+  # Pinned to a full release, not the moving v1 tag, so a week's scores only
+  # change when this line does. Bump it to pick up rule changes.
+  SLOP_LINTER_REF: v1.0.0
 
 jobs:
   report:
