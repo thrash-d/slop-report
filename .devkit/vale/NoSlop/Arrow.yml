@@ -1,0 +1,7 @@
+extends: existence
+message: "Arrow character. Use words: 'to', 'then', or commas between menu steps."
+level: warning
+nonword: true
+# Unicode arrows only. ASCII -> is common in shells, logs, and code.
+tokens:
+  - '[\x{2192}\x{21D2}\x{27F6}\x{279C}\x{2794}\x{27A1}]'

@@ -1,0 +1,8 @@
+extends: existence
+message: "Dot used as a separator. Use a comma, a period, or a line break."
+level: warning
+nonword: true
+# A middle dot or bullet with a space on each side, as in "5 min read · Updated".
+# Catalan l·l has no spaces, so it passes.
+tokens:
+  - '\S [\x{00B7}\x{2022}] \S'
