@@ -20,9 +20,9 @@ jobs:
   report:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
 
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
         with:
           repository: thrash-d/slop-linter
           ref: ${{ env.SLOP_LINTER_REF }}
