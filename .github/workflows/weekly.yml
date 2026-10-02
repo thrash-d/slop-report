@@ -28,7 +28,7 @@ jobs:
           ref: ${{ env.SLOP_LINTER_REF }}
           path: slop-linter
 
-      - uses: actions/setup-python@v6
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
