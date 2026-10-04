@@ -4,7 +4,8 @@
 #
 # Merges a Dependabot pull request, major updates included, once the repo's
 # build and tests pass on it. The check runs `npm run build` and `npm test`
-# when package.json has them, and pytest when the repo has test_*.py files.
+# when package.json has them, and pytest when the repo has test_*.py files
+# (or runs each test_*.py as a script when pytest collects none).
 # A repo with none of these gets nothing merged, because nothing showed the
 # update works. The check runs the updated code with a read-only token; only
 # the merge job can write, and it never checks the code out.
@@ -43,7 +44,12 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; elif [ -f pyproject.toml ]; then pip install .; fi
           if [ -n "$(find . -name 'test_*.py' -not -path './node_modules/*' -not -path './.devkit/*' -print -quit)" ]; then
             pip install pytest
-            python -m pytest -q
+            # Exit 5 means pytest collected nothing: the test_*.py files are
+            # plain scripts, so run each one and let its exit code decide.
+            rc=0; python -m pytest -q || rc=$?
+            if [ "$rc" = 5 ]; then
+              find . -name 'test_*.py' -not -path './node_modules/*' -not -path './.devkit/*' -print0 | xargs -0 -n1 python
+            elif [ "$rc" != 0 ]; then exit "$rc"; fi
             ran=1
           fi
           if [ -z "$ran" ]; then echo "::error::No build or tests to run, so this update waits for review."; exit 1; fi
