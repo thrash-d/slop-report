@@ -2,7 +2,7 @@
  {
   "repo": "rehan-remade/universal-modder",
   "url": "https://github.com/rehan-remade/universal-modder",
-  "stars": 3739,
+  "stars": 3800,
   "description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
   "words": 1332,
   "alerts": 13,
@@ -31,7 +31,7 @@
  {
   "repo": "CopilotKit/OpenDots",
   "url": "https://github.com/CopilotKit/OpenDots",
-  "stars": 3593,
+  "stars": 3643,
   "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
   "words": 1800,
   "alerts": 12,
@@ -60,7 +60,7 @@
  {
   "repo": "feder-cr/dots",
   "url": "https://github.com/feder-cr/dots",
-  "stars": 2613,
+  "stars": 2617,
   "description": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
   "words": 311,
   "alerts": 1,
@@ -77,7 +77,7 @@
  {
   "repo": "storytold/photocraft",
   "url": "https://github.com/storytold/photocraft",
-  "stars": 1825,
+  "stars": 1927,
   "description": "An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust",
   "words": 2176,
   "alerts": 67,
@@ -106,11 +106,11 @@
  {
   "repo": "omlahore/RemoveMacAI",
   "url": "https://github.com/omlahore/RemoveMacAI",
-  "stars": 1688,
+  "stars": 1882,
   "description": "Turn off Apple Intelligence on macOS 27 and get its disk space back. One command, fully reversible.",
-  "words": 592,
+  "words": 626,
   "alerts": 1,
-  "score": 1.7,
+  "score": 1.6,
   "top": [
    {
     "rule": "Bold",
@@ -123,7 +123,7 @@
  {
   "repo": "nykooi1/vibe-wise",
   "url": "https://github.com/nykooi1/vibe-wise",
-  "stars": 1585,
+  "stars": 1694,
   "description": "A Claude Code plugin that helps you learn how to build while AI writes the code.",
   "words": 887,
   "alerts": 23,
@@ -152,7 +152,7 @@
  {
   "repo": "QingYunA/answer-me-with-html",
   "url": "https://github.com/QingYunA/answer-me-with-html",
-  "stars": 1465,
+  "stars": 1471,
   "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
   "words": 2121,
   "alerts": 23,
@@ -179,9 +179,26 @@
   ]
  },
  {
+  "repo": "kargulstudio/sales-crm",
+  "url": "https://github.com/kargulstudio/sales-crm",
+  "stars": 1412,
+  "description": "",
+  "words": 164,
+  "alerts": 6,
+  "score": 36.6,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 6,
+    "snippet": "…ONVENTIONS.md` before writing any component, section, or pag<mark>e —</mark> it is the whole spec for how this repo is built."
+   }
+  ]
+ },
+ {
   "repo": "facebookincubator/muse-gadget-sdk",
   "url": "https://github.com/facebookincubator/muse-gadget-sdk",
-  "stars": 1397,
+  "stars": 1407,
   "description": "Open source SDK to build Muse gadgets",
   "words": 320,
   "alerts": 0,
@@ -191,7 +208,7 @@
  {
   "repo": "firelex/jeff",
   "url": "https://github.com/firelex/jeff",
-  "stars": 1388,
+  "stars": 1392,
   "description": "Millisecond decisions, any domain: a 0.8B open \"System 1\" model that picks between your options with calibrated probabilities. One base, swappable LoRA adapters, on your own hardware.",
   "words": 2781,
   "alerts": 33,
@@ -218,26 +235,9 @@
   ]
  },
  {
-  "repo": "kargulstudio/sales-crm",
-  "url": "https://github.com/kargulstudio/sales-crm",
-  "stars": 1372,
-  "description": "",
-  "words": 164,
-  "alerts": 6,
-  "score": 36.6,
-  "top": [
-   {
-    "rule": "EmDash",
-    "message": "Em dash. Use a period, comma, or parentheses.",
-    "count": 6,
-    "snippet": "…ONVENTIONS.md` before writing any component, section, or pag<mark>e —</mark> it is the whole spec for how this repo is built."
-   }
-  ]
- },
- {
   "repo": "edenfunf/reelmimic",
   "url": "https://github.com/edenfunf/reelmimic",
-  "stars": 1356,
+  "stars": 1373,
   "description": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
   "words": 1095,
   "alerts": 11,
@@ -266,7 +266,7 @@
  {
   "repo": "CAPCOM-TD-OSS/REDox",
   "url": "https://github.com/CAPCOM-TD-OSS/REDox",
-  "stars": 1070,
+  "stars": 1075,
   "description": "High-performance, token-based structured data engine for .NET. A core component of REX, the technology behind CAPCOM's next-generation game engine.",
   "words": 1412,
   "alerts": 17,
@@ -295,7 +295,7 @@
  {
   "repo": "chasmlol/SkyCraft",
   "url": "https://github.com/chasmlol/SkyCraft",
-  "stars": 962,
+  "stars": 972,
   "description": "Play Skyrim as a Minecraft player: Minecraft physics, inventory, blocks and combat inside Skyrim's world (SKSE plugin + Fabric mod).",
   "words": 1386,
   "alerts": 13,
@@ -312,6 +312,35 @@
     "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
     "count": 1,
     "snippet": "&gt; <mark>**Status: early and experimental.**</mark> Expect rough edges, and back up your saves."
+   }
+  ]
+ },
+ {
+  "repo": "BlueHeisenberg/SCSKiller",
+  "url": "https://github.com/BlueHeisenberg/SCSKiller",
+  "stars": 792,
+  "description": "Kill shader compilation stutter before you play. Compiles your games' shaders into the GPU driver's cache ahead of time. Windows, NVIDIA and AMD.",
+  "words": 1365,
+  "alerts": 7,
+  "score": 5.1,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 4,
+    "snippet": "\n- **Fixes:**"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 1,
+    "snippet": "About 5 minutes of play per game, cold driver cache <mark>→</mark> compiled with SCSKiller. A stutter is a shader compile the …"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "- <mark>**Fixes:**</mark> shader compilation stutter."
    }
   ]
  },
@@ -339,67 +368,9 @@
   ]
  },
  {
-  "repo": "BlueHeisenberg/SCSKiller",
-  "url": "https://github.com/BlueHeisenberg/SCSKiller",
-  "stars": 733,
-  "description": "Kill shader compilation stutter before you play. Compiles your games' shaders into the GPU driver's cache ahead of time. Windows, NVIDIA and AMD.",
-  "words": 1365,
-  "alerts": 7,
-  "score": 5.1,
-  "top": [
-   {
-    "rule": "InlineHeaderList",
-    "message": "Bold-header list item. Convert to prose or a plain list.",
-    "count": 4,
-    "snippet": "\n- **Fixes:**"
-   },
-   {
-    "rule": "Arrow",
-    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
-    "count": 1,
-    "snippet": "About 5 minutes of play per game, cold driver cache <mark>→</mark> compiled with SCSKiller. A stutter is a shader compile the …"
-   },
-   {
-    "rule": "Bold",
-    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
-    "count": 1,
-    "snippet": "- <mark>**Fixes:**</mark> shader compilation stutter."
-   }
-  ]
- },
- {
-  "repo": "StayLameBro/backburner",
-  "url": "https://github.com/StayLameBro/backburner",
-  "stars": 648,
-  "description": "Your iPhone helps your Mac run a 27B model: faster prompt reading and more context over a USB-C cable",
-  "words": 1845,
-  "alerts": 5,
-  "score": 2.7,
-  "top": [
-   {
-    "rule": "HeadingAside",
-    "message": "Parenthetical aside in a heading. A heading is a label; move the aside into the body or cut it.",
-    "count": 2,
-    "snippet": "### Reading <mark>(prefill)</mark>: Mac alone vs Mac + iPhone, same build"
-   },
-   {
-    "rule": "Bold",
-    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
-    "count": 1,
-    "snippet": "- <mark>**Faster prefill (up to 64k context).**</mark> For every batch of prompt tokens the Mac runs layers 1-40 a…"
-   },
-   {
-    "rule": "HeadingCase",
-    "message": "Use sentence case for 'Reading (prefill): Mac alone vs Mac + iPhone, same build'.",
-    "count": 1,
-    "snippet": "### <mark>Reading (prefill): Mac alone vs Mac + iPhone, same build</mark>"
-   }
-  ]
- },
- {
   "repo": "deadinside28/bloodborne_pc",
   "url": "https://github.com/deadinside28/bloodborne_pc",
-  "stars": 634,
+  "stars": 663,
   "description": "",
   "words": 1973,
   "alerts": 14,
@@ -426,9 +397,38 @@
   ]
  },
  {
+  "repo": "StayLameBro/backburner",
+  "url": "https://github.com/StayLameBro/backburner",
+  "stars": 657,
+  "description": "Your iPhone helps your Mac run a 27B model: faster prompt reading and more context over a USB-C cable",
+  "words": 1845,
+  "alerts": 5,
+  "score": 2.7,
+  "top": [
+   {
+    "rule": "HeadingAside",
+    "message": "Parenthetical aside in a heading. A heading is a label; move the aside into the body or cut it.",
+    "count": 2,
+    "snippet": "### Reading <mark>(prefill)</mark>: Mac alone vs Mac + iPhone, same build"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "- <mark>**Faster prefill (up to 64k context).**</mark> For every batch of prompt tokens the Mac runs layers 1-40 a…"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Reading (prefill): Mac alone vs Mac + iPhone, same build'.",
+    "count": 1,
+    "snippet": "### <mark>Reading (prefill): Mac alone vs Mac + iPhone, same build</mark>"
+   }
+  ]
+ },
+ {
   "repo": "ESPARGOS/esp-sdr",
   "url": "https://github.com/ESPARGOS/esp-sdr",
-  "stars": 633,
+  "stars": 639,
   "description": "ESP-SDR uses the undocumented raw I/Q capture functionality of ESP32 family chips to turn them into (low-duty-cycle) Software Defined Radios",
   "words": 1841,
   "alerts": 48,
@@ -457,9 +457,9 @@
  {
   "repo": "extend-hq/jevbox",
   "url": "https://github.com/extend-hq/jevbox",
-  "stars": 588,
+  "stars": 599,
   "description": "",
-  "words": 1777,
+  "words": 1780,
   "alerts": 5,
   "score": 2.8,
   "top": [
@@ -484,19 +484,9 @@
   ]
  },
  {
-  "repo": "composio-community/open-dot",
-  "url": "https://github.com/composio-community/open-dot",
-  "stars": 576,
-  "description": "Open-source personal AI agents that work on their own, on their own computers. Mac app, OpenAI + Composio.",
-  "words": 905,
-  "alerts": 0,
-  "score": 0.0,
-  "top": []
- },
- {
   "repo": "ythx-101/live-panel-skill",
   "url": "https://github.com/ythx-101/live-panel-skill",
-  "stars": 574,
+  "stars": 579,
   "description": "Config-driven animated architecture diagrams: turn one JSON file into a terminal-style, always-running diagram or a light-theme infographic that moves. Outputs H.264 mp4 or a live web page; also a Claude Code style skill (SKILL.md).",
   "words": 994,
   "alerts": 4,
@@ -517,9 +507,48 @@
   ]
  },
  {
+  "repo": "storytold/filmcraft",
+  "url": "https://github.com/storytold/filmcraft",
+  "stars": 577,
+  "description": "An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure Rust.",
+  "words": 2868,
+  "alerts": 44,
+  "score": 15.3,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 22,
+    "snippet": "\n- **Basic Correction:**"
+   },
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 19,
+    "snippet": "m · A"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "&gt; <mark>**ArtCraft is a community of artists from all walks of life.**</mark> Digital, generative, music,"
+   }
+  ]
+ },
+ {
+  "repo": "composio-community/open-dot",
+  "url": "https://github.com/composio-community/open-dot",
+  "stars": 577,
+  "description": "Open-source personal AI agents that work on their own, on their own computers. Mac app, OpenAI + Composio.",
+  "words": 905,
+  "alerts": 0,
+  "score": 0.0,
+  "top": []
+ },
+ {
   "repo": "OpSafari/hypoarena",
   "url": "https://github.com/OpSafari/hypoarena",
-  "stars": 562,
+  "stars": 563,
   "description": "Scientific hypothesis-discovery workbench: grounded hypothesis-evidence graphs, synthetic literature with planted causal chains, generate-debate-evolve loops over pluggable offline adapters, Elo tournaments recovering planted skill order, paraphrase dedup, Bayesian evidence accumulation, reproducible reports. NumPy core, CPU-only torch extra.",
   "words": 588,
   "alerts": 7,
@@ -546,48 +575,9 @@
   ]
  },
  {
-  "repo": "storytold/filmcraft",
-  "url": "https://github.com/storytold/filmcraft",
-  "stars": 546,
-  "description": "An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure Rust.",
-  "words": 2858,
-  "alerts": 44,
-  "score": 15.4,
-  "top": [
-   {
-    "rule": "InlineHeaderList",
-    "message": "Bold-header list item. Convert to prose or a plain list.",
-    "count": 22,
-    "snippet": "\n- **Basic Correction:**"
-   },
-   {
-    "rule": "MiddleDot",
-    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
-    "count": 19,
-    "snippet": "m · A"
-   },
-   {
-    "rule": "Bold",
-    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
-    "count": 1,
-    "snippet": "&gt; <mark>**ArtCraft is a community of artists from all walks of life.**</mark> Digital, generative, music,"
-   }
-  ]
- },
- {
-  "repo": "ZacharyZhang-NY/Ely-GPUI-Components",
-  "url": "https://github.com/ZacharyZhang-NY/Ely-GPUI-Components",
-  "stars": 524,
-  "description": "A component library for GPUI, in light and dark. Every component runs live in the browser.",
-  "words": 160,
-  "alerts": 0,
-  "score": 0.0,
-  "top": []
- },
- {
   "repo": "lucasmarkes/hairline",
   "url": "https://github.com/lucasmarkes/hairline",
-  "stars": 511,
+  "stars": 536,
   "description": "Six isometric line figures that answer the pointer. For React and for anything with a DOM.",
   "words": 1264,
   "alerts": 1,
@@ -602,9 +592,19 @@
   ]
  },
  {
+  "repo": "ZacharyZhang-NY/Ely-GPUI-Components",
+  "url": "https://github.com/ZacharyZhang-NY/Ely-GPUI-Components",
+  "stars": 529,
+  "description": "A component library for GPUI, in light and dark. Every component runs live in the browser.",
+  "words": 160,
+  "alerts": 0,
+  "score": 0.0,
+  "top": []
+ },
+ {
   "repo": "deepseek-ai/DeepGEMM-Ascend",
   "url": "https://github.com/deepseek-ai/DeepGEMM-Ascend",
-  "stars": 509,
+  "stars": 511,
   "description": "DeepGEMM-Ascend: clean and efficient matrix multiplication kernel library for Huawei Ascend NPUs",
   "words": 934,
   "alerts": 9,
@@ -627,7 +627,7 @@
  {
   "repo": "amywork777/lipflow",
   "url": "https://github.com/amywork777/lipflow",
-  "stars": 504,
+  "stars": 507,
   "description": "Wispr Flow for your lips: hold a key, silently mouth words, and they're typed at your cursor. Runs locally on your Mac.",
   "words": 1734,
   "alerts": 42,
@@ -650,6 +650,23 @@
     "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
     "count": 1,
     "snippet": "<mark>**Wispr Flow for your lips.**</mark> Hold a key, silently mouth what you want to say, let go, an…"
+   }
+  ]
+ },
+ {
+  "repo": "Jakeschincariol/replica-skill",
+  "url": "https://github.com/Jakeschincariol/replica-skill",
+  "stars": 488,
+  "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.",
+  "words": 1215,
+  "alerts": 1,
+  "score": 0.8,
+  "top": [
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**It rebuilds what an app does, never what it owns.**</mark> Features and flows,"
    }
   ]
  },
@@ -685,7 +702,7 @@
  {
   "repo": "whirlchat/whirl",
   "url": "https://github.com/whirlchat/whirl",
-  "stars": 476,
+  "stars": 477,
   "description": "The AI chat app that sweats the details. Every top model, real memory, living documents, and your own tools.",
   "words": 408,
   "alerts": 6,
@@ -712,26 +729,9 @@
   ]
  },
  {
-  "repo": "Jakeschincariol/replica-skill",
-  "url": "https://github.com/Jakeschincariol/replica-skill",
-  "stars": 470,
-  "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.",
-  "words": 1215,
-  "alerts": 1,
-  "score": 0.8,
-  "top": [
-   {
-    "rule": "Bold",
-    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
-    "count": 1,
-    "snippet": "<mark>**It rebuilds what an app does, never what it owns.**</mark> Features and flows,"
-   }
-  ]
- },
- {
   "repo": "storytold/lightcraft",
   "url": "https://github.com/storytold/lightcraft",
-  "stars": 431,
+  "stars": 456,
   "description": "An open-source, clean-room reimplementation of Adobe Lightroom in pure Rust.",
   "words": 2494,
   "alerts": 43,
@@ -760,7 +760,7 @@
  {
   "repo": "storytold/vectorcraft",
   "url": "https://github.com/storytold/vectorcraft",
-  "stars": 421,
+  "stars": 443,
   "description": "An open-source, clean-room reimplementation of Adobe Illustrator, built in pure Rust.",
   "words": 1029,
   "alerts": 22,
@@ -787,55 +787,38 @@
   ]
  },
  {
-  "repo": "PostHog/jeeves",
-  "url": "https://github.com/PostHog/jeeves",
-  "stars": 411,
-  "description": "Jeeves – Reasoning improves Jev-like decision models",
-  "words": 1268,
-  "alerts": 1,
-  "score": 0.8,
+  "repo": "rauchg/gdp-ts",
+  "url": "https://github.com/rauchg/gdp-ts",
+  "stars": 441,
+  "description": "",
+  "words": 1080,
+  "alerts": 6,
+  "score": 5.6,
   "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 4,
+    "snippet": "\n- **Incrementally adoptable**:"
+   },
    {
     "rule": "Bold",
     "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
     "count": 1,
-    "snippet": "| <mark>**Test overall**</mark> (out-of-domain and held-out, item-weighted) | 0.822        …"
-   }
-  ]
- },
- {
-  "repo": "zzzz7788990213-ops/EvoVLM",
-  "url": "https://github.com/zzzz7788990213-ops/EvoVLM",
-  "stars": 407,
-  "description": "Evolving Multimodal Inference Programs: LLM-guided evolutionary search for accurate and efficient vision-language inference.",
-  "words": 704,
-  "alerts": 6,
-  "score": 8.5,
-  "top": [
-   {
-    "rule": "MiddleDot",
-    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
-    "count": 4,
-    "snippet": "d · R"
+    "snippet": "- <mark>**Incrementally adoptable**</mark>: works with any TS codebase and any runtime, and doesn&#x27;t ch…"
    },
    {
     "rule": "HeadingCase",
-    "message": "Use sentence case for 'Evolving Multimodal Inference Programs'.",
+    "message": "Use sentence case for 'Prior art & Credits'.",
     "count": 1,
-    "snippet": "### <mark>Evolving Multimodal Inference Programs</mark>"
-   },
-   {
-    "rule": "Bold",
-    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
-    "count": 1,
-    "snippet": "<mark>**Evolve the inference program. Keep the model frozen.**</mark>"
+    "snippet": "## <mark>Prior art &amp; Credits</mark>"
    }
   ]
  },
  {
   "repo": "storytold/printcraft",
   "url": "https://github.com/storytold/printcraft",
-  "stars": 402,
+  "stars": 425,
   "description": "An open-source, clean-room reimplementation of Adobe Acrobat built in pure Rust",
   "words": 2154,
   "alerts": 33,
@@ -862,38 +845,55 @@
   ]
  },
  {
-  "repo": "fulldiagnose/antigravity-fixer",
-  "url": "https://github.com/fulldiagnose/antigravity-fixer",
-  "stars": 392,
-  "description": "Fix Antigravity 'not eligible' error - diagnose, clean credentials, auto-fix",
-  "words": 620,
-  "alerts": 34,
-  "score": 54.8,
+  "repo": "zzzz7788990213-ops/EvoVLM",
+  "url": "https://github.com/zzzz7788990213-ops/EvoVLM",
+  "stars": 415,
+  "description": "Evolving Multimodal Inference Programs: LLM-guided evolutionary search for accurate and efficient vision-language inference.",
+  "words": 704,
+  "alerts": 6,
+  "score": 8.5,
   "top": [
-   {
-    "rule": "EmDash",
-    "message": "Em dash. Use a period, comma, or parentheses.",
-    "count": 11,
-    "snippet": "s —"
-   },
    {
     "rule": "MiddleDot",
     "message": "Dot used as a separator. Use a comma, a period, or a line break.",
-    "count": 10,
-    "snippet": "s · A"
+    "count": 4,
+    "snippet": "d · R"
    },
    {
     "rule": "HeadingCase",
-    "message": "Use sentence case for 'How It Works'.",
-    "count": 6,
-    "snippet": "### <mark>How It Works</mark>"
+    "message": "Use sentence case for 'Evolving Multimodal Inference Programs'.",
+    "count": 1,
+    "snippet": "### <mark>Evolving Multimodal Inference Programs</mark>"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**Evolve the inference program. Keep the model frozen.**</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "PostHog/jeeves",
+  "url": "https://github.com/PostHog/jeeves",
+  "stars": 411,
+  "description": "Jeeves – Reasoning improves Jev-like decision models",
+  "words": 1268,
+  "alerts": 1,
+  "score": 0.8,
+  "top": [
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "| <mark>**Test overall**</mark> (out-of-domain and held-out, item-weighted) | 0.822        …"
    }
   ]
  },
  {
   "repo": "Dingo-Shenanigans/ReSkate",
   "url": "https://github.com/Dingo-Shenanigans/ReSkate",
-  "stars": 386,
+  "stars": 393,
   "description": "",
   "words": 1378,
   "alerts": 6,
@@ -920,11 +920,40 @@
   ]
  },
  {
+  "repo": "fulldiagnose/antigravity-fixer",
+  "url": "https://github.com/fulldiagnose/antigravity-fixer",
+  "stars": 393,
+  "description": "Fix Antigravity 'not eligible' error - diagnose, clean credentials, auto-fix",
+  "words": 620,
+  "alerts": 34,
+  "score": 54.8,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 11,
+    "snippet": "s —"
+   },
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 10,
+    "snippet": "s · A"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'How It Works'.",
+    "count": 6,
+    "snippet": "### <mark>How It Works</mark>"
+   }
+  ]
+ },
+ {
   "repo": "blackbearreloaded/ProsperoEden",
   "url": "https://github.com/blackbearreloaded/ProsperoEden",
-  "stars": 383,
+  "stars": 387,
   "description": "Experimental Eden port for PS5",
-  "words": 6406,
+  "words": 6480,
   "alerts": 3,
   "score": 0.5,
   "top": [
@@ -951,7 +980,7 @@
  {
   "repo": "strands-labs/strands-decider",
   "url": "https://github.com/strands-labs/strands-decider",
-  "stars": 377,
+  "stars": 385,
   "description": "A small, fast decision model, or system one model, for agentic workflows. Pick between options or rate on a scale faster than an LLM, with a calibrated confidence on every decision.",
   "words": 1627,
   "alerts": 16,
@@ -980,7 +1009,7 @@
  {
   "repo": "mdpsec/bug-bounty-hunting-prompts",
   "url": "https://github.com/mdpsec/bug-bounty-hunting-prompts",
-  "stars": 372,
+  "stars": 377,
   "description": "Reusable prompts for a structured, evidence-first bug bounty hunting workflow",
   "words": 545,
   "alerts": 0,
@@ -988,9 +1017,32 @@
   "top": []
  },
  {
+  "repo": "blendi-remade/agentcraft",
+  "url": "https://github.com/blendi-remade/agentcraft",
+  "stars": 375,
+  "description": "",
+  "words": 1597,
+  "alerts": 8,
+  "score": 5.0,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 7,
+    "snippet": "\n- **Team:**"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**A team of Claude agents doing real work on your code, inside a Minecraft studio you can walk around in.**</mark>"
+   }
+  ]
+ },
+ {
   "repo": "serein-morii/DiPlay-CN",
   "url": "https://github.com/serein-morii/DiPlay-CN",
-  "stars": 370,
+  "stars": 372,
   "description": "DiPlay汉化版",
   "words": 1030,
   "alerts": 18,
@@ -1017,32 +1069,9 @@
   ]
  },
  {
-  "repo": "blendi-remade/agentcraft",
-  "url": "https://github.com/blendi-remade/agentcraft",
-  "stars": 368,
-  "description": "",
-  "words": 1597,
-  "alerts": 8,
-  "score": 5.0,
-  "top": [
-   {
-    "rule": "InlineHeaderList",
-    "message": "Bold-header list item. Convert to prose or a plain list.",
-    "count": 7,
-    "snippet": "\n- **Team:**"
-   },
-   {
-    "rule": "Bold",
-    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
-    "count": 1,
-    "snippet": "<mark>**A team of Claude agents doing real work on your code, inside a Minecraft studio you can walk around in.**</mark>"
-   }
-  ]
- },
- {
   "repo": "allenv0/SCM",
   "url": "https://github.com/allenv0/SCM",
-  "stars": 358,
+  "stars": 363,
   "description": "Deep AI search for every photo and every frame of video in any folder on macOS",
   "words": 1583,
   "alerts": 46,
@@ -1069,67 +1098,9 @@
   ]
  },
  {
-  "repo": "rauchg/gdp-ts",
-  "url": "https://github.com/rauchg/gdp-ts",
-  "stars": 353,
-  "description": "",
-  "words": 1080,
-  "alerts": 6,
-  "score": 5.6,
-  "top": [
-   {
-    "rule": "InlineHeaderList",
-    "message": "Bold-header list item. Convert to prose or a plain list.",
-    "count": 4,
-    "snippet": "\n- **Incrementally adoptable**:"
-   },
-   {
-    "rule": "Bold",
-    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
-    "count": 1,
-    "snippet": "- <mark>**Incrementally adoptable**</mark>: works with any TS codebase and any runtime, and doesn&#x27;t ch…"
-   },
-   {
-    "rule": "HeadingCase",
-    "message": "Use sentence case for 'Prior art & Credits'.",
-    "count": 1,
-    "snippet": "## <mark>Prior art &amp; Credits</mark>"
-   }
-  ]
- },
- {
-  "repo": "alpcanaydin/tusk",
-  "url": "https://github.com/alpcanaydin/tusk",
-  "stars": 341,
-  "description": "A fast, native, keyboard-driven database client for macOS. 20 databases, an AI assistant that shows its work, free and open source.",
-  "words": 1654,
-  "alerts": 6,
-  "score": 3.6,
-  "top": [
-   {
-    "rule": "HeadingCase",
-    "message": "Use sentence case for 'Why Tusk'.",
-    "count": 2,
-    "snippet": "## <mark>Why Tusk</mark>"
-   },
-   {
-    "rule": "Arrow",
-    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
-    "count": 2,
-    "snippet": "On Linux, choose the graphics device in **Settings <mark>→</mark> General → Graphics Device**"
-   },
-   {
-    "rule": "Bold",
-    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
-    "count": 1,
-    "snippet": "<mark>**The gentle giant for your databases.**</mark>"
-   }
-  ]
- },
- {
   "repo": "storytold/effectcraft",
   "url": "https://github.com/storytold/effectcraft",
-  "stars": 338,
+  "stars": 359,
   "description": "",
   "words": 1767,
   "alerts": 31,
@@ -1156,9 +1127,38 @@
   ]
  },
  {
+  "repo": "alpcanaydin/tusk",
+  "url": "https://github.com/alpcanaydin/tusk",
+  "stars": 343,
+  "description": "A fast, native, keyboard-driven database client for macOS. 20 databases, an AI assistant that shows its work, free and open source.",
+  "words": 1654,
+  "alerts": 6,
+  "score": 3.6,
+  "top": [
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Why Tusk'.",
+    "count": 2,
+    "snippet": "## <mark>Why Tusk</mark>"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 2,
+    "snippet": "On Linux, choose the graphics device in **Settings <mark>→</mark> General → Graphics Device**"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**The gentle giant for your databases.**</mark>"
+   }
+  ]
+ },
+ {
   "repo": "noahdunnagan/mcopt",
   "url": "https://github.com/noahdunnagan/mcopt",
-  "stars": 309,
+  "stars": 315,
   "description": "mcopt, a Minecraft mod: a native Metal renderer for Minecraft: Java Edition on Apple Silicon Macs (alpha)",
   "words": 349,
   "alerts": 0,
@@ -1168,7 +1168,7 @@
  {
   "repo": "openJiuwen-ai/iCode",
   "url": "https://github.com/openJiuwen-ai/iCode",
-  "stars": 303,
+  "stars": 304,
   "description": "A lightweight, extensible, fully offline development platform and agent/workflow toolkit for the AI era, with an intuitive TUI, easy deployment, and complete control over your data, agents, and workflows.",
   "words": 700,
   "alerts": 2,
@@ -1191,7 +1191,7 @@
  {
   "repo": "CharlesFeng0314/JEV_sees",
   "url": "https://github.com/CharlesFeng0314/JEV_sees",
-  "stars": 293,
+  "stars": 296,
   "description": "Eyes are All JEV Needs - real time visual devisions from RGB, video and RGB-D cameras.",
   "words": 1199,
   "alerts": 15,
@@ -1218,19 +1218,31 @@
   ]
  },
  {
-  "repo": "Adolanium/hermes-gadget-sdk",
-  "url": "https://github.com/Adolanium/hermes-gadget-sdk",
-  "stars": 270,
-  "description": "Build voice and text devices for your Hermes Agent, with ESP32 firmware, a Linux client, and a desktop simulator.",
-  "words": 815,
-  "alerts": 2,
-  "score": 2.5,
+  "repo": "KingKongRobotics/jumper",
+  "url": "https://github.com/KingKongRobotics/jumper",
+  "stars": 283,
+  "description": "🦀 Jumper — an crab robot.",
+  "words": 384,
+  "alerts": 6,
+  "score": 15.6,
   "top": [
    {
-    "rule": "MiddleDot",
-    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
-    "count": 2,
-    "snippet": "d · T"
+    "rule": "AIWords",
+    "message": "AI-vocabulary word 'showcase'. Rewrite the sentence.",
+    "count": 3,
+    "snippet": "…[Dance simulation](docs/media/dance.gif)&lt;br&gt;![Dance website <mark>showcase</mark>](docs/media/official-dance.gif) | ![Jump simulation](docs/m…"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**English**</mark> | [简体中文](README.zh.md)"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 1,
+    "snippet": "**Jumper is a 22-DoF crab robot.** [View hardware <mark>→</mark>](docs/HARDWARE.md)"
    }
   ]
  }
