@@ -1,0 +1,1324 @@
+[
+ {
+  "repo": "openai/math",
+  "url": "https://github.com/openai/math",
+  "stars": 14403,
+  "description": "",
+  "words": 494,
+  "alerts": 4,
+  "score": 8.1,
+  "top": [
+   {
+    "rule": "AIWordsSoft",
+    "message": "Likely AI word 'Navigating the'. Use the plain word or cut it.",
+    "count": 2,
+    "snippet": "## <mark>Navigating the</mark> collection"
+   },
+   {
+    "rule": "PlainWords",
+    "message": "Plain word: 'try' instead of 'endeavor'.",
+    "count": 1,
+    "snippet": "Some of the unformalized results could have issues. We will <mark>endeavor</mark> to fix any such issues quickly."
+   },
+   {
+    "rule": "Filler",
+    "message": "Use 'most' instead of 'The vast majority of'.",
+    "count": 1,
+    "snippet": "<mark>The vast majority of</mark> results were obtained with the same procedure using an unre…"
+   }
+  ]
+ },
+ {
+  "repo": "storytold/wordcraft",
+  "url": "https://github.com/storytold/wordcraft",
+  "stars": 8947,
+  "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
+  "words": 2112,
+  "alerts": 19,
+  "score": 9.0,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 15,
+    "snippet": "m · A"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Why WordCraft'.",
+    "count": 2,
+    "snippet": "## <mark>Why WordCraft</mark>"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "&gt; <mark>**ArtCraft is a community of artists from all walks of life.**</mark> Painters, photographers,"
+   }
+  ]
+ },
+ {
+  "repo": "wheresryan22/anatomy",
+  "url": "https://github.com/wheresryan22/anatomy",
+  "stars": 6033,
+  "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+  "words": 2187,
+  "alerts": 9,
+  "score": 4.1,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 8,
+    "snippet": "t · G"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "| <mark>**SVG**</mark> | The core. Solid isometric parts with four-tone shading, p…"
+   }
+  ]
+ },
+ {
+  "repo": "storytold/gridcraft",
+  "url": "https://github.com/storytold/gridcraft",
+  "stars": 3768,
+  "description": "GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft.",
+  "words": 1805,
+  "alerts": 25,
+  "score": 13.9,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 17,
+    "snippet": "m · A"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Why GridCraft'.",
+    "count": 2,
+    "snippet": "## <mark>Why GridCraft</mark>"
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 2,
+    "snippet": "<mark>- **Bundled assets:**</mark> each one is listed with its licence in [`ATTRIBUTION.md`](A…"
+   }
+  ]
+ },
+ {
+  "repo": "storytold/cadcraft",
+  "url": "https://github.com/storytold/cadcraft",
+  "stars": 3407,
+  "description": "CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust",
+  "words": 2364,
+  "alerts": 20,
+  "score": 8.5,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 15,
+    "snippet": "m · A"
+   },
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 2,
+    "snippet": "…m labels, a TABLE, a multileader and architectural dimension<mark>s —</mark> built entirely from CADCraft commands.&lt;/sub&gt;"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "&gt; <mark>**ArtCraft is a community of artists from all walks of life.**</mark> Painters, photographers,"
+   }
+  ]
+ },
+ {
+  "repo": "LosaLosSantos/aurelio-finance",
+  "url": "https://github.com/LosaLosSantos/aurelio-finance",
+  "stars": 2806,
+  "description": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
+  "words": 436,
+  "alerts": 8,
+  "score": 18.3,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 7,
+    "snippet": "\n- **Wealth**:"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**Aurelio**</mark> is a wealth-management and financial-planning app that runs…"
+   }
+  ]
+ },
+ {
+  "repo": "nullmoth/nvidia-macos-driver",
+  "url": "https://github.com/nullmoth/nvidia-macos-driver",
+  "stars": 2728,
+  "description": "Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included.",
+  "words": 1029,
+  "alerts": 9,
+  "score": 8.7,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 2,
+    "snippet": "## Instal<mark>l —</mark> prebuilt (recommended)"
+   },
+   {
+    "rule": "HeadingAside",
+    "message": "Parenthetical aside in a heading. A heading is a label; move the aside into the body or cut it.",
+    "count": 2,
+    "snippet": "## Install — prebuilt <mark>(recommended)</mark>"
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 2,
+    "snippet": "<mark>- **BIOS:**</mark> Above 4G Decoding ON (the card maps memory above 4 GB), CSM…"
+   }
+  ]
+ },
+ {
+  "repo": "storytold/deckcraft",
+  "url": "https://github.com/storytold/deckcraft",
+  "stars": 2544,
+  "description": "Presentations and slide shows: an open-source, clean-room reimplementation of Microsoft PowerPoint in pure Rust. Part of the ArtCraft Crafting Apps.",
+  "words": 1325,
+  "alerts": 23,
+  "score": 17.4,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 12,
+    "snippet": "m · A"
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 7,
+    "snippet": "\n- **Make decks**:"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Agents, CLI and MCP'.",
+    "count": 2,
+    "snippet": "## <mark>Agents, CLI and MCP</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "t4t5/omdrop-owl",
+  "url": "https://github.com/t4t5/omdrop-owl",
+  "stars": 2439,
+  "description": "airdrop for non-apple devices",
+  "words": 737,
+  "alerts": 11,
+  "score": 14.9,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 8,
+    "snippet": "| Intel AX210 | `iwlwifi` | ❓ Exclusive untested | <mark>—</mark> |"
+   },
+   {
+    "rule": "EmojiStructure",
+    "message": "Emoji in a heading or bullet. Delete it.",
+    "count": 2,
+    "snippet": "\n- ✅"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "- <mark>**Shared**</mark> mode = Wi-Fi stays connected"
+   }
+  ]
+ },
+ {
+  "repo": "storytold/soundcraft",
+  "url": "https://github.com/storytold/soundcraft",
+  "stars": 2226,
+  "description": "An open-source, clean-room reimplementation of Avid Pro Tools in pure Rust",
+  "words": 2254,
+  "alerts": 24,
+  "score": 10.6,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 11,
+    "snippet": "m · A"
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 10,
+    "snippet": "\n- **Editing:**"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "&gt; <mark>**ArtCraft is a community of artists from all walks of life.**</mark> Painters, photographers,"
+   }
+  ]
+ },
+ {
+  "repo": "alejandrobujan/tendedero",
+  "url": "https://github.com/alejandrobujan/tendedero",
+  "stars": 1986,
+  "description": "Screenshots, hung out to dry. A tiny native macOS app that hangs every screenshot on a line at the top of your screen.",
+  "words": 700,
+  "alerts": 3,
+  "score": 4.3,
+  "top": [
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Your Desktop. Finally clear.'.",
+    "count": 2,
+    "snippet": "## <mark>Your Desktop. Finally clear.</mark>"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "| <mark>**Compatibility**</mark> | macOS 14 Sonoma or later, on Apple silicon and Intel. Des…"
+   }
+  ]
+ },
+ {
+  "repo": "noahdunnagan/fsearch",
+  "url": "https://github.com/noahdunnagan/fsearch",
+  "stars": 1961,
+  "description": "Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files.",
+  "words": 541,
+  "alerts": 1,
+  "score": 1.8,
+  "top": [
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Full Disk Access'.",
+    "count": 1,
+    "snippet": "## <mark>Full Disk Access</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "ARahim3/DigUp",
+  "url": "https://github.com/ARahim3/DigUp",
+  "stars": 1842,
+  "description": "Search your Mac by what's in your files: photos, PDFs, recordings, videos and code. On-device, built on Google DeepMind's EmbeddingGemma 2.",
+  "words": 1510,
+  "alerts": 4,
+  "score": 2.6,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 2,
+    "snippet": "c · A"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "3. Press <mark>**⇧⌘Space**</mark> in any app and describe what you&#x27;re looking for."
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 1,
+    "snippet": "Settings <mark>→</mark> Code or during setup, for the folders you pick. Each repo s…"
+   }
+  ]
+ },
+ {
+  "repo": "storytold/craft-launcher",
+  "url": "https://github.com/storytold/craft-launcher",
+  "stars": 1772,
+  "description": "The Craft App Launcher",
+  "words": 1844,
+  "alerts": 13,
+  "score": 7.0,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 10,
+    "snippet": "r · A"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "&gt; <mark>**ArtCraft is a community of artists from all walks of life.**</mark> Painters, photographers,"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 1,
+    "snippet": "system or browser language; **Settings <mark>→</mark> Language** picks one and switches at once, and the choice"
+   }
+  ]
+ },
+ {
+  "repo": "liseami/CCBaga",
+  "url": "https://github.com/liseami/CCBaga",
+  "stars": 1573,
+  "description": "",
+  "words": 2100,
+  "alerts": 25,
+  "score": 11.9,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 19,
+    "snippet": "&lt;p&gt;Claude identitie<mark>s · B</mark>rowser fingerprints · System settings · Network Skill&lt;/p&gt;"
+   },
+   {
+    "rule": "CurlyQuotes",
+    "message": "Use straight quotes (''' not '’').",
+    "count": 2,
+    "snippet": "Use **Check for updates** at the bottom of CCBaga-A<mark>’</mark>s sidebar. Startup checks quietly; installation only starts …"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 2,
+    "snippet": "Open **Network** for three steps: **Get VPS <mark>→</mark> Get residential proxy → Install Skill**. Select **General**…"
+   }
+  ]
+ },
+ {
+  "repo": "LoreanXavier/pt-pc",
+  "url": "https://github.com/LoreanXavier/pt-pc",
+  "stars": 1545,
+  "description": "Native PC port of P.T. (runs from your own PS4 game files)",
+  "words": 1936,
+  "alerts": 6,
+  "score": 3.1,
+  "top": [
+   {
+    "rule": "AIWordsSoft",
+    "message": "Likely AI word 'enhanced'. Use the plain word or cut it.",
+    "count": 5,
+    "snippet": "reflections, anisotropic filtering, <mark>enhanced</mark> textures (2x upscaled once from your own files with Real-ES…"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'AI Disclosure'.",
+    "count": 1,
+    "snippet": "## <mark>AI Disclosure</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "shadany7824/playgta5",
+  "url": "https://github.com/shadany7824/playgta5",
+  "stars": 1486,
+  "description": "A source code for playgta5.com.",
+  "words": 297,
+  "alerts": 0,
+  "score": 0.0,
+  "top": []
+ },
+ {
+  "repo": "Fei2411/DeepSeek-Bot",
+  "url": "https://github.com/Fei2411/DeepSeek-Bot",
+  "stars": 1350,
+  "description": "A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.",
+  "words": 770,
+  "alerts": 4,
+  "score": 5.2,
+  "top": [
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 3,
+    "snippet": "1. In the sidebar, select **Plugins** <mark>→</mark> **Add plugin**."
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**DSH Desktop (Windows, macOS)**</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "HelixDB/helix-foundry",
+  "url": "https://github.com/HelixDB/helix-foundry",
+  "stars": 1331,
+  "description": "Your company's data, connected into one ontology, on your own computer. A local-first data workspace built on HelixDB and DuckDB.",
+  "words": 1361,
+  "alerts": 10,
+  "score": 7.3,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 6,
+    "snippet": "<mark>- **Disk:**</mark> several GB for the first run: the app image (about 0.9 GB),…"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 3,
+    "snippet": "2. Guided setup takes you through **AI <mark>→</mark> Data → Ontology**. Choose Local, Claude or OpenAI. Connect …"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**What your agent will do**</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "pingdotgg/ts-rust",
+  "url": "https://github.com/pingdotgg/ts-rust",
+  "stars": 1120,
+  "description": "An experimental Rust port of the TypeScript 7 compiler (tsc)",
+  "words": 2744,
+  "alerts": 7,
+  "score": 2.6,
+  "top": [
+   {
+    "rule": "AIWordsSoft",
+    "message": "Likely AI word 'additionally'. Use the plain word or cut it.",
+    "count": 2,
+    "snippet": "…compilers also report 26 TS2790 diagnostics. Main and 0.3.0 <mark>additionally</mark>"
+   },
+   {
+    "rule": "HeadingAside",
+    "message": "Parenthetical aside in a heading. A heading is a label; move the aside into the body or cut it.",
+    "count": 1,
+    "snippet": "# ts-rust <mark>(aka tsc-rs)</mark>"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**This is an early release.**</mark> It has 100% compatibility in every real world project we ha…"
+   }
+  ]
+ },
+ {
+  "repo": "bherbruck/solidcraft",
+  "url": "https://github.com/bherbruck/solidcraft",
+  "stars": 1048,
+  "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+  "words": 1514,
+  "alerts": 11,
+  "score": 7.3,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 5,
+    "snippet": "\n- **Windows:**"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 2,
+    "snippet": "…y on the wall and a four-boss pattern. Change width from 80 <mark>→</mark> 100 mm and wall thickness from 2 → 3 mm in Parameters and w…"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**An open-source parametric 3D CAD application built in pure Rust.**</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "academa-labs/manimgx",
+  "url": "https://github.com/academa-labs/manimgx",
+  "stars": 935,
+  "description": "The animation engine for agents: blazingly fast math and 3D videos with Manim's Python API, on a Rust GPU core.",
+  "words": 622,
+  "alerts": 6,
+  "score": 9.6,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 4,
+    "snippet": "n · Q"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**36.2 seconds of video, rendered in 3.08 seconds.**</mark> Across five scenes at 1080p60 on an Apple M4 Pro, ManimGX i…"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'From Python to MP4'.",
+    "count": 1,
+    "snippet": "## <mark>From Python to MP4</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "wesbos/photo-frame-dashboard",
+  "url": "https://github.com/wesbos/photo-frame-dashboard",
+  "stars": 932,
+  "description": "Getting ADB, root, backups and custom apps onto locked-down Android photo frames (Skylight Calendar, BIUFRAME)",
+  "words": 1398,
+  "alerts": 8,
+  "score": 5.7,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 3,
+    "snippet": "<mark>- **Frameo, Dragon Touch, Joyhong, Uhale, VESWWE, Pastigio and others:**</mark> see the"
+   },
+   {
+    "rule": "AIWordsSoft",
+    "message": "Likely AI word 'unlock'. Use the plain word or cut it.",
+    "count": 1,
+    "snippet": "Turn a cheap Android photo frame into a family dashboard: <mark>unlock</mark> it, root it, replace the vendor app, and run your own web p…"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**TLDR:**</mark> buy a $50 frame, point an agent at this repo and let &#x27;er ri…"
+   }
+  ]
+ },
+ {
+  "repo": "rociiu/talorys",
+  "url": "https://github.com/rociiu/talorys",
+  "stars": 891,
+  "description": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry.",
+  "words": 1346,
+  "alerts": 27,
+  "score": 20.1,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 19,
+    "snippet": "schedul<mark>e —</mark> without any server, database or account operated by the Tal…"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 6,
+    "snippet": "…th their saved date. Off by default; turn it on in Settings <mark>→</mark> AI or install with `--semantic`. See [docs/semantic-recall.…"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**Your personal AI agent. Your own cloud.**</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "anthropics/oss-scanner",
+  "url": "https://github.com/anthropics/oss-scanner",
+  "stars": 889,
+  "description": "",
+  "words": 787,
+  "alerts": 2,
+  "score": 2.5,
+  "top": [
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'project.yaml'.",
+    "count": 1,
+    "snippet": "### <mark>project.yaml</mark>"
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 1,
+    "snippet": "\n* **in your own repository**:"
+   }
+  ]
+ },
+ {
+  "repo": "marclou/mailcheap",
+  "url": "https://github.com/marclou/mailcheap",
+  "stars": 839,
+  "description": "Self-hosted newsletters on Amazon SES. About $0.10 per 1,000 emails.",
+  "words": 2053,
+  "alerts": 11,
+  "score": 5.4,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 8,
+    "snippet": "<mark>2. **Database Access**:</mark> add a user with a password and the &quot;Read and write to any d…"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for '3. Amazon SES'.",
+    "count": 2,
+    "snippet": "### <mark>3. Amazon SES</mark>"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "&gt; <mark>**No support.**</mark> This is a one-time open-source release. Issues are off, and…"
+   }
+  ]
+ },
+ {
+  "repo": "bas3line/ascii",
+  "url": "https://github.com/bas3line/ascii",
+  "stars": 802,
+  "description": "Animated ascii art for web pages, in TypeScript: React, Next.js, Astro, or one HTML tag",
+  "words": 2182,
+  "alerts": 9,
+  "score": 4.1,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 5,
+    "snippet": "t · d"
+   },
+   {
+    "rule": "HeadingAside",
+    "message": "Parenthetical aside in a heading. A heading is a label; move the aside into the body or cut it.",
+    "count": 2,
+    "snippet": "### `&lt;Ascii&gt;` <mark>(React)</mark>"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for '******* (Astro)'.",
+    "count": 1,
+    "snippet": "******* (Astro)"
+   }
+  ]
+ },
+ {
+  "repo": "shaongitbd/doory",
+  "url": "https://github.com/shaongitbd/doory",
+  "stars": 769,
+  "description": "Open source canva alternative",
+  "words": 1144,
+  "alerts": 18,
+  "score": 15.7,
+  "top": [
+   {
+    "rule": "EmojiStructure",
+    "message": "Emoji in a heading or bullet. Delete it.",
+    "count": 10,
+    "snippet": "<mark>## 🎬</mark> See it in action"
+   },
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 5,
+    "snippet": "n · F"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for '💜 Why people pick Doory'.",
+    "count": 2,
+    "snippet": "## <mark>💜 Why people pick Doory</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "elstongun/leviathan",
+  "url": "https://github.com/elstongun/leviathan",
+  "stars": 768,
+  "description": "Deep memory for agents over large datasets. Leviathan is a single static binary that turns your records (JSONL, JSON, CSV/TSV, SQLite, or anything a database CLI can export) into a ranked full-text index.",
+  "words": 660,
+  "alerts": 11,
+  "score": 16.7,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 7,
+    "snippet": "| Relevant record returned | **99.0%** top <mark>5 · 9</mark>8.5% rank 1 | 96.0% within a 30K-char output |"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 3,
+    "snippet": "group (exact <mark>→</mark> name → contains → fuzzy), runs one FTS5 match where group a…"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "| Median tokens per question | <mark>**436**</mark> | 107,122 (245×) |"
+   }
+  ]
+ },
+ {
+  "repo": "ThariqS/ai-newtab",
+  "url": "https://github.com/ThariqS/ai-newtab",
+  "stars": 765,
+  "description": "Claude generates a daily new tab page based on your browser history.",
+  "words": 924,
+  "alerts": 7,
+  "score": 7.6,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 6,
+    "snippet": "<mark>- **Claude Haiku 5.5**:</mark> the fastest and cheapest."
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**A new tab that reads the internet for you.**</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "sirioberati/Genjustsu-Open-Source-Workflow",
+  "url": "https://github.com/sirioberati/Genjustsu-Open-Source-Workflow",
+  "stars": 726,
+  "description": "Open-source AI video replacement workflow by TEIN. Combine depth maps, SAM segmentation, face meshes, and audio processing to replace characters and objects with Seedance. Includes a local web UI to prepare inputs, review masks, preview generations, and export with original audio.",
+  "words": 1894,
+  "alerts": 16,
+  "score": 8.4,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 5,
+    "snippet": "I · G"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 4,
+    "snippet": "…ign=&quot;center&quot;&gt;&lt;a href=&quot;https://tein.ai&quot;&gt;&lt;strong&gt;Join TEIN AI <mark>→</mark>&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;"
+   },
+   {
+    "rule": "CurlyQuotes",
+    "message": "Use straight quotes ('\"' not '“').",
+    "count": 4,
+    "snippet": "…**[Sign up at TEIN.ai](https://tein.ai)** for early access: <mark>“</mark>The cheapest APIs, open source workflows, and more.”"
+   }
+  ]
+ },
+ {
+  "repo": "n1tr00-10/tiktok-web-signature",
+  "url": "https://github.com/n1tr00-10/tiktok-web-signature",
+  "stars": 711,
+  "description": "tiktok web signature reverse engineer generates valid tiktok signatures for API requets",
+  "words": 810,
+  "alerts": 2,
+  "score": 2.5,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 2,
+    "snippet": "v1.0.<mark>0 —</mark> SDK 5.3.2"
+   }
+  ]
+ },
+ {
+  "repo": "franzenzenhofer/big-arrow-on-the-screen",
+  "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+  "stars": 667,
+  "description": "Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Codex. MIT.",
+  "words": 2266,
+  "alerts": 32,
+  "score": 14.1,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 23,
+    "snippet": "s · C"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'macOS Desktop & Dock: stop *********************************'.",
+    "count": 4,
+    "snippet": "macOS Desktop &amp; Dock: stop *********************************"
+   },
+   {
+    "rule": "ObviousAside",
+    "message": "Obvious aside. If it's obvious, cut it; if it isn't, state it plainly.",
+    "count": 2,
+    "snippet": "…with Stage Manager. 6. &#x27;Only in Stage Manager&#x27; means &#x27;off&#x27;. <mark>Obviously</mark>. Then the wallpaper click: Nothing happens. Bliss.](docs/im…"
+   }
+  ]
+ },
+ {
+  "repo": "jhaizhou-ops/d2r-mobile",
+  "url": "https://github.com/jhaizhou-ops/d2r-mobile",
+  "stars": 650,
+  "description": "Open-source iOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone and iPad — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS 兼容层",
+  "words": 3005,
+  "alerts": 40,
+  "score": 13.3,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 16,
+    "snippet": "- The platform services the game expect<mark>s —</mark> system calls, the file system, the graphics API, audio, inp…"
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 12,
+    "snippet": "\n- **Move**:"
+   },
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 4,
+    "snippet": "Platforms: iPhone / iPad (iOS 26 and later<mark>) · G</mark>ame version: Switch release with Reign of the Warlock, 3.3.9…"
+   }
+  ]
+ },
+ {
+  "repo": "zeusinsight/FinderSearch",
+  "url": "https://github.com/zeusinsight/FinderSearch",
+  "stars": 645,
+  "description": "A native macOS file browser with fast fuzzy filename search, powered by fsearch.",
+  "words": 385,
+  "alerts": 5,
+  "score": 13.0,
+  "top": [
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 4,
+    "snippet": "3. Enable **Full Disk Access** in **System Settings <mark>→</mark> Privacy &amp; Security** to"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**[Download for Apple Silicon](https://github.com/zeusinsight/FinderSearch/releases/latest)**</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "tcchen2026/VibeOffice",
+  "url": "https://github.com/tcchen2026/VibeOffice",
+  "stars": 645,
+  "description": "A free office suite that runs in your browser, in the style of Office 2003. Nothing to install, no account, no server: documents are opened, edited and saved on your own computer.",
+  "words": 582,
+  "alerts": 6,
+  "score": 10.3,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 4,
+    "snippet": "<mark>- **Each app&#x27;s own features survive:**</mark>"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Why VibeOffice'.",
+    "count": 1,
+    "snippet": "## <mark>Why VibeOffice</mark>"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "- <mark>**Familiar.**</mark> The menus, toolbars and task panes of the classic Office 20…"
+   }
+  ]
+ },
+ {
+  "repo": "mw00/project-maya",
+  "url": "https://github.com/mw00/project-maya",
+  "stars": 621,
+  "description": "Project Maya - GLM-5.3-Flash (321B MoE) on your own NVIDIA GPU(s): engine, server, dashboard, quant tools. Built on Strata.",
+  "words": 1634,
+  "alerts": 26,
+  "score": 15.9,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 21,
+    "snippet": "\n- **Fast:**"
+   },
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 4,
+    "snippet": "GLM-5.3-Flash, private and fas<mark>t · o</mark>ne NVIDIA GPU or up to 16 · AMD and Windows (experimental) ·…"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "Models this size usually need a datacenter. Maya runs <mark>**[GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash)**</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "szabadkai/c64-keyboard-font",
+  "url": "https://github.com/szabadkai/c64-keyboard-font",
+  "stars": 608,
+  "description": "Photo-based reconstruction of classic Commodore 64 keycap lettering, with desktop fonts, webfont, editable outlines, and a specimen.",
+  "words": 480,
+  "alerts": 6,
+  "score": 12.5,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 5,
+    "snippet": "* · D"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**[Try it in your browser](https://szabadkai.github.io/c64-keyboard-font/)**</mark> · **[Download TTF](fonts/C64Keyboard-Regular.ttf?raw=true)*…"
+   }
+  ]
+ },
+ {
+  "repo": "GTKottman/mortiflix-oss",
+  "url": "https://github.com/GTKottman/mortiflix-oss",
+  "stars": 589,
+  "description": "A motion design studio on your own machine: Claude makes the video step by step, you approve every stage. Bring your own Claude Code or API key.",
+  "words": 2072,
+  "alerts": 19,
+  "score": 9.2,
+  "top": [
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 11,
+    "snippet": "| `explainer` | brief <mark>→</mark> script → style frames → transitions → animatic → music → fi…"
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 6,
+    "snippet": "\n- **ElevenLabs**:"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "…style frames, a transition board, an animatic, a final, and <mark>**you review each stage**</mark> before the next one starts."
+   }
+  ]
+ },
+ {
+  "repo": "nanocle/Charakuru",
+  "url": "https://github.com/nanocle/Charakuru",
+  "stars": 560,
+  "description": "",
+  "words": 1426,
+  "alerts": 12,
+  "score": 8.4,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 5,
+    "snippet": "語 · 한"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 3,
+    "snippet": "…Example: 海月 みる (Miru Umitsuki). Left to right: illustration <mark>→</mark> 8 images painted by the agent → 3D model → in-app motion re…"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'What is Charakuru?'.",
+    "count": 2,
+    "snippet": "## <mark>What is Charakuru?</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "c22dev/muguet",
+  "url": "https://github.com/c22dev/muguet",
+  "stars": 532,
+  "description": "A native Mach-O port for iOS/macOS of GTA V, with multiplayer",
+  "words": 432,
+  "alerts": 0,
+  "score": 0.0,
+  "top": []
+ },
+ {
+  "repo": "zhuyansen/new-term-radar",
+  "url": "https://github.com/zhuyansen/new-term-radar",
+  "stars": 510,
+  "description": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.",
+  "words": 2360,
+  "alerts": 12,
+  "score": 5.1,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 6,
+    "snippet": "\n1. **Evidence**:"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'config.json'.",
+    "count": 2,
+    "snippet": "## <mark>config.json</mark>"
+   },
+   {
+    "rule": "HeadingAside",
+    "message": "Parenthetical aside in a heading. A heading is a label; move the aside into the body or cut it.",
+    "count": 2,
+    "snippet": "### Search Console <mark>(optional)</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "droogie/bbhost",
+  "url": "https://github.com/droogie/bbhost",
+  "stars": 502,
+  "description": "Definitive Bloodborne PC Experience",
+  "words": 1433,
+  "alerts": 6,
+  "score": 4.2,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 5,
+    "snippet": "<mark>- **Keyboard and mouse**:</mark> mouse camera, a pointer in every menu, rebindable"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "- <mark>**The CPU side runs natively.**</mark> bbhost loads the game&#x27;s ELF executable,"
+   }
+  ]
+ },
+ {
+  "repo": "onehumanbeing/esp32-iphone-agent",
+  "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+  "stars": 501,
+  "description": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
+  "words": 1658,
+  "alerts": 29,
+  "score": 17.5,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 14,
+    "snippet": "**Let an AI model use a real iPhon<mark>e —</mark> with a $7 ESP32. No Mac, no developer account, no jailbreak…"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 6,
+    "snippet": "1. **Settings <mark>→</mark> Accessibility → Touch → AssistiveTouch**: turn it on."
+   },
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 3,
+    "snippet": "h · 简"
+   }
+  ]
+ },
+ {
+  "repo": "gr8rstudio/gr8r-studio",
+  "url": "https://github.com/gr8rstudio/gr8r-studio",
+  "stars": 484,
+  "description": "Gr8r Studio: a calm, structured project management workspace. Vite + plain ES modules.",
+  "words": 219,
+  "alerts": 6,
+  "score": 27.4,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 5,
+    "snippet": "\n- **Rendering:**"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "- <mark>**Rendering:**</mark> each page or view is a function that returns an HTML string…"
+   }
+  ]
+ },
+ {
+  "repo": "jwuthri-cloud/Tracely-ai",
+  "url": "https://github.com/jwuthri-cloud/Tracely-ai",
+  "stars": 481,
+  "description": "",
+  "words": 2616,
+  "alerts": 101,
+  "score": 38.6,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 67,
+    "snippet": "that would ship them agai<mark>n —</mark> and tells you the moment any of it happens."
+   },
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 18,
+    "snippet": "e · D"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 14,
+    "snippet": "&lt;code&gt;production trace&lt;/code&gt; <mark>→</mark> &lt;code&gt;failure detection&lt;/code&gt; → &lt;code&gt;regression test&lt;/cod…"
+   }
+  ]
+ },
+ {
+  "repo": "AnemonePulse/Better-Discord",
+  "url": "https://github.com/AnemonePulse/Better-Discord",
+  "stars": 480,
+  "description": "Better Discord meticulously configures your professional desktop software utilities with a meticulous and highly tailored approach.",
+  "words": 331,
+  "alerts": 24,
+  "score": 72.5,
+  "top": [
+   {
+    "rule": "EmojiStructure",
+    "message": "Emoji in a heading or bullet. Delete it.",
+    "count": 7,
+    "snippet": "<mark>## ✨</mark> Key Features &amp; Enhancements"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for '✨ Key Features & Enhancements'.",
+    "count": 6,
+    "snippet": "## <mark>✨ Key Features &amp; Enhancements</mark>"
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 5,
+    "snippet": "\n- **High-Performance Engine**:"
+   }
+  ]
+ },
+ {
+  "repo": "PetaMooseVolt/AnyDesk",
+  "url": "https://github.com/PetaMooseVolt/AnyDesk",
+  "stars": 480,
+  "description": "Revolutionize your remote work with AnyDesk's state-of-the-art desktop software utility configuration that maximizes productivity and enhances...",
+  "words": 405,
+  "alerts": 27,
+  "score": 66.7,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 9,
+    "snippet": "\n- **Environment Configuration**:"
+   },
+   {
+    "rule": "EmojiStructure",
+    "message": "Emoji in a heading or bullet. Delete it.",
+    "count": 8,
+    "snippet": "<mark>## 🌐</mark> AnyDesk Optimizes Your Workspace"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for '🌐 AnyDesk Optimizes Your Workspace'.",
+    "count": 7,
+    "snippet": "## <mark>🌐 AnyDesk Optimizes Your Workspace</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "Lengthristride/Total-Commander",
+  "url": "https://github.com/Lengthristride/Total-Commander",
+  "stars": 480,
+  "description": "Total Commander optimizes desktop software utility configurations with its robust and efficient command-line interface, enabling users to seamlessly...",
+  "words": 396,
+  "alerts": 23,
+  "score": 58.1,
+  "top": [
+   {
+    "rule": "EmojiStructure",
+    "message": "Emoji in a heading or bullet. Delete it.",
+    "count": 7,
+    "snippet": "<mark>## ✨</mark> Key Features &amp; Enhancements"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for '✨ Key Features & Enhancements'.",
+    "count": 6,
+    "snippet": "## <mark>✨ Key Features &amp; Enhancements</mark>"
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 5,
+    "snippet": "\n- **Customizable Interface**:"
+   }
+  ]
+ },
+ {
+  "repo": "Superincrater/Autodesk-Revit",
+  "url": "https://github.com/Superincrater/Autodesk-Revit",
+  "stars": 479,
+  "description": "Revit optimizes architectural design workflows with a comprehensive BIM solution that streamlines collaboration and documentation processes on a secure...",
+  "words": 371,
+  "alerts": 19,
+  "score": 51.2,
+  "top": [
+   {
+    "rule": "EmojiStructure",
+    "message": "Emoji in a heading or bullet. Delete it.",
+    "count": 6,
+    "snippet": "<mark># 🦊</mark> Autodesk Revit Optimization Suite"
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 5,
+    "snippet": "<mark>- **Automated Deployment Engine**:</mark> Streamline the deployment process by automating the setup o…"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for '✨ Key Features & Enhancements'.",
+    "count": 4,
+    "snippet": "## <mark>✨ Key Features &amp; Enhancements</mark>"
+   }
+  ]
+ }
+]
