@@ -1,0 +1,1319 @@
+[
+ {
+  "repo": "Gathin23/cleanyourtv",
+  "url": "https://github.com/Gathin23/cleanyourtv",
+  "stars": 4567,
+  "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+  "words": 2425,
+  "alerts": 39,
+  "score": 16.1,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 23,
+    "snippet": "v · T"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 9,
+    "snippet": "| **1. On the TV** | Settings <mark>→</mark> Device Preferences → About → press OK on **Build** seven ti…"
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 4,
+    "snippet": "<mark>- **Three frosted buttons**:</mark> Inputs (HDMI ports, AV, Live TV), Wi-Fi or Ethernet with th…"
+   }
+  ]
+ },
+ {
+  "repo": "jhaizhou-ops/d2r-mobile",
+  "url": "https://github.com/jhaizhou-ops/d2r-mobile",
+  "stars": 4038,
+  "description": "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层",
+  "words": 4900,
+  "alerts": 54,
+  "score": 11.0,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 23,
+    "snippet": "- The platform services the game expect<mark>s —</mark> system calls, the file system, the graphics API, audio, inp…"
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 14,
+    "snippet": "\n- **Move**:"
+   },
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 7,
+    "snippet": "…iPad (iOS 26 and later; iOS 18 – 25 with the older-API build<mark>) · M</mark>ac (Apple silicon, macOS 26 or later; macOS 15 – 25 with the…"
+   }
+  ]
+ },
+ {
+  "repo": "feder-cr/git-ai",
+  "url": "https://github.com/feder-cr/git-ai",
+  "stars": 2436,
+  "description": "Git designed for AI agents.",
+  "words": 1014,
+  "alerts": 2,
+  "score": 2.0,
+  "top": [
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "Anthropic built <mark>**Scion**</mark>, a faster version control system for coding agents,"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'The Scion ideas, implemented'.",
+    "count": 1,
+    "snippet": "## <mark>The Scion ideas, implemented</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "HeyPuter/everything",
+  "url": "https://github.com/HeyPuter/everything",
+  "stars": 2320,
+  "description": "We're rebuilding and open-sourcing the world’s software from scratch.",
+  "words": 793,
+  "alerts": 12,
+  "score": 15.1,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 8,
+    "snippet": "e · C"
+   },
+   {
+    "rule": "CurlyQuotes",
+    "message": "Use straight quotes (''' not '’').",
+    "count": 2,
+    "snippet": "&lt;h3 align=&quot;center&quot;&gt;The world<mark>’</mark>s software. Rebuilt, open-sourced, and MIT-licensed.&lt;/h3&gt;"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Creative Tools'.",
+    "count": 2,
+    "snippet": "## <mark>Creative Tools</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "deeplethe/solid-glass",
+  "url": "https://github.com/deeplethe/solid-glass",
+  "stars": 2271,
+  "description": "A design system for AI applications. Material, physical, tactile, technical.",
+  "words": 1108,
+  "alerts": 6,
+  "score": 5.4,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 3,
+    "snippet": "e · I"
+   },
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 1,
+    "snippet": "…ions are built around information that is constantly changin<mark>g —</mark> responses streaming in,"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Add a component of Solid Glass's own'.",
+    "count": 1,
+    "snippet": "## <mark>Add a component of Solid Glass&#x27;s own</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "ahwootech/BRUTAL",
+  "url": "https://github.com/ahwootech/BRUTAL",
+  "stars": 1973,
+  "description": "A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, with the low-level libraries around them. The foundation under Kitten Space Agency and RimWorld's Waylith engine.",
+  "words": 1159,
+  "alerts": 10,
+  "score": 8.6,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 4,
+    "snippet": "\n- **Rendering:**"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'What BRUTAL is not'.",
+    "count": 2,
+    "snippet": "### <mark>What BRUTAL is not</mark>"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**A free, open source C# framework for making games, or your own game engine.**</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "chenglou/handwired",
+  "url": "https://github.com/chenglou/handwired",
+  "stars": 1794,
+  "description": "Turn your regular JavaScript code into a neural net.",
+  "words": 224,
+  "alerts": 3,
+  "score": 13.4,
+  "top": [
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'How It Works'.",
+    "count": 2,
+    "snippet": "## <mark>How It Works</mark>"
+   },
+   {
+    "rule": "AIWordsSoft",
+    "message": "Likely AI word 'unlocks'. Use the plain word or cut it.",
+    "count": 1,
+    "snippet": "This <mark>unlocks</mark> lots of funny use-cases, like:"
+   }
+  ]
+ },
+ {
+  "repo": "Supermedo/uncharted_pc",
+  "url": "https://github.com/Supermedo/uncharted_pc",
+  "stars": 1550,
+  "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
+  "words": 658,
+  "alerts": 7,
+  "score": 10.6,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 5,
+    "snippet": "\n- **Uncharted 3, Cartagena square (chapter 2):**"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**Uncharted 1, 2 and 3 from the PS4 collection running natively on Windows 10 and 11, by [SuperMedo](https://github.com/Supermedo).**</mark> Mohammed Albarghouthi"
+   },
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 1,
+    "snippet": "n · ["
+   }
+  ]
+ },
+ {
+  "repo": "Leonxlnx/earshot",
+  "url": "https://github.com/Leonxlnx/earshot",
+  "stars": 1442,
+  "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+  "words": 2886,
+  "alerts": 15,
+  "score": 5.2,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 7,
+    "snippet": "<mark>- **Python and MCP**:</mark> `from earshot.forge import bank; y, meta = bank.render(&#x27;pro…"
+   },
+   {
+    "rule": "Semicolons",
+    "message": "More than 2 semicolons. Use periods.",
+    "count": 3,
+    "snippet": "Output (`--dir`): the best diverse sounds as WAV<mark>s;</mark> `report.md` (what was asked, the search per generation, eac…"
+   },
+   {
+    "rule": "AIWordsSoft",
+    "message": "Likely AI word 'robust'. Use the plain word or cut it.",
+    "count": 2,
+    "snippet": "…. The CLI defaults changed in 0.2.0 (pre-screen, seed bank, <mark>robust</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "rohit267/net-merge",
+  "url": "https://github.com/rohit267/net-merge",
+  "stars": 1337,
+  "description": "Use all your network adapters at once on Windows/Linux/Mac: per-connection load balancing over Wi-Fi, Ethernet and phone/USB tethers (TUN + Wintun)",
+  "words": 1791,
+  "alerts": 18,
+  "score": 10.1,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 13,
+    "snippet": "\n- **Good for:**"
+   },
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 4,
+    "snippet": "d · I"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "…-merge uses all your network adapters together. It works on <mark>**Windows, macOS and Linux**</mark>. It is free."
+   }
+  ]
+ },
+ {
+  "repo": "AjncSystem/ShadowOfTheColossus-PC",
+  "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC",
+  "stars": 1151,
+  "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
+  "words": 1830,
+  "alerts": 15,
+  "score": 8.2,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 5,
+    "snippet": "\n- **Jogar:**"
+   },
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 4,
+    "snippet": "* · v"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 2,
+    "snippet": "…No demo da tela de título, em modo 60 FPS: média de **37–45 <mark>→</mark> ~67 FPS**, trecho mais pesado (ponte do cânion) **~17 → 29–…"
+   }
+  ]
+ },
+ {
+  "repo": "zhuyansen/new-term-radar",
+  "url": "https://github.com/zhuyansen/new-term-radar",
+  "stars": 1130,
+  "description": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.",
+  "words": 4086,
+  "alerts": 16,
+  "score": 3.9,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 6,
+    "snippet": "\n1. **Evidence**:"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'config.json'.",
+    "count": 3,
+    "snippet": "## <mark>config.json</mark>"
+   },
+   {
+    "rule": "Semicolons",
+    "message": "More than 2 semicolons. Use periods.",
+    "count": 2,
+    "snippet": "…o post and fetch later, and AIsa runs synchronous calls only<mark>);</mark> There&#x27;s An AI For That&#x27;s request board (a Cloudflare challe…"
+   }
+  ]
+ },
+ {
+  "repo": "LiCinCan/blender-ai-mcp-addon",
+  "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
+  "stars": 952,
+  "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration.",
+  "words": 874,
+  "alerts": 54,
+  "score": 61.8,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 41,
+    "snippet": "d · G"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 6,
+    "snippet": "2. In Blender, open **Edit <mark>→</mark> Preferences → Get Extensions → menu → Install from Disk**."
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 3,
+    "snippet": "\n- **Manager:**"
+   }
+  ]
+ },
+ {
+  "repo": "aicodeking/leanrea",
+  "url": "https://github.com/aicodeking/leanrea",
+  "stars": 951,
+  "description": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
+  "words": 717,
+  "alerts": 11,
+  "score": 15.3,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 8,
+    "snippet": "<mark>- **electron**:</mark> trace a feature through a real Electron app&#x27;s app.asar (nat…"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 2,
+    "snippet": "…ure through a real Electron app&#x27;s app.asar (native function <mark>→</mark> main-process class → IPC channels)."
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**One 8 KB skill file that does what [REA](https://github.com/morluto/rea) does: no MCP server, no 207 tools, no setup.**</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "Tencent-Hunyuan/Hy-Memory",
+  "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
+  "stars": 950,
+  "description": "",
+  "words": 1219,
+  "alerts": 27,
+  "score": 22.1,
+  "top": [
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Latest News'.",
+    "count": 10,
+    "snippet": "…shields.io/badge/news-latest-e65100?style=flat-square&quot; alt=&quot;<mark>Latest News</mark>&quot;&gt;&lt;/a&gt;"
+   },
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 8,
+    "snippet": "e —"
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 7,
+    "snippet": "\n- **Automatic scene routing**:"
+   }
+  ]
+ },
+ {
+  "repo": "outcrawlai/scout",
+  "url": "https://github.com/outcrawlai/scout",
+  "stars": 949,
+  "description": "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.",
+  "words": 1099,
+  "alerts": 1,
+  "score": 0.9,
+  "top": [
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**Scout runs best on Outcrawl&#x27;s cloud.**</mark> One line gives it a browser that sites treat like anyone at…"
+   }
+  ]
+ },
+ {
+  "repo": "OpenMOSS/MOSS-Image",
+  "url": "https://github.com/OpenMOSS/MOSS-Image",
+  "stars": 937,
+  "description": "Official repository for MOSS-Image, a 5B-parameter base DiT model with high-quality text rendering, layout generation, and efficient fine-tuning.",
+  "words": 718,
+  "alerts": 29,
+  "score": 40.4,
+  "top": [
+   {
+    "rule": "EmojiStructure",
+    "message": "Emoji in a heading or bullet. Delete it.",
+    "count": 19,
+    "snippet": "\n  - 📐"
+   },
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 4,
+    "snippet": "e · E"
+   },
+   {
+    "rule": "AIWords",
+    "message": "AI-vocabulary word 'Showcase'. Rewrite the sentence.",
+    "count": 2,
+    "snippet": "- [<mark>Showcase</mark>](#showcase)"
+   }
+  ]
+ },
+ {
+  "repo": "MyLuxy/overdrive",
+  "url": "https://github.com/MyLuxy/overdrive",
+  "stars": 877,
+  "description": "Overdrive, a PS5 homebrew game store with 1,800+ games.",
+  "words": 1430,
+  "alerts": 11,
+  "score": 7.7,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 5,
+    "snippet": "h · Р"
+   },
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 3,
+    "snippet": "| Sections | Q / E | <mark>—</mark> | L1 / R1 |"
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 2,
+    "snippet": "<mark>- **16 languages**:</mark> English, Deutsch, Español, Français, Italiano, Nederlands, …"
+   }
+  ]
+ },
+ {
+  "repo": "Zfinix/eleven",
+  "url": "https://github.com/Zfinix/eleven",
+  "stars": 789,
+  "description": "Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent reads, renames and patches binaries, Android apps and GPU kernels next to you.",
+  "words": 976,
+  "alerts": 20,
+  "score": 20.5,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 18,
+    "snippet": "h · 简"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**English**</mark> · [简体中文](README_zh.md) · [繁體中文](README_zh-TW.md) · [日本語](RE…"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Support Eleven'.",
+    "count": 1,
+    "snippet": "## <mark>Support Eleven</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "Noniv/web-ocean",
+  "url": "https://github.com/Noniv/web-ocean",
+  "stars": 753,
+  "description": "Real-time WebGPU ocean renderer written from scratch, no engine. FFT waves, whitecaps, sun glitter, physically based sunset sky with clouds, free camera. Built with Claude Code (Opus 5.5). Opens from a single 61 KB HTML file in Chrome.",
+  "words": 919,
+  "alerts": 0,
+  "score": 0.0,
+  "top": []
+ },
+ {
+  "repo": "seedds/nxnative",
+  "url": "https://github.com/seedds/nxnative",
+  "stars": 752,
+  "description": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
+  "words": 1022,
+  "alerts": 7,
+  "score": 6.8,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 6,
+    "snippet": "<mark>- **[Atmosphère](https://github.com/Atmosphere-NX/Atmosphere)**:</mark> its kernel, mesosphère, is the reference for Horizon&#x27;s sync…"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "- <mark>**[d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile)**</mark> (MIT) developed this native-execution approach, for Diablo …"
+   }
+  ]
+ },
+ {
+  "repo": "yeyuxin777/baoyan-agent-benchmark",
+  "url": "https://github.com/yeyuxin777/baoyan-agent-benchmark",
+  "stars": 701,
+  "description": "Sprix AI at 屿智同行 × 保研岛 — an open-source benchmark for AI agents in Baoyan advising and application planning.",
+  "words": 1046,
+  "alerts": 14,
+  "score": 13.4,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 9,
+    "snippet": "* · M"
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 3,
+    "snippet": "\n- **21 recommendation tasks:**"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "- <mark>**21 recommendation tasks:**</mark> assess how well suggested programs match the student&#x27;s back…"
+   }
+  ]
+ },
+ {
+  "repo": "datalab-to/indra",
+  "url": "https://github.com/datalab-to/indra",
+  "stars": 662,
+  "description": "Fast CPU OCR: line detection, CTC recognition, reading order, markdown",
+  "words": 2299,
+  "alerts": 4,
+  "score": 1.7,
+  "top": [
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Try Datalab's Managed Platform'.",
+    "count": 2,
+    "snippet": "## <mark>Try Datalab&#x27;s Managed Platform</mark>"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "- <mark>**Accurate**</mark> - 66.7 on [OmniParseBench](https://github.com/datalab-to/om…"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 1,
+    "snippet": "**[See more examples, with the markdown output for each <mark>→</mark>](https://github.com/datalab-to/indra/blob/main/EXAMPLES.md)…"
+   }
+  ]
+ },
+ {
+  "repo": "0xProbabillity/house-control",
+  "url": "https://github.com/0xProbabillity/house-control",
+  "stars": 651,
+  "description": "Your home as a live 3D model in the Mac menu bar and on iPhone — lights and ACs via Smart Life, Home Assistant, Philips Hue and Apple Home.",
+  "words": 3709,
+  "alerts": 61,
+  "score": 16.4,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 22,
+    "snippet": "Your home as a live 3D mode<mark>l —</mark> in the Mac&#x27;s menu bar, around its notch and on your iPhone …"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 15,
+    "snippet": "…Sequoia and newer:** click **Done**, open **System Settings <mark>→</mark> Privacy &amp; Security**, scroll down"
+   },
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 9,
+    "snippet": "d · B"
+   }
+  ]
+ },
+ {
+  "repo": "HayatoG/iss_pc",
+  "url": "https://github.com/HayatoG/iss_pc",
+  "stars": 640,
+  "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
+  "words": 11656,
+  "alerts": 75,
+  "score": 6.4,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 48,
+    "snippet": "\n- **Launcher novo (Qt Quick), agora o padrão:**"
+   },
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 8,
+    "snippet": "&lt;h1 align=&quot;center&quot;&gt;inFAMOUS Second So<mark>n —</mark> port nativo para PC&lt;/h1&gt;"
+   },
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 7,
+    "snippet": "w · D"
+   }
+  ]
+ },
+ {
+  "repo": "juliobsz/skills",
+  "url": "https://github.com/juliobsz/skills",
+  "stars": 611,
+  "description": "An agent skill that builds award-caliber websites from one line",
+  "words": 1875,
+  "alerts": 10,
+  "score": 5.3,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 5,
+    "snippet": "o · I"
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 2,
+    "snippet": "\n- **Workspace**:"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**An agent skill that builds award-caliber websites from one line.**</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "solana-classic/solana-classic",
+  "url": "https://github.com/solana-classic/solana-classic",
+  "stars": 593,
+  "description": "Bring back the fun. Open-source SVM blockchain development focused on art, NFTs, memes and their communities. Experimental testnet live.",
+  "words": 1966,
+  "alerts": 13,
+  "score": 6.6,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 8,
+    "snippet": "[![Solana Classi<mark>c · B</mark>ring back the fun.](https://raw.githubusercontent.com/solana…"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'SOC on Solana'.",
+    "count": 3,
+    "snippet": "## <mark>SOC on Solana</mark>"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**Our goal: build an open development community focused on how far art, NFTs and memes can go.**</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "cranebeaker/coop-anything",
+  "url": "https://github.com/cranebeaker/coop-anything",
+  "stars": 557,
+  "description": "Co-op Anything: point your AI agent at any single-player game and play it with friends (online and/or splitscreen!). MCP server and playbook to let you reverse engineer, fix, test, ship and share what it learns.",
+  "words": 1296,
+  "alerts": 42,
+  "score": 32.4,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 40,
+    "snippet": "t · H"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "builds or fixes the co-op, <mark>**tests it with bots inside the game**</mark>, and packages it so your"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Add the MCP server'.",
+    "count": 1,
+    "snippet": "### <mark>Add the MCP server</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "mistralai/timestral",
+  "url": "https://github.com/mistralai/timestral",
+  "stars": 531,
+  "description": "",
+  "words": 686,
+  "alerts": 11,
+  "score": 16.0,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 5,
+    "snippet": "\n- **Multivariate**:"
+   },
+   {
+    "rule": "EmojiStructure",
+    "message": "Emoji in a heading or bullet. Delete it.",
+    "count": 3,
+    "snippet": "\n- 🥇"
+   },
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 2,
+    "snippet": "t · H"
+   }
+  ]
+ },
+ {
+  "repo": "GetLostIn/CTR-NitroFueled-PC",
+  "url": "https://github.com/GetLostIn/CTR-NitroFueled-PC",
+  "stars": 515,
+  "description": "Crash Team Racing: Nitro-Fueled (PS4) running natively on Windows 10/11. Windows fork of SacredFire, built on bbport and shadPS4. No game files included.",
+  "words": 3310,
+  "alerts": 20,
+  "score": 6.0,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 8,
+    "snippet": "\n- **[T3CHNOLOG1C](https://github.com/T3CHNOLOG1C)**:"
+   },
+   {
+    "rule": "AIWordsSoft",
+    "message": "Likely AI word 'unlocked'. Use the plain word or cut it.",
+    "count": 3,
+    "snippet": "…board page moves there); *Achievements*: trophies kept when <mark>unlocked</mark>, a launcher-style notice in the game (picture, name, grade,…"
+   },
+   {
+    "rule": "HeadingAside",
+    "message": "Parenthetical aside in a heading. A heading is a label; move the aside into the body or cut it.",
+    "count": 2,
+    "snippet": "### Quick start <mark>(Windows)</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "flybrainlabs/node",
+  "url": "https://github.com/flybrainlabs/node",
+  "stars": 502,
+  "description": "flybrainlabs authority nodes, complete simulation replay, archives, and service APIs.",
+  "words": 481,
+  "alerts": 1,
+  "score": 2.1,
+  "top": [
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Wallet mining V3'.",
+    "count": 1,
+    "snippet": "## <mark>Wallet mining V3</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "humblemuzzu/dumbtv",
+  "url": "https://github.com/humblemuzzu/dumbtv",
+  "stars": 494,
+  "description": "",
+  "words": 1456,
+  "alerts": 30,
+  "score": 20.6,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 24,
+    "snippet": "for. dumbtv applies that over ADB from another machin<mark>e —</mark> **no root**, nothing"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 4,
+    "snippet": "- The TV on the same network, with **Developer Options <mark>→</mark> ADB debugging** on"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "for. dumbtv applies that over ADB from another machine — <mark>**no root**</mark>, nothing"
+   }
+  ]
+ },
+ {
+  "repo": "PS5Dev/Byepervisor-Reborn",
+  "url": "https://github.com/PS5Dev/Byepervisor-Reborn",
+  "stars": 489,
+  "description": "Somehow, Byepervisor returned...",
+  "words": 571,
+  "alerts": 1,
+  "score": 1.8,
+  "top": [
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Important Notes'.",
+    "count": 1,
+    "snippet": "## <mark>Important Notes</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "reason-machines/reason-network",
+  "url": "https://github.com/reason-machines/reason-network",
+  "stars": 488,
+  "description": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.",
+  "words": 760,
+  "alerts": 2,
+  "score": 2.6,
+  "top": [
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "Your agents, talking to your <mark>**teammates&#x27;**</mark> agents."
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 1,
+    "snippet": "<mark>- **Without an account**:</mark> it installs just this engine, asks your name and a team nam…"
+   }
+  ]
+ },
+ {
+  "repo": "showheyohtaki/motion-prompt",
+  "url": "https://github.com/showheyohtaki/motion-prompt",
+  "stars": 473,
+  "description": "",
+  "words": 2099,
+  "alerts": 7,
+  "score": 3.3,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 6,
+    "snippet": "h · 日"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**English**</mark> | [日本語](README.ja.md)"
+   }
+  ]
+ },
+ {
+  "repo": "StoopwenpueNq/jackie-fmri-sim",
+  "url": "https://github.com/StoopwenpueNq/jackie-fmri-sim",
+  "stars": 468,
+  "description": "jackie-fmri-sim",
+  "words": 707,
+  "alerts": 17,
+  "score": 24.0,
+  "top": [
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Table of Contents'.",
+    "count": 7,
+    "snippet": "## <mark>Table of Contents</mark>"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 5,
+    "snippet": "#42 best friend dog <mark>→</mark> affection  HR=112.0  arousal=0.412  {&#x27;joy&#x27;: 0.61, ...}"
+   },
+   {
+    "rule": "CurlyQuotes",
+    "message": "Use straight quotes ('\"' not '“').",
+    "count": 2,
+    "snippet": "**Digital twin of the canine subject <mark>“</mark>Jackie” (Canis lupus familiaris)**"
+   }
+  ]
+ },
+ {
+  "repo": "dipa-studio/ios-sweet",
+  "url": "https://github.com/dipa-studio/ios-sweet",
+  "stars": 456,
+  "description": "iOS 16 userland + XNU on Redmi Note 10 Pro (sweet, SM7150)",
+  "words": 1364,
+  "alerts": 11,
+  "score": 8.1,
+  "top": [
+   {
+    "rule": "AIWordsSoft",
+    "message": "Likely AI word 'unlock'. Use the plain word or cut it.",
+    "count": 3,
+    "snippet": "…10-18** the phone boots to the **iOS home screen**. You can <mark>unlock</mark> it, open Settings, pull down Control Center and the notific…"
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 3,
+    "snippet": "\n- **Navigation:**"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 2,
+    "snippet": "| Boot | Stock Xiaomi bootloader <mark>→</mark> `fastboot boot` of our shim → XNU. Nothing is flashed to th…"
+   }
+  ]
+ },
+ {
+  "repo": "gichirimaku/wp2shell-PoC",
+  "url": "https://github.com/gichirimaku/wp2shell-PoC",
+  "stars": 455,
+  "description": "CVE-2026-63030 + CVE-2026-60137 exploit RCE chain.",
+  "words": 704,
+  "alerts": 5,
+  "score": 7.1,
+  "top": [
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Check Mode (default)'.",
+    "count": 3,
+    "snippet": "### <mark>Check Mode (default)</mark>"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "&gt; <mark>**⚠ This tool is created solely for educational or bug bounty purpose only. Unauthorized use outside of controlled environments is strictly prohibited.**</mark>"
+   },
+   {
+    "rule": "HeadingAside",
+    "message": "Parenthetical aside in a heading. A heading is a label; move the aside into the body or cut it.",
+    "count": 1,
+    "snippet": "### Check Mode <mark>(default)</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "BaruqueRodrigues/llm-legislativo",
+  "url": "https://github.com/BaruqueRodrigues/llm-legislativo",
+  "stars": 442,
+  "description": "Corpus legislativo brasileiro em larga escala e modelo Transformer causal treinado do zero em PyTorch puro.",
+  "words": 1085,
+  "alerts": 57,
+  "score": 52.5,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 19,
+    "snippet": "  * **Câmara dos Deputados:**"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for '📌 Visão Geral'.",
+    "count": 17,
+    "snippet": "## <mark>📌 Visão Geral</mark>"
+   },
+   {
+    "rule": "EmojiStructure",
+    "message": "Emoji in a heading or bullet. Delete it.",
+    "count": 16,
+    "snippet": "<mark># 🏛</mark>️ LLM Legislativo Brasileiro"
+   }
+  ]
+ },
+ {
+  "repo": "Ansub/tv-detox",
+  "url": "https://github.com/Ansub/tv-detox",
+  "stars": 435,
+  "description": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
+  "words": 1738,
+  "alerts": 12,
+  "score": 6.9,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 6,
+    "snippet": "\n- **Amazon Fire TV:**"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 4,
+    "snippet": "Settings <mark>→</mark> Device Preferences → About → press **Build** 7 times. Then …"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**[▶ Claude Made My Old Android TV Feel Brand New](https://www.youtube.com/watch?v=fP2SGGVsaB0)**</mark> · the full setup on a real TV, in 4 minutes."
+   }
+  ]
+ },
+ {
+  "repo": "lucannez64/darling-lol",
+  "url": "https://github.com/lucannez64/darling-lol",
+  "stars": 416,
+  "description": "Experimental Darling runtime patches and tools for testing the macOS League client on Linux",
+  "words": 1313,
+  "alerts": 3,
+  "score": 2.3,
+  "top": [
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Experimental Nix/rootless package'.",
+    "count": 2,
+    "snippet": "## <mark>Experimental Nix/rootless package</mark>"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "&gt; <mark>**1. Maintenance.**</mark> I built this mainly as a technical challenge, because every…"
+   }
+  ]
+ },
+ {
+  "repo": "kitlangton/scrawl",
+  "url": "https://github.com/kitlangton/scrawl",
+  "stars": 400,
+  "description": "Show an agent a problem: mark up, record, send",
+  "words": 5847,
+  "alerts": 44,
+  "score": 7.5,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 17,
+    "snippet": "\n- **General**:"
+   },
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 10,
+    "snippet": "…ange it). As it starts, the island opens onto the modes (Are<mark>a · W</mark>indow ·"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Capture Controls'.",
+    "count": 4,
+    "snippet": "## <mark>Capture Controls</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "NB-Corp/gpt-with-taste",
+  "url": "https://github.com/NB-Corp/gpt-with-taste",
+  "stars": 397,
+  "description": "Better judgment. Better taste. Less ceremony. System instructions and source-aware steering for GPT in Codex.",
+  "words": 680,
+  "alerts": 15,
+  "score": 22.1,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 12,
+    "snippet": "h · 简"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "| <mark>**OpenAI Codex**</mark> | Native model instructions &amp; hooks overlay | [docs/install…"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Install · Codex'.",
+    "count": 1,
+    "snippet": "## <mark>Install · Codex</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "longbridge/nsh",
+  "url": "https://github.com/longbridge/nsh",
+  "stars": 390,
+  "description": "NSH runs modules written in TSX — natively on iOS, Android, macOS, Windows, Linux, GPUI and the web",
+  "words": 589,
+  "alerts": 1,
+  "score": 1.7,
+  "top": [
+   {
+    "rule": "HeadingAside",
+    "message": "Parenthetical aside in a heading. A heading is a label; move the aside into the body or cut it.",
+    "count": 1,
+    "snippet": "# Native Shell <mark>(NSH)</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "PiggyBackBayonet/MiAuto",
+  "url": "https://github.com/PiggyBackBayonet/MiAuto",
+  "stars": 389,
+  "description": "小米 / OPPO / vivo 等 ICCOA CarLink 手机投上车机：无线连接，无需转接盒、无需 root。Car-side ICCOA CarLink receiver for Xiaomi CarWith, OPPO Car+ and vivo Jovi InCar.",
+  "words": 1387,
+  "alerts": 14,
+  "score": 10.1,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 10,
+    "snippet": "with a phone that already supports i<mark>t —</mark> Xiaomi CarWith, OPPO Car+ 车联, vivo Jovi InCar and"
+   },
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 2,
+    "snippet": "n · L"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**MiAuto runs on the car**</mark>, advertises itself as an ICCOA CarLink-capable head unit, a…"
+   }
+  ]
+ },
+ {
+  "repo": "pro-vi/cc-stretch",
+  "url": "https://github.com/pro-vi/cc-stretch",
+  "stars": 388,
+  "description": "Stretchtext replies for Claude Code: short by default, each phrase grows in place when you click it",
+  "words": 1265,
+  "alerts": 4,
+  "score": 3.2,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 3,
+    "snippet": "\n- **skim**:"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**Claude writes a lot. Now you can read a little.**</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "antirez/c64-hw-simulator",
+  "url": "https://github.com/antirez/c64-hw-simulator",
+  "stars": 386,
+  "description": "Commodore 64 hardware simulator",
+  "words": 1900,
+  "alerts": 1,
+  "score": 0.5,
+  "top": [
+   {
+    "rule": "Semicolons",
+    "message": "More than 2 semicolons. Use periods.",
+    "count": 1,
+    "snippet": "addres<mark>s;</mark> a cartridge&#x27;s kind and name, or why it can&#x27;t be used. Type …"
+   }
+  ]
+ },
+ {
+  "repo": "interplains/zero-breach",
+  "url": "https://github.com/interplains/zero-breach",
+  "stars": 385,
+  "description": "Zero Breach — local, read-only scanner that checks a computer for indicators of the AdFection / Candiru ad-delivered spyware campaign. No network, no admin, no dependencies.",
+  "words": 2313,
+  "alerts": 15,
+  "score": 6.5,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 14,
+    "snippet": "Candiru** spyware campaig<mark>n —</mark> the operation in which an ad-tech company used"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**what it could not check**</mark>."
+   }
+  ]
+ },
+ {
+  "repo": "ctresb/leis",
+  "url": "https://github.com/ctresb/leis",
+  "stars": 376,
+  "description": "Todas as leis do Brasil",
+  "words": 1921,
+  "alerts": 32,
+  "score": 16.7,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 31,
+    "snippet": "o —"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "…tagens do acervo publicado são atualizadas a cada commit em <mark>**[PROGRESSO.md](PROGRESSO.md)**</mark>."
+   }
+  ]
+ },
+ {
+  "repo": "OverkillLabs3/driveclub-recomp",
+  "url": "https://github.com/OverkillLabs3/driveclub-recomp",
+  "stars": 360,
+  "description": "DriveClub (PS4, version 1.28) running natively on Windows",
+  "words": 1279,
+  "alerts": 12,
+  "score": 9.4,
+  "top": [
+   {
+    "rule": "AIWordsSoft",
+    "message": "Likely AI word 'unlocked'. Use the plain word or cut it.",
+    "count": 7,
+    "snippet": "… 5070 Ti, Ryzen 7 5800X3D), higher in lighter ones, with an <mark>unlocked</mark> frame rate option in the launcher that keeps the game at it…"
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 3,
+    "snippet": "<mark>- **Anti-aliasing:**</mark> fast cars can leave a faint trail, because cars have no mot…"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**DriveClub for PS4 (version 1.28), running natively on Windows.**</mark>"
+   }
+  ]
+ }
+]
