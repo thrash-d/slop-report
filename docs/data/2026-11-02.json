@@ -1,0 +1,1236 @@
+[
+ {
+  "repo": "deepseek-ai/dsh-superagent-prototype",
+  "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+  "stars": 12962,
+  "description": "Towards a More Autonomous Agent System",
+  "words": 389,
+  "alerts": 0,
+  "score": 0.0,
+  "top": []
+ },
+ {
+  "repo": "heydamir/unslop",
+  "url": "https://github.com/heydamir/unslop",
+  "stars": 6177,
+  "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+  "words": 470,
+  "alerts": 1,
+  "score": 2.1,
+  "top": [
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "- <mark>**Audit.**</mark> Lists every sign of slop with where it lives."
+   }
+  ]
+ },
+ {
+  "repo": "wangzan101/Mika",
+  "url": "https://github.com/wangzan101/Mika",
+  "stars": 5236,
+  "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+  "words": 1428,
+  "alerts": 21,
+  "score": 14.7,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 9,
+    "snippet": "\n1. **Install**:"
+   },
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 6,
+    "snippet": "h · 简"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Why Mika'.",
+    "count": 2,
+    "snippet": "## <mark>Why Mika</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "valentderah/totk-pc-recomp",
+  "url": "https://github.com/valentderah/totk-pc-recomp",
+  "stars": 3945,
+  "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
+  "words": 691,
+  "alerts": 0,
+  "score": 0.0,
+  "top": []
+ },
+ {
+  "repo": "storytold/craft-anything",
+  "url": "https://github.com/storytold/craft-anything",
+  "stars": 3856,
+  "description": "Craft Anything: understand how any software works, and craft your own.",
+  "words": 1900,
+  "alerts": 35,
+  "score": 18.4,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 16,
+    "snippet": "h · 日"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 9,
+    "snippet": "press Start. A project page shows the four steps (Study <mark>→</mark> Build → Check → Ready), what the"
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 6,
+    "snippet": "\n1. **Study:**"
+   }
+  ]
+ },
+ {
+  "repo": "patch-gg/pixelfx",
+  "url": "https://github.com/patch-gg/pixelfx",
+  "stars": 3455,
+  "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+  "words": 1177,
+  "alerts": 13,
+  "score": 11.0,
+  "top": [
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'what's in it.'.",
+    "count": 7,
+    "snippet": "## <mark>what&#x27;s in it.</mark>"
+   },
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 5,
+    "snippet": "y · c"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**&lt;!-- count --&gt;244&lt;!-- /count --&gt; pixel art effects and animations, every one a small piece of code.**</mark> Fire,"
+   }
+  ]
+ },
+ {
+  "repo": "Djihads80/Eglantine",
+  "url": "https://github.com/Djihads80/Eglantine",
+  "stars": 2447,
+  "description": "VERY experimental Nintendo Switch 2 emulator",
+  "words": 227,
+  "alerts": 1,
+  "score": 4.4,
+  "top": [
+   {
+    "rule": "HeadingAside",
+    "message": "Parenthetical aside in a heading. A heading is a label; move the aside into the body or cut it.",
+    "count": 1,
+    "snippet": "…h4 align=&quot;center&quot;&gt;&lt;b&gt;Eglantine&lt;/b&gt; is a free and opensource <mark>(FOSS)</mark> Switch 2 emulator, derived from Eden, Yuzu and Sudachi - st…"
+   }
+  ]
+ },
+ {
+  "repo": "haydenschmitty/floorplan",
+  "url": "https://github.com/haydenschmitty/floorplan",
+  "stars": 2222,
+  "description": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
+  "words": 2563,
+  "alerts": 16,
+  "score": 6.2,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 9,
+    "snippet": "o · W"
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 3,
+    "snippet": "\n- **For builders:**"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Why Floorplan?'.",
+    "count": 2,
+    "snippet": "## <mark>Why Floorplan?</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "aschmelyun/print-my-profile-pic",
+  "url": "https://github.com/aschmelyun/print-my-profile-pic",
+  "stars": 1751,
+  "description": "Say cheese! Star this repo and your profile picture gets printed out on a receipt printer.",
+  "words": 231,
+  "alerts": 0,
+  "score": 0.0,
+  "top": []
+ },
+ {
+  "repo": "andyhuo520/digital-human-koubo",
+  "url": "https://github.com/andyhuo520/digital-human-koubo",
+  "stars": 1722,
+  "description": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
+  "words": 2118,
+  "alerts": 150,
+  "score": 70.8,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 81,
+    "snippet": "# Digital Human Koub<mark>o · A</mark>I 数字人口播"
+   },
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 35,
+    "snippet": "…r, voice clean-up, captions, and pro-YouTuber-style packagin<mark>g —</mark> fully automated by your AI agent."
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 25,
+    "snippet": "**One photo + one sentence <mark>→</mark> a finished talking-head video with a digital human.**"
+   }
+  ]
+ },
+ {
+  "repo": "lexifina/global-law",
+  "url": "https://github.com/lexifina/global-law",
+  "stars": 1697,
+  "description": "Git for Global Law: the law of every country as one git history, each country's record a submodule, every commit one law taking effect",
+  "words": 1155,
+  "alerts": 1,
+  "score": 0.9,
+  "top": [
+   {
+    "rule": "HeadingAside",
+    "message": "Parenthetical aside in a heading. A heading is a label; move the aside into the body or cut it.",
+    "count": 1,
+    "snippet": "## Using it from an AI model <mark>(MCP)</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "Motionsites-AI/claude-skill",
+  "url": "https://github.com/Motionsites-AI/claude-skill",
+  "stars": 1516,
+  "description": "Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites.",
+  "words": 491,
+  "alerts": 16,
+  "score": 32.6,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 6,
+    "snippet": "<mark>- **40 example prompts:**</mark> the most-liked free prompts on MotionSites, the designs peo…"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 5,
+    "snippet": "2. In Claude, open **Customize <mark>→</mark> Skills → + → Create skill → Upload a skill**, choose the zi…"
+   },
+   {
+    "rule": "AIWordsSoft",
+    "message": "Likely AI word 'seamless'. Use the plain word or cut it.",
+    "count": 2,
+    "snippet": "- <mark>seamless</mark> video loops;"
+   }
+  ]
+ },
+ {
+  "repo": "smithjohn78390/tongjiang-lab",
+  "url": "https://github.com/smithjohn78390/tongjiang-lab",
+  "stars": 1438,
+  "description": "Free interactive 3D science lessons for high school · 铜匠实验室 · https://lab.tongjiang.app",
+  "words": 1125,
+  "alerts": 9,
+  "score": 8.0,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 4,
+    "snippet": "\n- **Online**:"
+   },
+   {
+    "rule": "CurlyQuotes",
+    "message": "Use straight quotes ('\"' not '“').",
+    "count": 2,
+    "snippet": "… and adapt them for non-commercial purposes, with credit to <mark>“</mark>Tongjiang Lab (https://lab.tongjiang.app)”."
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**Free, interactive 3D science lessons for high school — physics, chemistry, biology and geography.**</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "Arjun-Ingole/hop",
+  "url": "https://github.com/Arjun-Ingole/hop",
+  "stars": 1381,
+  "description": "Install Linux next to Windows without a USB stick",
+  "words": 674,
+  "alerts": 3,
+  "score": 4.5,
+  "top": [
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "- <mark>**Downloads from official sources.**</mark> It gets the ISO from the project&#x27;s own server and verifies …"
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 1,
+    "snippet": "<mark>- **Can replace Windows entirely, for the systems where hop has seen it work:**</mark> Ubuntu, Xubuntu, Ubuntu Budgie, Ubuntu Cinnamon, Edubuntu, …"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 1,
+    "snippet": "…y warn because hop isn&#x27;t code-signed yet: click **More info <mark>→</mark> Run anyway**."
+   }
+  ]
+ },
+ {
+  "repo": "kevinraymond/florilegium",
+  "url": "https://github.com/kevinraymond/florilegium",
+  "stars": 1362,
+  "description": "Procedurally generated Delft-blue floral page margins for LuaLaTeX, drawn in Lua",
+  "words": 3401,
+  "alerts": 8,
+  "score": 2.4,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 2,
+    "snippet": "…Six seeds of the grown composition. Same code, different see<mark>d —</mark> and the garden fills"
+   },
+   {
+    "rule": "AIWords",
+    "message": "AI-vocabulary word 'showcase'. Rewrite the sentence.",
+    "count": 2,
+    "snippet": "![the three pages of <mark>showcase</mark>.tex](gallery/preview-showcase.png)"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "| composition | <mark>**authored**</mark>: stems, leaves and flowers placed by hand, every parameter …"
+   }
+  ]
+ },
+ {
+  "repo": "D3voz/openjutsu",
+  "url": "https://github.com/D3voz/openjutsu",
+  "stars": 1228,
+  "description": "One-click character swap for videos: an open-source, local Higgsfield Genjutsu alternative built on ComfyUI and MiniMax H3, with FLUX.3 Klein relighting.",
+  "words": 3997,
+  "alerts": 15,
+  "score": 3.8,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 10,
+    "snippet": "\n- **Simple motion transfer**:"
+   },
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 3,
+    "snippet": "**From picture <mark>→</mark> Relight: new light in the same pass**"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "…t swap for video. Drop a video and a character photo, press <mark>**Generate**</mark>, and the main person in the video is replaced by your chara…"
+   }
+  ]
+ },
+ {
+  "repo": "elvarofficial/teardown",
+  "url": "https://github.com/elvarofficial/teardown",
+  "stars": 1219,
+  "description": "A Claude Code skill that turns any machine into a 3D simulator you can take apart",
+  "words": 274,
+  "alerts": 0,
+  "score": 0.0,
+  "top": []
+ },
+ {
+  "repo": "caru-ini/stack-diagram",
+  "url": "https://github.com/caru-ini/stack-diagram",
+  "stars": 1136,
+  "description": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
+  "words": 472,
+  "alerts": 2,
+  "score": 4.2,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 2,
+    "snippet": "- Code and docs: MI<mark>T —</mark> see `LICENSE`."
+   }
+  ]
+ },
+ {
+  "repo": "deepopen-com/deepopen-3d-webs",
+  "url": "https://github.com/deepopen-com/deepopen-3d-webs",
+  "stars": 1123,
+  "description": "Image-driven 3D scene generation system. Users provide a reference image and prompt words, and the system generates previewable, replayable, and traceable scene results according to the camera trajectory; official 3D demonstration assets allow direct viewing of color/depth animations and Gaussian point clouds in the browser 图像驱动的三维场景生成系统",
+  "words": 1123,
+  "alerts": 21,
+  "score": 18.7,
+  "top": [
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for '1. Background and Goals'.",
+    "count": 8,
+    "snippet": "## <mark>1. Background and Goals</mark>"
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 5,
+    "snippet": "\n- **Spatial concept design**:"
+   },
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 4,
+    "snippet": "- **Step <mark>1 · G</mark>enerate Gaussians** bakes the scene only and returns a PLY"
+   }
+  ]
+ },
+ {
+  "repo": "NiazMorshed2007/reanimate",
+  "url": "https://github.com/NiazMorshed2007/reanimate",
+  "stars": 936,
+  "description": "A Claude Code skill that reverse-engineers any animation frame by frame, then proves the copy moves the same.",
+  "words": 1504,
+  "alerts": 4,
+  "score": 2.7,
+  "top": [
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 2,
+    "snippet": "….** One row per element per property: start, duration, from <mark>→</mark> to, easing, stagger. A row with a &quot;?&quot; means the frames have…"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "1. <mark>**Record.**</mark> It films the reference in a headless browser at a fixed vie…"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Canvas, WebGL and 3D'.",
+    "count": 1,
+    "snippet": "## <mark>Canvas, WebGL and 3D</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "kargulstudio/calender-app-design",
+  "url": "https://github.com/kargulstudio/calender-app-design",
+  "stars": 846,
+  "description": "",
+  "words": 278,
+  "alerts": 8,
+  "score": 28.8,
+  "top": [
+   {
+    "rule": "Arrow",
+    "message": "Arrow character. Use words: 'to', 'then', or commas between menu steps.",
+    "count": 3,
+    "snippet": "- **Zustand** for state (`persist` middleware <mark>→</mark> `localStorage`)"
+   },
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 2,
+    "snippet": "language. Everything runs in the browse<mark>r —</mark> there is no backend; data persists"
+   },
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 2,
+    "snippet": ") · R"
+   }
+  ]
+ },
+ {
+  "repo": "yaojingang/GEOInflow",
+  "url": "https://github.com/yaojingang/GEOInflow",
+  "stars": 785,
+  "description": "Self-hosted web and AI crawler analytics for Generative Engine Optimization (GEO). Track visitors, AI search referrals, crawl logs, content coverage, and conversions. Jointly published by 猎看科技 · 北京日报社智源GEO. MIT licensed.",
+  "words": 1895,
+  "alerts": 9,
+  "score": 4.7,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 6,
+    "snippet": "**Jointly published by 猎看科<mark>技 · 北</mark>京日报社智源GEO**"
+   },
+   {
+    "rule": "CurlyQuotes",
+    "message": "Use straight quotes ('\"' not '“').",
+    "count": 2,
+    "snippet": "The example is named <mark>“</mark>猎看官网（示例数据）”. The source and Docker image include its complet…"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**English**</mark> | [简体中文](README.zh-CN.md) | [日本語](README.ja.md)"
+   }
+  ]
+ },
+ {
+  "repo": "OpenBMB/MiniCPM-OCR",
+  "url": "https://github.com/OpenBMB/MiniCPM-OCR",
+  "stars": 769,
+  "description": "Fast, accurate OCR with correctness assessment.",
+  "words": 974,
+  "alerts": 34,
+  "score": 34.9,
+  "top": [
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'SOTA Performance, Higher Throughput'.",
+    "count": 14,
+    "snippet": "### <mark>SOTA Performance, Higher Throughput</mark>"
+   },
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 9,
+    "snippet": "d · W"
+   },
+   {
+    "rule": "EmojiStructure",
+    "message": "Emoji in a heading or bullet. Delete it.",
+    "count": 8,
+    "snippet": "\n- 🏆"
+   }
+  ]
+ },
+ {
+  "repo": "hyz317/HairDeck",
+  "url": "https://github.com/hyz317/HairDeck",
+  "stars": 735,
+  "description": "HairDeck: Animation-Ready Stylized Hair Cards from a Single Image",
+  "words": 596,
+  "alerts": 19,
+  "score": 31.9,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 9,
+    "snippet": "h · 简"
+   },
+   {
+    "rule": "EmojiStructure",
+    "message": "Emoji in a heading or bullet. Delete it.",
+    "count": 9,
+    "snippet": "<mark>## 🔥</mark> Updates"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "- <mark>**[2026.11.02]**</mark> 🎉 Windows support is here! Run HairDeck with local Gradio, …"
+   }
+  ]
+ },
+ {
+  "repo": "benderandrew069/deepseek-api-pricing-2026",
+  "url": "https://github.com/benderandrew069/deepseek-api-pricing-2026",
+  "stars": 699,
+  "description": "DeepSeek API pricing guide for models, cache hits, and peak hours (2026).",
+  "words": 1485,
+  "alerts": 32,
+  "score": 21.5,
+  "top": [
+   {
+    "rule": "CurlyQuotes",
+    "message": "Use straight quotes (''' not '’').",
+    "count": 26,
+    "snippet": "These are **DeepSeek<mark>’</mark>s direct API prices in USD per 1 million tokens**, from [Dee…"
+   },
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 3,
+    "snippet": "* —"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "- <mark>**Checking the official price?**</mark> The table below separates input, cached input and output, i…"
+   }
+  ]
+ },
+ {
+  "repo": "ramenvr/autopilot",
+  "url": "https://github.com/ramenvr/autopilot",
+  "stars": 665,
+  "description": "Play any game",
+  "words": 808,
+  "alerts": 4,
+  "score": 5.0,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 2,
+    "snippet": "\n- **In Aura**:"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**Unreal**</mark> (v5.4-5.8)"
+   },
+   {
+    "rule": "ObviousAside",
+    "message": "Obvious aside. If it's obvious, cut it; if it isn't, state it plainly.",
+    "count": 1,
+    "snippet": "…improve Autopilot. As the developers of Autopilot, we would <mark>of course</mark> appreciate your enabling this!"
+   }
+  ]
+ },
+ {
+  "repo": "joeblau/subvox",
+  "url": "https://github.com/joeblau/subvox",
+  "stars": 664,
+  "description": "",
+  "words": 456,
+  "alerts": 1,
+  "score": 2.2,
+  "top": [
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "…HeadphoneMotionManager`) carries enough information to turn <mark>**silently mouthed words into text**</mark>."
+   }
+  ]
+ },
+ {
+  "repo": "speridlabs/idol-sdk",
+  "url": "https://github.com/speridlabs/idol-sdk",
+  "stars": 618,
+  "description": "Idol: a single image to 3D Gaussians. Inference SDK and demo.",
+  "words": 575,
+  "alerts": 1,
+  "score": 1.7,
+  "top": [
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**A single image to 3DGS object model**</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "blakeandersonw/ai-app-playbook",
+  "url": "https://github.com/blakeandersonw/ai-app-playbook",
+  "stars": 611,
+  "description": "How to build useful, profitable apps in 2026. Clone it and point your coding agent at AGENTS.md.",
+  "words": 548,
+  "alerts": 8,
+  "score": 14.6,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 6,
+    "snippet": "| <mark>0 · N</mark>iche | Pick a frequent problem AI solves in seconds. Test it…"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**Don&#x27;t use:**</mark> Vercel, Netlify, Lovable, Bolt, v0, Replit hosting, Bubble,…"
+   },
+   {
+    "rule": "HeadingAside",
+    "message": "Parenthetical aside in a heading. A heading is a label; move the aside into the body or cut it.",
+    "count": 1,
+    "snippet": "## The money <mark>(per month)</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "mromidev/claude-animated-shorts",
+  "url": "https://github.com/mromidev/claude-animated-shorts",
+  "stars": 607,
+  "description": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
+  "words": 303,
+  "alerts": 0,
+  "score": 0.0,
+  "top": []
+ },
+ {
+  "repo": "N1nEmAn/sapper-v2",
+  "url": "https://github.com/N1nEmAn/sapper-v2",
+  "stars": 596,
+  "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.",
+  "words": 1464,
+  "alerts": 56,
+  "score": 38.3,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 30,
+    "snippet": "# sapper-v<mark>2 —</mark> The Autonomous Pentest Legion"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for '1. The Nüwa Test'.",
+    "count": 9,
+    "snippet": "## <mark>1. The Nüwa Test</mark>"
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 8,
+    "snippet": "\n- **The signalman**:"
+   }
+  ]
+ },
+ {
+  "repo": "Centiplatrap/pc-game-fps-doctor",
+  "url": "https://github.com/Centiplatrap/pc-game-fps-doctor",
+  "stars": 594,
+  "description": "One button: why the game stutters, why it lags and why it won't start. Pitstop measures with PresentMon, explains in plain words, fixes Windows only, and undoes every change in one click.",
+  "words": 715,
+  "alerts": 7,
+  "score": 9.8,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 4,
+    "snippet": "d · H"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Fix VAN 1067, FPS drops and lag in VALORANT. Free, in about a minute.'.",
+    "count": 2,
+    "snippet": "&lt;h3 align=&quot;center&quot;&gt;<mark>Fix VAN 1067, FPS drops and lag in VALORANT. Free, in about a minute.</mark>&lt;/h3&gt;"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "&gt; Choose <mark>**More info**</mark>, then **Run anyway**."
+   }
+  ]
+ },
+ {
+  "repo": "Pika-Labs/Pika-H3-Flex",
+  "url": "https://github.com/Pika-Labs/Pika-H3-Flex",
+  "stars": 593,
+  "description": "Pika H3 Flex: video and audio generation inference",
+  "words": 1354,
+  "alerts": 19,
+  "score": 14.0,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 11,
+    "snippet": "&lt;p align=&quot;center&quot;&gt;Six-step generatio<mark>n · O</mark>mni-reference · Native 480p / 768p · Up to 4K via Pika API&lt;/…"
+   },
+   {
+    "rule": "CurlyQuotes",
+    "message": "Use straight quotes (''' not '’').",
+    "count": 3,
+    "snippet": "Pika<mark>’</mark>s hosted API extends this workflow with [1080p, 2K and 4K vi…"
+   },
+   {
+    "rule": "AIWords",
+    "message": "AI-vocabulary word 'showcases'. Rewrite the sentence.",
+    "count": 2,
+    "snippet": "[Prompts and input assets for these six <mark>showcases</mark>](docs/showcases.md)"
+   }
+  ]
+ },
+ {
+  "repo": "AssassinCreator/steam-stash-value-report-card",
+  "url": "https://github.com/AssassinCreator/steam-stash-value-report-card",
+  "stars": 587,
+  "description": "Value your Steam stash in the terminal and print it as a share card: per game, per market, what sold and what sits. One Windows portable build, no account.",
+  "words": 2054,
+  "alerts": 1,
+  "score": 0.5,
+  "top": [
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**Stashcard**</mark> values a Steam account and its inventories (CS2, Dota 2, TF…"
+   }
+  ]
+ },
+ {
+  "repo": "Humpalumps/Ultra-Water",
+  "url": "https://github.com/Humpalumps/Ultra-Water",
+  "stars": 577,
+  "description": "Real-time FFT ocean renderer for three.js (WebGL2): shore breakers, foam, caustics, underwater rendering and buoyancy at 170–300 fps",
+  "words": 2103,
+  "alerts": 2,
+  "score": 1.0,
+  "top": [
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**Waves**</mark> (`src/water/OceanSim.js`)"
+   },
+   {
+    "rule": "Inflation",
+    "message": "Significance inflation: 'serves as the'. Say what it is.",
+    "count": 1,
+    "snippet": "…aked into a mipmapped 1024 HDR cube when the sun moves, and <mark>serves as the</mark> background, reflection, fog colour and IBL."
+   }
+  ]
+ },
+ {
+  "repo": "toyxyz/toyxyz_RGBMocap",
+  "url": "https://github.com/toyxyz/toyxyz_RGBMocap",
+  "stars": 575,
+  "description": "Native Windows video motion capture with ExMR, FlowHMR and GVHMR, contact correction, humanoid retargeting, and FBX/VMD export.",
+  "words": 1445,
+  "alerts": 5,
+  "score": 3.5,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 3,
+    "snippet": "**PEA<mark>R · L</mark>ive (Experimental)** tracks webcam or video input in real ti…"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Multi Cam MoCap'.",
+    "count": 1,
+    "snippet": "### <mark>Multi Cam MoCap</mark>"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "…l [Git for Windows](https://git-scm.com/download/win). Open <mark>**Command Prompt**</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "alchaincyf/huashu-bird-sticker",
+  "url": "https://github.com/alchaincyf/huashu-bird-sticker",
+  "stars": 572,
+  "description": "花叔开源的全球鸟类贴纸库 · Stickers for all 11,064 living bird species, with names in 43 languages and structured data",
+  "words": 1014,
+  "alerts": 70,
+  "score": 69.0,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 39,
+    "snippet": "h · 简"
+   },
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 19,
+    "snippet": "e —"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Hummingbirds · Trochilidae — 365 species'.",
+    "count": 10,
+    "snippet": "Hummingbirds · Trochilidae — 365 species"
+   }
+  ]
+ },
+ {
+  "repo": "Balanov/uncut",
+  "url": "https://github.com/Balanov/uncut",
+  "stars": 570,
+  "description": "The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts.",
+  "words": 924,
+  "alerts": 9,
+  "score": 9.7,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 4,
+    "snippet": "&lt;p&gt;Linu<mark>x · m</mark>acOS · Windows · amd64 + arm64 · MIT&lt;/p&gt;"
+   },
+   {
+    "rule": "CurlyQuotes",
+    "message": "Use straight quotes ('\"' not '“').",
+    "count": 2,
+    "snippet": "## What <mark>“</mark>lossless” means"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Why UNCUT?'.",
+    "count": 1,
+    "snippet": "## <mark>Why UNCUT?</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "arpanjot-coding/AVault",
+  "url": "https://github.com/arpanjot-coding/AVault",
+  "stars": 539,
+  "description": "AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. Rootless call recording via Shizuku with AES-256-GCM, biometrics & auto-cleanup.",
+  "words": 2478,
+  "alerts": 20,
+  "score": 8.1,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 12,
+    "snippet": "\n1. **Call detection:**"
+   },
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 3,
+    "snippet": "e · D"
+   },
+   {
+    "rule": "AIWordsSoft",
+    "message": "Likely AI word 'unlocked'. Use the plain word or cut it.",
+    "count": 3,
+    "snippet": "…ess, privileged debugging access, or someone who can use an <mark>unlocked</mark> session."
+   }
+  ]
+ },
+ {
+  "repo": "cutetailbud/ff-ruyijs",
+  "url": "https://github.com/cutetailbud/ff-ruyijs",
+  "stars": 538,
+  "description": "Run any site JavaScript from Python with the real Firefox engine. Headless SpiderMonkey + Necko for automation and scraping.",
+  "words": 1910,
+  "alerts": 46,
+  "score": 24.1,
+  "top": [
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 19,
+    "snippet": "### Run any site&#x27;s JavaScript from Pytho<mark>n —</mark> with the real Firefox engine."
+   },
+   {
+    "rule": "EmojiStructure",
+    "message": "Emoji in a heading or bullet. Delete it.",
+    "count": 12,
+    "snippet": "<mark># 🦊</mark> ruyiJS"
+   },
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 10,
+    "snippet": "* · E"
+   }
+  ]
+ },
+ {
+  "repo": "yalongwastaken/git-koi",
+  "url": "https://github.com/yalongwastaken/git-koi",
+  "stars": 537,
+  "description": "Draw a pixel-art koi from a GitHub account's public activity, as a looping GIF for a profile README.",
+  "words": 174,
+  "alerts": 1,
+  "score": 5.7,
+  "top": [
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Repository Structure'.",
+    "count": 1,
+    "snippet": "## <mark>Repository Structure</mark>"
+   }
+  ]
+ },
+ {
+  "repo": "chris124567/cfsolve",
+  "url": "https://github.com/chris124567/cfsolve",
+  "stars": 537,
+  "description": "Cloudflare turnstile and challenge page solver in Rust (full reverse, request based) (currently broken due to update am fixing)",
+  "words": 728,
+  "alerts": 0,
+  "score": 0.0,
+  "top": []
+ },
+ {
+  "repo": "MiniMax-AI/mcode-stack",
+  "url": "https://github.com/MiniMax-AI/mcode-stack",
+  "stars": 512,
+  "description": "The workflows and skills the MiniMax Code team uses to build MiniMax Code. Open source, install and use.",
+  "words": 1235,
+  "alerts": 4,
+  "score": 3.2,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 1,
+    "snippet": "h · 中"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "<mark>**The workflows and skills the MiniMax Code team uses to build MiniMax Code. Open source, install and use.**</mark>"
+   },
+   {
+    "rule": "NegParallel",
+    "message": "Negative parallelism: 'not only'. State the positive claim.",
+    "count": 1,
+    "snippet": "…ry-review/SKILL.md) | Look at how the agent got its result, <mark>not only</mark> whether it passed |"
+   }
+  ]
+ },
+ {
+  "repo": "ProsecutorList/monero-miner",
+  "url": "https://github.com/ProsecutorList/monero-miner",
+  "stars": 506,
+  "description": "Monero Miner 2026: Full working installer for professional desktop mining operations.",
+  "words": 180,
+  "alerts": 14,
+  "score": 77.8,
+  "top": [
+   {
+    "rule": "EmojiStructure",
+    "message": "Emoji in a heading or bullet. Delete it.",
+    "count": 6,
+    "snippet": "<mark>## 🛠</mark>️ Quick Setup Guide (PowerShell)"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for '🛠️ Quick Setup Guide (PowerShell)'.",
+    "count": 5,
+    "snippet": "## <mark>🛠️ Quick Setup Guide (PowerShell)</mark>"
+   },
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 1,
+    "snippet": "# Monero Mine<mark>r —</mark> Standalone Desktop Installer"
+   }
+  ]
+ },
+ {
+  "repo": "Bridgeyaprovide/roblox-game-copier",
+  "url": "https://github.com/Bridgeyaprovide/roblox-game-copier",
+  "stars": 501,
+  "description": "Roblox Game Copier 2026: Pre-activated desktop edition with all features enabled for easy installation and use.",
+  "words": 185,
+  "alerts": 14,
+  "score": 75.7,
+  "top": [
+   {
+    "rule": "EmojiStructure",
+    "message": "Emoji in a heading or bullet. Delete it.",
+    "count": 6,
+    "snippet": "<mark>## 🛠</mark>️ Quick Setup Guide (PowerShell)"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for '🛠️ Quick Setup Guide (PowerShell)'.",
+    "count": 5,
+    "snippet": "## <mark>🛠️ Quick Setup Guide (PowerShell)</mark>"
+   },
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 1,
+    "snippet": "# Roblox Game Copie<mark>r —</mark> Standalone Desktop Installer"
+   }
+  ]
+ },
+ {
+  "repo": "rivetpelicanstir/total-commander",
+  "url": "https://github.com/rivetpelicanstir/total-commander",
+  "stars": 499,
+  "description": "Total Commander 10.5 - Full working installer with all plugins and settings included for seamless desktop experience.",
+  "words": 180,
+  "alerts": 14,
+  "score": 77.8,
+  "top": [
+   {
+    "rule": "EmojiStructure",
+    "message": "Emoji in a heading or bullet. Delete it.",
+    "count": 6,
+    "snippet": "<mark>## 🛠</mark>️ Quick Setup Guide (PowerShell)"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for '🛠️ Quick Setup Guide (PowerShell)'.",
+    "count": 5,
+    "snippet": "## <mark>🛠️ Quick Setup Guide (PowerShell)</mark>"
+   },
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 1,
+    "snippet": "# Total Commande<mark>r —</mark> Standalone Desktop Installer"
+   }
+  ]
+ },
+ {
+  "repo": "patch-gg/anymove",
+  "url": "https://github.com/patch-gg/anymove",
+  "stars": 486,
+  "description": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
+  "words": 1778,
+  "alerts": 34,
+  "score": 19.1,
+  "top": [
+   {
+    "rule": "MiddleDot",
+    "message": "Dot used as a separator. Use a comma, a period, or a line break.",
+    "count": 17,
+    "snippet": "g · d"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'before you start.'.",
+    "count": 11,
+    "snippet": "## <mark>before you start.</mark>"
+   },
+   {
+    "rule": "AIWordsSoft",
+    "message": "Likely AI word 'seamless'. Use the plain word or cut it.",
+    "count": 2,
+    "snippet": "Then the best takes become one file, with <mark>seamless</mark> loops and root motion ([docs/PACKS.md](docs/PACKS.md))."
+   }
+  ]
+ },
+ {
+  "repo": "NotRexed/SkyboundTotk",
+  "url": "https://github.com/NotRexed/SkyboundTotk",
+  "stars": 485,
+  "description": "",
+  "words": 2916,
+  "alerts": 15,
+  "score": 5.1,
+  "top": [
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 13,
+    "snippet": "\n- **Python or `lz4` missing:**"
+   },
+   {
+    "rule": "Bold",
+    "message": "More than 4 bold phrases. Bold everything and nothing stands out.",
+    "count": 1,
+    "snippet": "…on project for *The Legend of Zelda: Tears of the Kingdom*, <mark>**base game version 1.0.0**</mark>. It targets Windows x64 and Linux x86_64. It is not affilia…"
+   },
+   {
+    "rule": "Semicolons",
+    "message": "More than 2 semicolons. Use periods.",
+    "count": 1,
+    "snippet": "…and mouse controls follow totk-pc-recomp&#x27;s layout. WASD move<mark>s;</mark> the mouse, the arrow keys or IJKL move the camera. Left cli…"
+   }
+  ]
+ },
+ {
+  "repo": "ashayas/icloud-s3",
+  "url": "https://github.com/ashayas/icloud-s3",
+  "stars": 476,
+  "description": "An S3-compatible object store backed by iCloud Shared Photo Albums. Quota policy: Apple's Shared Album loophole.",
+  "words": 1050,
+  "alerts": 27,
+  "score": 25.7,
+  "top": [
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for 'Install & Quick Start'.",
+    "count": 12,
+    "snippet": "## <mark>Install &amp; Quick Start</mark>"
+   },
+   {
+    "rule": "InlineHeaderList",
+    "message": "Bold-header list item. Convert to prose or a plain list.",
+    "count": 9,
+    "snippet": "\n- **Buckets (Shared Albums)**:"
+   },
+   {
+    "rule": "HeadingAside",
+    "message": "Parenthetical aside in a heading. A heading is a label; move the aside into the body or cut it.",
+    "count": 5,
+    "snippet": "(**********)"
+   }
+  ]
+ },
+ {
+  "repo": "stalkerswifthub/discord-quest-completer",
+  "url": "https://github.com/stalkerswifthub/discord-quest-completer",
+  "stars": 469,
+  "description": "Discord Quest Completer 2026: Complete standalone setup, ready to run with all features activated.",
+  "words": 173,
+  "alerts": 14,
+  "score": 80.9,
+  "top": [
+   {
+    "rule": "EmojiStructure",
+    "message": "Emoji in a heading or bullet. Delete it.",
+    "count": 6,
+    "snippet": "<mark>## 🛠</mark>️ Quick Setup Guide (PowerShell)"
+   },
+   {
+    "rule": "HeadingCase",
+    "message": "Use sentence case for '🛠️ Quick Setup Guide (PowerShell)'.",
+    "count": 5,
+    "snippet": "## <mark>🛠️ Quick Setup Guide (PowerShell)</mark>"
+   },
+   {
+    "rule": "EmDash",
+    "message": "Em dash. Use a period, comma, or parentheses.",
+    "count": 1,
+    "snippet": "# Discord Quest Complete<mark>r —</mark> Standalone Desktop Installer"
+   }
+  ]
+ }
+]
